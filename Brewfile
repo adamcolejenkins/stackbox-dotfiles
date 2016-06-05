@@ -1,6 +1,13 @@
 cask_args appdir: '/Applications'
 
 tap 'homebrew/bundle'
+tap 'caskroom/cask'
+tap 'caskroom/versions'
+tap 'homebrew/dupes'
+tap 'homebrew/versions'
+
+cask 'java'
+cask 'xquartz'
 
 brew 'ack'
 brew 'archey'
