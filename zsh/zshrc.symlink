@@ -41,3 +41,5 @@ done
 unset config_files
 
 archey
+
+export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
