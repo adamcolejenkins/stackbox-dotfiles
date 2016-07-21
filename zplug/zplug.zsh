@@ -25,6 +25,6 @@ zplug check || zplug install
 zplug load
 
 if zplug check "creationix/nvm" && [[ $(nvm current) == "none" ]]; then
-    nvm install node
-    nvm alias default node
+    nvm install 4
+    nvm alias default 4
 fi
