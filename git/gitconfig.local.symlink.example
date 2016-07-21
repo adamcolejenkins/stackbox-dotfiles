@@ -1,5 +1,6 @@
 [user]
-  name = AUTHORNAME
-  email = AUTHOREMAIL
+  name = Adam Jenkins
+  email = adamcole83@gmail.com
+  signingkey = FD94DF27A409B7C5
 [credential]
   helper = GIT_CREDENTIAL_HELPER
