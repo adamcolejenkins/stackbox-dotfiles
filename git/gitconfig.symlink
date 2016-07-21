@@ -141,6 +141,7 @@
 
 	# https://help.github.com/articles/signing-commits-using-gpg/
 	gpgsign = true
+	template = /Users/ajenkins/.stCommitMsg
 
 [diff]
 
@@ -192,3 +193,9 @@
 [url "git://gist.github.com/"]
 
 	insteadOf = "gist:"
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path =
+[mergetool "sourcetree"]
+	cmd = /opt/homebrew-cask/Caskroom/sourcetree/2.3/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
