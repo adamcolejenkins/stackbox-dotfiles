@@ -8,3 +8,17 @@ local:
   paths: [
     "/Users/ajenkins/Code/www/home"
   ]
+meducation:
+  title: "Meducation"
+  paths: [
+    "/Users/ajenkins/Code/www/sites/wordpress/wp-content/themes/meducation"
+    "/Users/ajenkins/Code/www/sites/wordpress/wp-content/themes/timber"
+    "/Users/ajenkins/Code/www/sites/wordpress/wp-content/themes/wp-gulp"
+  ]
+wpyeti:
+  title: "WP Yeti"
+  paths: [
+    "/Users/ajenkins/Code/www/sites/wordpress/wp-content/themes/timber"
+    "/Users/ajenkins/Code/www/sites/wordpress/wp-content/themes/wp-gulp"
+    "/Users/ajenkins/Code/www/sites/wordpress/wp-content/themes/wp-foundation-twig-kit"
+  ]

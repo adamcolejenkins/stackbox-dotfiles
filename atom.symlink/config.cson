@@ -29,6 +29,7 @@
       indent_inner_html: true
       indent_size: 2
     js:
+      beautify_on_save: true
       break_chained_methods: true
       end_with_newline: true
       indent_size: 2
@@ -53,7 +54,9 @@
       preserve_newlines: true
       wrap_line_length: 2
     twig:
+      beautify_on_save: true
       indent_size: 2
+      space_after_anon_function: true
   core:
     closeEmptyWindows: false
     destroyEmptyPanes: false
