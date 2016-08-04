@@ -1,0 +1,47 @@
+(function() {
+  var ShowTodo, TodoRegex;
+
+  TodoRegex = require('../lib/todo-regex');
+
+  ShowTodo = require('../lib/show-todo');
+
+  describe('Todo Regex', function() {
+    var defaultRegexStr, defaultTodoList, _ref;
+    _ref = [], defaultRegexStr = _ref[0], defaultTodoList = _ref[1];
+    beforeEach(function() {
+      defaultRegexStr = ShowTodo.config.findUsingRegex["default"];
+      return defaultTodoList = ShowTodo.config.findTheseTodos["default"];
+    });
+    return describe('create regexp', function() {
+      it('includes a regular expression', function() {
+        var todoRegex;
+        todoRegex = new TodoRegex(defaultRegexStr, defaultTodoList);
+        expect(typeof todoRegex.regexp.test).toBe('function');
+        expect(typeof todoRegex.regexp.exec).toBe('function');
+        expect(todoRegex.regex).toBe(defaultRegexStr);
+        return expect(todoRegex.error).toBe(false);
+      });
+      it('sets error on invalid input', function() {
+        var todoRegex;
+        todoRegex = new TodoRegex('arstastTODO:.+$)/g', defaultTodoList);
+        expect(todoRegex.error).toBe(true);
+        todoRegex = new TodoRegex(defaultRegexStr, 'a string');
+        expect(todoRegex.error).toBe(true);
+        todoRegex = new TodoRegex(defaultRegexStr, []);
+        return expect(todoRegex.error).toBe(true);
+      });
+      return it('handles empty input', function() {
+        var todoRegex;
+        todoRegex = new TodoRegex();
+        expect(todoRegex.error).toBe(true);
+        todoRegex = new TodoRegex('', defaultTodoList);
+        return expect(todoRegex.error).toBe(true);
+      });
+    });
+  });
+
+}).call(this);
+
+//# sourceMappingURL=data:application/json;base64,ewogICJ2ZXJzaW9uIjogMywKICAiZmlsZSI6ICIiLAogICJzb3VyY2VSb290IjogIiIsCiAgInNvdXJjZXMiOiBbCiAgICAiL1VzZXJzL2FqZW5raW5zLy5kb3RmaWxlcy9hdG9tLnN5bWxpbmsvcGFja2FnZXMvdG9kby1zaG93L3NwZWMvdG9kby1yZWdleC1zcGVjLmNvZmZlZSIKICBdLAogICJuYW1lcyI6IFtdLAogICJtYXBwaW5ncyI6ICJBQUFBO0FBQUEsTUFBQSxtQkFBQTs7QUFBQSxFQUFBLFNBQUEsR0FBWSxPQUFBLENBQVEsbUJBQVIsQ0FBWixDQUFBOztBQUFBLEVBQ0EsUUFBQSxHQUFXLE9BQUEsQ0FBUSxrQkFBUixDQURYLENBQUE7O0FBQUEsRUFHQSxRQUFBLENBQVMsWUFBVCxFQUF1QixTQUFBLEdBQUE7QUFDckIsUUFBQSxzQ0FBQTtBQUFBLElBQUEsT0FBcUMsRUFBckMsRUFBQyx5QkFBRCxFQUFrQix5QkFBbEIsQ0FBQTtBQUFBLElBRUEsVUFBQSxDQUFXLFNBQUEsR0FBQTtBQUNULE1BQUEsZUFBQSxHQUFrQixRQUFRLENBQUMsTUFBTSxDQUFDLGNBQWMsQ0FBQyxTQUFELENBQWhELENBQUE7YUFDQSxlQUFBLEdBQWtCLFFBQVEsQ0FBQyxNQUFNLENBQUMsY0FBYyxDQUFDLFNBQUQsRUFGdkM7SUFBQSxDQUFYLENBRkEsQ0FBQTtXQU1BLFFBQUEsQ0FBUyxlQUFULEVBQTBCLFNBQUEsR0FBQTtBQUN4QixNQUFBLEVBQUEsQ0FBRywrQkFBSCxFQUFvQyxTQUFBLEdBQUE7QUFDbEMsWUFBQSxTQUFBO0FBQUEsUUFBQSxTQUFBLEdBQWdCLElBQUEsU0FBQSxDQUFVLGVBQVYsRUFBMkIsZUFBM0IsQ0FBaEIsQ0FBQTtBQUFBLFFBQ0EsTUFBQSxDQUFPLE1BQUEsQ0FBQSxTQUFnQixDQUFDLE1BQU0sQ0FBQyxJQUEvQixDQUFvQyxDQUFDLElBQXJDLENBQTBDLFVBQTFDLENBREEsQ0FBQTtBQUFBLFFBRUEsTUFBQSxDQUFPLE1BQUEsQ0FBQSxTQUFnQixDQUFDLE1BQU0sQ0FBQyxJQUEvQixDQUFvQyxDQUFDLElBQXJDLENBQTBDLFVBQTFDLENBRkEsQ0FBQTtBQUFBLFFBR0EsTUFBQSxDQUFPLFNBQVMsQ0FBQyxLQUFqQixDQUF1QixDQUFDLElBQXhCLENBQTZCLGVBQTdCLENBSEEsQ0FBQTtlQUlBLE1BQUEsQ0FBTyxTQUFTLENBQUMsS0FBakIsQ0FBdUIsQ0FBQyxJQUF4QixDQUE2QixLQUE3QixFQUxrQztNQUFBLENBQXBDLENBQUEsQ0FBQTtBQUFBLE1BT0EsRUFBQSxDQUFHLDZCQUFILEVBQWtDLFNBQUEsR0FBQTtBQUNoQyxZQUFBLFNBQUE7QUFBQSxRQUFBLFNBQUEsR0FBZ0IsSUFBQSxTQUFBLENBQVUsb0JBQVYsRUFBZ0MsZUFBaEMsQ0FBaEIsQ0FBQTtBQUFBLFFBQ0EsTUFBQSxDQUFPLFNBQVMsQ0FBQyxLQUFqQixDQUF1QixDQUFDLElBQXhCLENBQTZCLElBQTdCLENBREEsQ0FBQTtBQUFBLFFBR0EsU0FBQSxHQUFnQixJQUFBLFNBQUEsQ0FBVSxlQUFWLEVBQTJCLFVBQTNCLENBSGhCLENBQUE7QUFBQSxRQUlBLE1BQUEsQ0FBTyxTQUFTLENBQUMsS0FBakIsQ0FBdUIsQ0FBQyxJQUF4QixDQUE2QixJQUE3QixDQUpBLENBQUE7QUFBQSxRQU1BLFNBQUEsR0FBZ0IsSUFBQSxTQUFBLENBQVUsZUFBVixFQUEyQixFQUEzQixDQU5oQixDQUFBO2VBT0EsTUFBQSxDQUFPLFNBQVMsQ0FBQyxLQUFqQixDQUF1QixDQUFDLElBQXhCLENBQTZCLElBQTdCLEVBUmdDO01BQUEsQ0FBbEMsQ0FQQSxDQUFBO2FBaUJBLEVBQUEsQ0FBRyxxQkFBSCxFQUEwQixTQUFBLEdBQUE7QUFDeEIsWUFBQSxTQUFBO0FBQUEsUUFBQSxTQUFBLEdBQWdCLElBQUEsU0FBQSxDQUFBLENBQWhCLENBQUE7QUFBQSxRQUNBLE1BQUEsQ0FBTyxTQUFTLENBQUMsS0FBakIsQ0FBdUIsQ0FBQyxJQUF4QixDQUE2QixJQUE3QixDQURBLENBQUE7QUFBQSxRQUdBLFNBQUEsR0FBZ0IsSUFBQSxTQUFBLENBQVUsRUFBVixFQUFjLGVBQWQsQ0FIaEIsQ0FBQTtlQUlBLE1BQUEsQ0FBTyxTQUFTLENBQUMsS0FBakIsQ0FBdUIsQ0FBQyxJQUF4QixDQUE2QixJQUE3QixFQUx3QjtNQUFBLENBQTFCLEVBbEJ3QjtJQUFBLENBQTFCLEVBUHFCO0VBQUEsQ0FBdkIsQ0FIQSxDQUFBO0FBQUEiCn0=
+
+//# sourceURL=/Users/ajenkins/.dotfiles/atom.symlink/packages/todo-show/spec/todo-regex-spec.coffee
