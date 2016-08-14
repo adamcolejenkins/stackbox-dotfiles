@@ -4,6 +4,7 @@ tap 'homebrew/bundle'
 tap 'caskroom/cask'
 tap 'caskroom/versions'
 tap 'homebrew/dupes'
+tap 'homebrew/php'
 tap 'homebrew/versions'
 
 cask 'java'
