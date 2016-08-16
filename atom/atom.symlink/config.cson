@@ -117,3 +117,9 @@
     windowHeight: 10
   welcome:
     showOnStartup: false
+".basic.html.text":
+  editor:
+    softWrapHangingIndent: 2
+".html.php.text":
+  editor:
+    softWrapHangingIndent: 2
