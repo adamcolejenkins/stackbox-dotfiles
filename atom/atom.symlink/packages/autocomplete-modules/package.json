@@ -1,7 +1,7 @@
 {
   "name": "autocomplete-modules",
   "main": "./src/main",
-  "version": "1.5.2",
+  "version": "1.6.1",
   "description": "Autocomplete for require/import statements",
   "keywords": [
     "javascript",
@@ -23,6 +23,7 @@
   },
   "dependencies": {
     "bluebird": "3.4.0",
+    "find-babel-config": "^0.1.1",
     "fuzzaldrin": "2.1.0",
     "lodash.escaperegexp": "4.1.1",
     "lodash.get": "4.3.0"
@@ -39,16 +40,16 @@
       }
     }
   },
-  "readme": "# Atom autocomplete for modules.\n[![Current version](https://img.shields.io/apm/v/autocomplete-modules.svg)](https://atom.io/packages/autocomplete-modules)\n[![Downloads](https://img.shields.io/apm/dm/autocomplete-modules.svg)](https://atom.io/packages/autocomplete-modules)\n\nAutocomplete for require/import statements.\n\n![Preview](https://cloud.githubusercontent.com/assets/3505878/7442538/9c1892cc-f11e-11e4-8070-3fa8b79beefc.gif)\n\n## Configuration\n\n**Include file extension:**  Include the file's extension when filling in the completion.\n\n**Vendor directories:** A list of directories to search for modules relative to the project\n  root. (*Default:* `node_modules`)\n\n**Webpack support:** Look for webpack configuration file and add the `resolve.modulesDirectories` paths to the module search scope.\n\n**Webpack configuration filename:** Name of the configuration file to look for. (*Default:* `webpack.config.js`)\n\nLicense\n-------\n[![MIT License](https://img.shields.io/apm/l/autocomplete-modules.svg)](LICENSE)\n",
+  "readme": "# Atom autocomplete for modules.\n[![Current version](https://img.shields.io/apm/v/autocomplete-modules.svg)](https://atom.io/packages/autocomplete-modules)\n[![Downloads](https://img.shields.io/apm/dm/autocomplete-modules.svg)](https://atom.io/packages/autocomplete-modules)\n\nAutocomplete for require/import statements.\n\n![Preview](https://cloud.githubusercontent.com/assets/3505878/7442538/9c1892cc-f11e-11e4-8070-3fa8b79beefc.gif)\n\n## Configuration\n\n**Include file extension:**  Include the file's extension when filling in the completion.\n\n**Vendor directories:** A list of directories to search for modules relative to the project\n  root. (*Default:* `node_modules`)\n\n**Webpack support:** Look for webpack configuration file and add the `resolve.modulesDirectories` paths to the module search scope.\n\n**Webpack configuration filename:** Name of the configuration file to look for. (*Default:* `webpack.config.js`)\n\n**Babel Plugin Module Alias support:** Look for a [Babel Plugin Module Alias](https://github.com/tleunen/babel-plugin-module-alias) configuration and use it for the autocomplete suggestions.\n\nLicense\n-------\n[![MIT License](https://img.shields.io/apm/l/autocomplete-modules.svg)](LICENSE)\n",
   "readmeFilename": "README.md",
   "bugs": {
     "url": "https://github.com/nkt/atom-autocomplete-modules/issues"
   },
   "homepage": "https://github.com/nkt/atom-autocomplete-modules#readme",
-  "_id": "autocomplete-modules@1.5.2",
-  "_shasum": "9f60c484ca2c2f4197c5995e9f23bba512196371",
-  "_resolved": "file:../d-116614-39051-jycyok/package.tgz",
-  "_from": "../d-116614-39051-jycyok/package.tgz",
+  "_id": "autocomplete-modules@1.6.1",
+  "_shasum": "58699d816ba6fb566c0673f9a56d8e67777025a9",
+  "_resolved": "file:../d-116714-54007-1n0mpny/package.tgz",
+  "_from": "../d-116714-54007-1n0mpny/package.tgz",
   "_atomModuleCache": {
     "version": 1,
     "dependencies": [
@@ -56,6 +57,16 @@
         "name": "bluebird",
         "version": "3.4.0",
         "path": "node_modules/bluebird/js/release/bluebird.js"
+      },
+      {
+        "name": "find-babel-config",
+        "version": "0.1.1",
+        "path": "node_modules/find-babel-config/lib/index.js"
+      },
+      {
+        "name": "json5",
+        "version": "0.5.0",
+        "path": "node_modules/find-babel-config/node_modules/json5/lib/json5.js"
       },
       {
         "name": "fuzzaldrin",
@@ -69,7 +80,7 @@
       },
       {
         "name": "lodash.tostring",
-        "version": "4.1.3",
+        "version": "4.1.4",
         "path": "node_modules/lodash.escaperegexp/node_modules/lodash.tostring/index.js"
       },
       {
@@ -131,6 +142,10 @@
         "node_modules/bluebird/js/release/timers.js",
         "node_modules/bluebird/js/release/using.js",
         "node_modules/bluebird/js/release/util.js",
+        "node_modules/find-babel-config/lib/index.js",
+        "node_modules/find-babel-config/node_modules/json5/lib/cli.js",
+        "node_modules/find-babel-config/node_modules/json5/lib/json5.js",
+        "node_modules/find-babel-config/node_modules/json5/lib/require.js",
         "node_modules/fuzzaldrin/lib/filter.js",
         "node_modules/fuzzaldrin/lib/fuzzaldrin.js",
         "node_modules/fuzzaldrin/lib/matcher.js",
@@ -146,6 +161,8 @@
       ],
       ".json": [
         "node_modules/bluebird/package.json",
+        "node_modules/find-babel-config/node_modules/json5/package.json",
+        "node_modules/find-babel-config/package.json",
         "node_modules/fuzzaldrin/package.json",
         "node_modules/lodash.escaperegexp/node_modules/lodash.tostring/package.json",
         "node_modules/lodash.escaperegexp/package.json",
@@ -163,9 +180,19 @@
         ],
         "dependencies": {
           "bluebird": "3.4.0",
+          "find-babel-config": "^0.1.1",
           "fuzzaldrin": "2.1.0",
           "lodash.escaperegexp": "4.1.1",
           "lodash.get": "4.3.0"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/find-babel-config/lib",
+          "node_modules/find-babel-config"
+        ],
+        "dependencies": {
+          "json5": "^0.5.0"
         }
       },
       {

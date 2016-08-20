@@ -1,3 +1,18 @@
+# 0.8.2 (10 Aug 2016)
+* Support uppercase boolean literals in PHP
+
+# 0.8.1 (10 Aug 2016)
+* Don't add an asterisk when hitting enter after a block comments
+
+# 0.8.1 (9 Aug 2016)
+* No changes; just going to v0.8
+
+# 0.7.5 (9 Aug 2016)
+* fix problems with falsely detected JS functions
+* add support for ES 2015 arrow functions
+* improve specs for the JS parser
+* fix problems with Java annotation
+
 # 0.7.4 (1 Aug 2016)
 * Better Rust support
 * Js optional arguments fix
