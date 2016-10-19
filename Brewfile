@@ -104,7 +104,6 @@ brew 'vim', args: ['with-lua', 'with-luajit']
 
 cask 'atom'
 cask 'box-sync'
-cask 'box-edit'
 cask 'coda'
 cask 'firefox'
 cask 'front'
