@@ -139,7 +139,7 @@ defaults write com.apple.finder WarnOnEmptyTrash -bool false
 ###############################################################################
 
 # Only use UTF-8 in Terminal.app
-defaults write com.apple.terminal StringEncodings -array 4
+# defaults write com.apple.terminal StringEncodings -array 4
 
 # Use a modified version of the Solarized Dark theme by default in Terminal.app
 # osascript <<EOD
@@ -180,6 +180,9 @@ defaults write com.apple.terminal StringEncodings -array 4
 defaults write com.apple.terminal FocusFollowsMouse -bool true
 defaults write org.x.X11 wm_ffm -bool true
 
+# DimOnlyText in iTerm
+defaults write com.googlecode.iterm2 DimOnlyText -bool true
+
 ###############################################################################
 # Time Machine                                                                #
 ###############################################################################
@@ -188,7 +191,7 @@ defaults write org.x.X11 wm_ffm -bool true
 defaults write com.apple.TimeMachine DoNotOfferNewDisksForBackup -bool true
 
 # Enable local Time Machine backups
-hash tmutil &> /dev/null && sudo tmutil enableLocal
+# hash tmutil &> /dev/null && sudo tmutil enableLocal
 
 ###############################################################################
 # Activity Monitor                                                            #
