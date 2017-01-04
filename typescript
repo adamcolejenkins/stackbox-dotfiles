@@ -1,0 +1,1742 @@
+Script started on Tue Nov 15 16:11:47 2016
+complete:13: command not found: compdef
+. . 
+[32m                 ###                  [36mUser:(B[m ajenkins(B[m
+[32m               ####                   [36mHostname:(B[m Sadie.umh.edu(B[m
+[32m               ###                    [36mDistro:(B[m OS X 10.12.1(B[m
+[32m       #######    #######             [36mKernel:(B[m Darwin(B[m
+[33m     ######################           [36mUptime:(B[m 9 days(B[m
+[33m    #####################             [36mShell:(B[m /bin/zsh(B[m
+[31m    ####################              [36mTerminal:(B[m xterm-256color iTerm.app(B[m
+[31m    ####################              [36mCPU:(B[m Intel Core i7-4770HQ CPU @ 2.20GHz(B[m
+[31m    #####################             [36mMemory:(B[m 16 GB(B[m
+[35m     ######################           [36mDisk:(B[m 67%(B[m
+[35m      ####################            [36mBattery:(B[m 99.99%(B[m%
+[34m        ################              [36mIP Address:(B[m 198.211.114.80(B[m
+[34m         ####     #####               
+(B[m
+
+                                                                                   ]0;~/.dotfiles
+[34m~/.dotfiles[39m ([33mmaster[39m[31m*[39m)
+[0m[27m[24m[J[35m❯[39m [K[?1h=[?2004h[?2004l
+                                                                                   ]0;~/.dotfiles
+[34m~/.dotfiles[39m ([33mmaster[39m[31m*[39m)
+[0m[27m[24m[J[31m❯[39m [K[?1h=[?2004h[32mc[39m[32mc[32md[39m [4ms[24m[4ms[4mc[24m[4mc[4mr[24m[4mr[4mi[24m[4mi[4mp[24m[4mp[4mt[24m[?1l>[?2004l
+]0;.dotfiles: cd script                                                                                   ]0;~/.dotfiles/script
+[34m~/.dotfiles/script[39m ([33mmaster[39m[31m*[39m)
+[0m[27m[24m[J[35m❯[39m [K[?1h=[?2004h[32ml[39m[?1l>[?2004l
+]0;script: ls -G -lahtotal 40
+drwxr-xr-x   5 ajenkins  staff   170B Jun  5 15:57 [34m.[39;49m[0m
+drwxr-xr-x  26 ajenkins  staff   884B Nov 15 16:11 [34m..[39;49m[0m
+-rw-r--r--   1 ajenkins  staff   9.6K Jun  4 20:46 Chalk.terminal
+-rwxr-xr-x   1 ajenkins  staff   3.0K Jun  4 20:37 [31mbootstrap[39;49m[0m
+-rwxr-xr-x   1 ajenkins  staff   284B Jun  5 16:06 [31minstall[39;49m[0m
+                                                                                   ]0;~/.dotfiles/script
+[34m~/.dotfiles/script[39m ([33mmaster[39m[31m*[39m)
+[0m[27m[24m[J[35m❯[39m [K[?1h=[?2004h[1m[31mo[0m[39m[1m[31mo[1m[31mp[0m[39m[1m[31mo[1m[31mp[1m[31me[0m[39m[0m[32mo[0m[32mp[0m[32me[32mn[39m[1m[31mo[1m[31mp[1m[31me[0m[39m[39m [1m[31mo[1m[31mp[0m[39m[0m[39m [1m[31mo[0m[39m[0m[39m [0m[39m [1m[31mo[0m[39m[1m[31mo[1m[31mp[0m[39m[1m[31mo[1m[31mp[1m[31me[0m[39m[0m[32mo[0m[32mp[0m[32me[32mn[39m [4m~[24m[24m [1m[31mo[1m[31mp[1m[31me[0m[39m[39m [1m[31mo[1m[31mp[0m[39m[0m[39m [1m[31mo[0m[39m[0m[39m [0m[39m [32m9[39m[1m[31m9[1m[31m0[0m[39m[0m[32m9[39m[0m[39m [39m [1m[31mo[0m[39m[1m[31mo[1m[31mp[0m[39m[1m[31mo[1m[31mp[1m[31me[0m[39m[0m[32mo[0m[32mp[0m[32me[32mn[39m [4m.[24m[?1l>[?2004l
+]0;script: open .                                                                                   ]0;~/.dotfiles/script
+[34m~/.dotfiles/script[39m ([33mmaster[39m[31m*[39m)
+[0m[27m[24m[J[35m❯[39m [K[?1h=[?2004h[32ms[39m[1m[31ms[1m[31ms[0m[39m[0m[32ms[0m[32ms[32mh[39m medweb=p  -production[?1l>[?2004l
+]0;script: ssh medweb-productionLast login: Tue Oct 25 13:56:25 2016 from sadie.umh.edu
+[Oh My Zsh] Would you like to check for updates? [Y/n]: y
+[34mUpdating Oh My Zsh(B[m
+remote: Counting objects: 71, done.[K
+remote: Compressing objects:   2% (1/44)   [Kremote: Compressing objects:   4% (2/44)   [Kremote: Compressing objects:   6% (3/44)   [Kremote: Compressing objects:   9% (4/44)   [Kremote: Compressing objects:  11% (5/44)   [Kremote: Compressing objects:  13% (6/44)   [Kremote: Compressing objects:  15% (7/44)   [Kremote: Compressing objects:  18% (8/44)   [Kremote: Compressing objects:  20% (9/44)   [Kremote: Compressing objects:  22% (10/44)   [Kremote: Compressing objects:  25% (11/44)   [Kremote: Compressing objects:  27% (12/44)   [Kremote: Compressing objects:  29% (13/44)   [Kremote: Compressing objects:  31% (14/44)   [Kremote: Compressing objects:  34% (15/44)   [Kremote: Compressing objects:  36% (16/44)   [Kremote: Compressing objects:  38% (17/44)   [Kremote: Compressing objects:  40% (18/44)   [Kremote: Compressing objects:  43% (19/44)   [Kremote: Compressing objects:  45% (20/44)   [Kremote: Compressing objects:  47% (21/44)   [Kremote: Compressing objects:  50% (22/44)   [Kremote: Compressing objects:  52% (23/44)   [Kremote: Compressing objects:  54% (24/44)   [Kremote: Compressing objects:  56% (25/44)   [Kremote: Compressing objects:  59% (26/44)   [Kremote: Compressing objects:  61% (27/44)   [Kremote: Compressing objects:  63% (28/44)   [Kremote: Compressing objects:  65% (29/44)   [Kremote: Compressing objects:  68% (30/44)   [Kremote: Compressing objects:  70% (31/44)   [Kremote: Compressing objects:  72% (32/44)   [Kremote: Compressing objects:  75% (33/44)   [Kremote: Compressing objects:  77% (34/44)   [Kremote: Compressing objects:  79% (35/44)   [Kremote: Compressing objects:  81% (36/44)   [Kremote: Compressing objects:  84% (37/44)   [Kremote: Compressing objects:  86% (38/44)   [Kremote: Compressing objects:  88% (39/44)   [Kremote: Compressing objects:  90% (40/44)   [Kremote: Compressing objects:  93% (41/44)   [Kremote: Compressing objects:  95% (42/44)   [Kremote: Compressing objects:  97% (43/44)   [Kremote: Compressing objects: 100% (44/44)   [Kremote: Compressing objects: 100% (44/44), done.[K
+remote: Total 71 (delta 45), reused 48 (delta 22), pack-reused 0[K
+Unpacking objects:   1% (1/71)   Unpacking objects:   2% (2/71)   Unpacking objects:   4% (3/71)   Unpacking objects:   5% (4/71)   Unpacking objects:   7% (5/71)   Unpacking objects:   8% (6/71)   Unpacking objects:   9% (7/71)   Unpacking objects:  11% (8/71)   Unpacking objects:  12% (9/71)   Unpacking objects:  14% (10/71)   Unpacking objects:  15% (11/71)   Unpacking objects:  16% (12/71)   Unpacking objects:  18% (13/71)   Unpacking objects:  19% (14/71)   Unpacking objects:  21% (15/71)   Unpacking objects:  22% (16/71)   Unpacking objects:  23% (17/71)   Unpacking objects:  25% (18/71)   Unpacking objects:  26% (19/71)   Unpacking objects:  28% (20/71)   Unpacking objects:  29% (21/71)   Unpacking objects:  30% (22/71)   Unpacking objects:  32% (23/71)   Unpacking objects:  33% (24/71)   Unpacking objects:  35% (25/71)   Unpacking objects:  36% (26/71)   Unpacking objects:  38% (27/71)   Unpacking objects:  39% (28/71)   Unpacking objects:  40% (29/71)   Unpacking objects:  42% (30/71)   Unpacking objects:  43% (31/71)   Unpacking objects:  45% (32/71)   Unpacking objects:  46% (33/71)   Unpacking objects:  47% (34/71)   Unpacking objects:  49% (35/71)   Unpacking objects:  50% (36/71)   Unpacking objects:  52% (37/71)   Unpacking objects:  53% (38/71)   Unpacking objects:  54% (39/71)   Unpacking objects:  56% (40/71)   Unpacking objects:  57% (41/71)   Unpacking objects:  59% (42/71)   Unpacking objects:  60% (43/71)   Unpacking objects:  61% (44/71)   Unpacking objects:  63% (45/71)   Unpacking objects:  64% (46/71)   Unpacking objects:  66% (47/71)   Unpacking objects:  67% (48/71)   Unpacking objects:  69% (49/71)   Unpacking objects:  70% (50/71)   Unpacking objects:  71% (51/71)   Unpacking objects:  73% (52/71)   Unpacking objects:  74% (53/71)   Unpacking objects:  76% (54/71)   Unpacking objects:  77% (55/71)   Unpacking objects:  78% (56/71)   Unpacking objects:  80% (57/71)   Unpacking objects:  81% (58/71)   Unpacking objects:  83% (59/71)   Unpacking objects:  84% (60/71)   Unpacking objects:  85% (61/71)   Unpacking objects:  87% (62/71)   Unpacking objects:  88% (63/71)   Unpacking objects:  90% (64/71)   Unpacking objects:  91% (65/71)   Unpacking objects:  92% (66/71)   Unpacking objects:  94% (67/71)   Unpacking objects:  95% (68/71)   Unpacking objects:  97% (69/71)   Unpacking objects:  98% (70/71)   Unpacking objects: 100% (71/71)   Unpacking objects: 100% (71/71), done.
+From https://github.com/robbyrussell/oh-my-zsh
+ * branch            master     -> FETCH_HEAD
+First, rewinding head to replay your work on top of it...
+ README.md                                          |    4 +-
+ lib/theme-and-appearance.zsh                       |   11 +++-
+ plugins/brew/brew.plugin.zsh                       |    2 +-
+ plugins/common-aliases/common-aliases.plugin.zsh   |   17 ++++---
+ plugins/dircycle/dircycle.plugin.zsh               |    2 +
+ plugins/node/node.plugin.zsh                       |    3 +-
+ plugins/zsh-navigation-tools/NEWS                  |   17 ++++++
+ plugins/zsh-navigation-tools/README.md             |   54 ++++++++++++++++++++
+ plugins/zsh-navigation-tools/n-history             |   32 +++++++++---
+ plugins/zsh-navigation-tools/n-list                |    3 +-
+ plugins/zsh-navigation-tools/znt-tmux.zsh          |   50 ++++++++++++++++++
+ .../zsh-navigation-tools.plugin.zsh                |   35 +++++++------
+ templates/zshrc.zsh-template                       |    2 +-
+ 13 files changed, 194 insertions(+), 38 deletions(-)
+ create mode 100644 plugins/zsh-navigation-tools/NEWS
+ create mode 100755 plugins/zsh-navigation-tools/znt-tmux.zsh
+Fast-forwarded master to 62b0abdb6e4bedc0c28f97176bd76f74859d82ea.
+[32m         __                                     __   
+  ____  / /_     ____ ___  __  __   ____  _____/ /_  
+ / __ \/ __ \   / __ `__ \/ / / /  /_  / / ___/ __ \ 
+/ /_/ / / / /  / / / / / / /_/ /    / /_(__  ) / / / 
+\____/_/ /_/  /_/ /_/ /_/\__, /    /___/____/_/ /_/  
+                        /____/                       
+[34mHooray! Oh My Zsh has been updated and/or is at the current version.
+[34m[1mTo keep up on the latest news and updates, follow us on twitter: https://twitter.com/ohmyzsh(B[m
+[34m[1mGet your Oh My Zsh swag at:  http://shop.planetargon.com/(B[m
+[1m[7m%[27m[1m[0m                                                                                   ]2;jenkinsac@umh-medweb-prd: ~]1;~[0m[27m[24m[J
+[1m[34m#[00m [36mjenkinsac [37mat [32mumh-medweb-prd.umh.edu [37min [1m[33m~[00m [37m[16:22:54]
+[1m[31m→ [00m[K[?1h=ccd /etc/httpd[?1l>
+]2;cd /etc/httpd]1;cd[1m[7m%[27m[1m[0m                                                                                   ]2;jenkinsac@umh-medweb-prd: /etc/httpd]1;/etc/httpd[0m[27m[24m[J
+[1m[34m#[00m [36mjenkinsac [37mat [32mumh-medweb-prd.umh.edu [37min [1m[33m/etc/httpd[00m [37m[16:23:45]
+[1m[31m→ [00m[K[?1h=l[?1l>
+]2;ls --color=tty -lah]1;ltotal 24K
+drwxr-xr-x    4 root root 4.0K Aug 25 08:23 [0m[38;5;27m.[0m
+drwxr-xr-x. 103 root root  12K Nov 14 03:49 [38;5;27m..[0m
+drwxr-xr-x    2 root root 4.0K Oct 31 08:34 [38;5;27mconf[0m
+drwxr-xr-x    2 root root 4.0K Oct 31 08:33 [38;5;27mconf.d[0m
+lrwxrwxrwx    1 root root   19 Aug 25 08:23 [38;5;51mlogs[0m -> [38;5;27m../../var/log/httpd[0m
+lrwxrwxrwx    1 root root   29 Aug 25 08:23 [38;5;51mmodules[0m -> [38;5;27m../../usr/lib64/httpd/modules[0m
+lrwxrwxrwx    1 root root   19 Aug 25 08:23 [38;5;51mrun[0m -> [38;5;27m../../var/run/httpd[0m
+[m[1m[7m%[27m[1m[0m                                                                                   ]2;jenkinsac@umh-medweb-prd: /etc/httpd]1;/etc/httpd[0m[27m[24m[J
+[1m[34m#[00m [36mjenkinsac [37mat [32mumh-medweb-prd.umh.edu [37min [1m[33m/etc/httpd[00m [37m[16:23:45]
+[1m[31m→ [00m[K[?1h=cconf .d[?1l>
+]2;conf.d]1;conf.d[1m[7m%[27m[1m[0m                                                                                   ]2;jenkinsac@umh-medweb-prd: /etc/httpd/conf.d]1;../httpd/conf.d[0m[27m[24m[J
+[1m[34m#[00m [36mjenkinsac [37mat [32mumh-medweb-prd.umh.edu [37min [1m[33m/etc/httpd/conf.d[00m [37m[16:23:50]
+[1m[31m→ [00m[K[?1h=l[?1l>
+]2;ls --color=tty -lah]1;ltotal 32K
+drwxr-xr-x 2 root root 4.0K Oct 31 08:33 [0m[38;5;27m.[0m
+drwxr-xr-x 4 root root 4.0K Aug 25 08:23 [38;5;27m..[0m
+-rw-r--r-- 1 root root  924 Sep 17 08:56 php.conf
+-rw-r--r-- 1 root root  392 Jul 12 06:04 README
+-rw-r--r-- 1 root root 9.3K Jul 12 06:00 ssl.conf
+-rw-r--r-- 1 root root  299 Jul 12 06:00 welcome.conf
+[m[1m[7m%[27m[1m[0m                                                                                   ]2;jenkinsac@umh-medweb-prd: /etc/httpd/conf.d]1;../httpd/conf.d[0m[27m[24m[J
+[1m[34m#[00m [36mjenkinsac [37mat [32mumh-medweb-prd.umh.edu [37min [1m[33m/etc/httpd/conf.d[00m [37m[16:23:50]
+[1m[31m→ [00m[K[?1h=v vvav  vvim . ssl.conf[?1l>
+]2;vim ssl.conf]1;vim[?1049h[?1h=[2;1H▽[6n[2;1H  [1;1H[1;59r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[59;1H"ssl.conf" [readonly] 222L, 9465C[>c[1;1H[34m#
+# This is the Apache server configuration file providing SSL support.
+# It contains the configuration directives to instruct the server how to
+# serve pages over an https connection. For detailing information about these 
+# directives see <URL:http://httpd.apache.org/docs/2.2/mod/mod_ssl.html>
+# 
+# Do [m[30m[103mNOT[m[34m simply read the instructions in here without understanding
+# what they do.  They're here only as hints or reminders.  If you are unsure
+# consult the online docs. You have been warned.  
+#[m
+
+[36mLoadModule[m ssl_module modules/mod_ssl.so
+
+[34m#
+# When we also provide SSL we have to listen to the 
+# the HTTPS port in addition.
+#[m
+[36mListen[m 443
+
+[34m##
+##  SSL Global Context
+##
+##  All SSL configuration in this context applies both to
+##  the main server and all SSL-enabled virtual hosts.
+##
+
+#   Pass Phrase Dialog:
+#   Configure the pass phrase gathering process.
+#   The filtering dialog program (`builtin' is a internal
+#   terminal dialog) has to provide the pass phrase on stdout.[m
+[36mSSLPassPhraseDialog[m  [31mbuiltin[m
+
+[34m#   Inter-Process Session Cache:
+#   Configure the SSL Session Cache: First the mechanism 
+#   to use and second the expiring timeout (in seconds).[m
+[36mSSLSessionCache[m[9Cshmcb:/var/cache/mod_ssl/scache(512000)
+[36mSSLSessionCacheTimeout[m  300
+
+[34m#   Semaphore:
+#   Configure the path to the mutual exclusion semaphore the
+#   SSL engine uses internally for inter-process synchronization. [m
+[36mSSLMutex[m [31mdefault[m
+
+[34m#   Pseudo Random Number Generator (PRNG):
+#   Configure one or more sources to seed the PRNG of the 
+#   SSL library. The seed data should be of good random quality.
+#   WARNING! On some platforms /dev/random blocks if not enough entropy
+#   is available. This means you then cannot use the /dev/random device
+#   because it would lead to very long connection times (as long as
+#   it requires to make more entropy available). But usually those
+#   platforms additionally provide a /dev/urandom device which doesn't
+#   block. So, if available, use this one instead. Read the mod_ssl User
+#   Manual for more details.[m
+[36mSSLRandomSeed[m startup [31mfile:[m/dev/urandom  256
+[36mSSLRandomSeed[m connect [31mbuiltin[m
+[34m#SSLRandomSeed startup file:/dev/random  512
+#SSLRandomSeed connect file:/dev/random  512
+#SSLRandomSeed connect file:/dev/urandom 512[m[59;66H1,1[11CTop[1;1H[?12l[?25h[?25l[59;66H2[2;1H[?12l[?25h[?25l[59;66H3[3;1H[?12l[?25h[?25l[59;66H4[4;1H[?12l[?25h[?25l[59;66H5[5;1H[?12l[?25h[?25l[59;66H6[6;1H[?12l[?25h[?25l[59;66H7[7;1H[?12l[?25h[?25l[59;66H8[8;1H[?12l[?25h[?25l[59;66H9[9;1H[?12l[?25h[?25l[59;66H10,1[10;1H[?12l[?25h[?25l[59;67H1,0-1[11;1H[?12l[?25h[?25l[59;67H2,1  [12;1H[?12l[?25h[?25l[59;67H3,0-1[13;1H[?12l[?25h[?25l[59;67H4,1  [14;1H[?12l[?25h[?25l[59;67H5[15;1H[?12l[?25h[?25l[59;67H6[16;1H[?12l[?25h[?25l[59;67H7[17;1H[?12l[?25h[?25l[59;67H8[18;1H[?12l[?25h[?25l[59;67H9,0-1[19;1H[?12l[?25h[?25l[59;66H20,1  [20;1H[?12l[?25h[?25l[59;67H1[21;1H[?12l[?25h[?25l[59;67H2[22;1H[?12l[?25h[?25l[59;67H3[23;1H[?12l[?25h[?25l[59;67H4[24;1H[?12l[?25h[?25l[59;67H5[25;1H[?12l[?25h[?25l[59;67H6,0-1[26;1H[?12l[?25h[?25l[59;67H7,1  [27;1H[?12l[?25h[?25l[59;67H8[28;1H[?12l[?25h[?25l[59;67H9[29;1H[?12l[?25h[?25l[59;66H30[30;1H[?12l[?25h[?25l[59;67H1[31;1H[?12l[?25h[?25l[59;67H2,0-1[32;1H[?12l[?25h[?25l[59;67H3,1  [33;1H[?12l[?25h[?25l[59;67H4[34;1H[?12l[?25h[?25l[59;67H5[35;1H[?12l[?25h[?25l[59;67H6[36;1H[?12l[?25h[?25l[59;67H7[37;1H[?12l[?25h[?25l[59;67H8,0-1[38;1H[?12l[?25h[?25l[59;67H9,1  [39;1H[?12l[?25h[?25l[59;66H40[40;1H[?12l[?25h[?25l[59;67H1[41;1H[?12l[?25h[?25l[59;67H2[42;1H[?12l[?25h[?25l[59;67H3,0-1[43;1H[?12l[?25h[?25l[59;67H4,1  [44;1H[?12l[?25h[?25l[59;67H5[45;1H[?12l[?25h[?25l[59;67H6[46;1H[?12l[?25h[?25l[59;67H7[47;1H[?12l[?25h[?25l[59;67H8[48;1H[?12l[?25h[?25l[59;67H9[49;1H[?12l[?25h[?25l[59;66H50[50;1H[?12l[?25h[?25l[59;67H1[51;1H[?12l[?25h[?25l[59;67H2[52;1H[?12l[?25h[?25l[59;67H3[53;1H[?12l[?25h[?25l[59;67H4[54;1H[?12l[?25h[?25l[59;67H5[55;1H[?12l[?25h[?25l[59;67H6[56;1H[?12l[?25h[?25l[59;67H7[57;1H[?12l[?25h[?25l[59;67H8[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[59;1H[K[59;66H59,0-1[9C0%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#[m[59;66H[K[59;66H60,1[11C1%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m# Use "SSLCryptoDevice" to enable any supported hardware[m[59;66H[K[59;66H61,1[11C1%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m# accelerators. Use "openssl engine -v" to list supported[m[59;66H[K[59;66H62,1[11C2%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m# engine names.  NOTE: If you enable an accelerator and the[m[59;66H[K[59;66H63,1[11C3%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m# server does not start, consult the error logs and ensure[m[59;66H[K[59;66H64,1[11C3%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m# your accelerator is functioning properly. [m[59;66H[K[59;66H65,1[11C4%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#[m[59;66H[K[59;66H66,1[11C4%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[36mSSLCryptoDevice[m [31mbuiltin[m[59;66H[K[59;66H67,1[11C5%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#SSLCryptoDevice ubsec[m[59;66H[K[59;66H68,1[11C6%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[59;66H[K[59;66H69,0-1[9C6%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m##[m[59;66H[K[59;66H70,1[11C7%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m## SSL Virtual Host Context[m[59;66H[K[59;66H71,1[11C7%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m##[m[59;66H[K[59;66H72,1[11C8%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[59;66H[K[59;66H73,0-1[9C9%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[38;5;130m<VirtualHost[m[31m _default_:443[m[38;5;130m>[m[59;66H[K[59;66H74,1[11C9%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[59;66H[K[59;66H75,0-1[8C10%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m# General setup for the virtual host, inherited from global configuration[m[59;66H[K[59;66H76,1[10C10%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#DocumentRoot "/var/www/html"[m[59;66H[K[59;66H77,1[10C11%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#ServerName www.example.com:443[m[59;66H[K[59;66H78,1[10C12%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[59;66H[K[59;66H79,0-1[8C12%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m# Use separate log files for the SSL virtual host; note that LogLevel[m[59;66H[K[59;66H80,1[10C13%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m# is not inherited from httpd.conf.[m[59;66H[K[59;66H81,1[10C14%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[36mErrorLog[m logs/ssl_error_log[59;66H[K[59;66H82,1[10C14%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[36mTransferLog[m logs/ssl_access_log[59;66H[K[59;66H83,1[10C15%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[36mLogLevel[m [31mwarn[m[59;66H[K[59;66H84,1[10C15%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[59;66H[K[59;66H85,0-1[8C16%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#   SSL Engine Switch:[m[59;66H[K[59;66H86,1[10C17%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#   Enable/Disable SSL for this virtual host.[m[59;66H[K[59;66H87,1[10C17%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[36mSSLEngine[m [31mon[m[59;66H[K[59;66H88,1[10C18%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[59;66H[K[59;66H89,0-1[8C18%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#   SSL Protocol support:[m[59;66H[K[59;66H90,1[10C19%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m# List the enable protocol levels with which clients will be able to[m[59;66H[K[59;66H91,1[10C20%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m# connect.  Disable SSLv2 access by default:[m[59;66H[K[59;66H92,1[10C20%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[36mSSLProtocol[m [31mall[m [31m-SSLv2[m[59;66H[K[59;66H93,1[10C21%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[59;66H[K[59;66H94,0-1[8C21%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#   SSL Cipher Suite:[m[59;66H[K[59;66H95,1[10C22%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m# List the ciphers that the client is permitted to negotiate.[m[59;66H[K[59;66H96,1[10C23%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m# See the mod_ssl documentation for a complete list.[m[59;66H[K[59;66H97,1[10C23%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[36mSSLCipherSuite[m [31mDEFAULT[m:![31mEXP[m:![31mSSLv2[m:![31mDES[m:![31mIDEA[m:!SEED:[31m+3DES[m[59;66H[K[59;66H98,1[10C24%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[59;66H[K[59;66H99,0-1[8C25%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#   Server Certificate:[m[59;66H[K[59;66H100,1[9C25%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m# Point SSLCertificateFile at a PEM encoded certificate.  If[m[59;66H[K[59;66H101,1[9C26%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m# the certificate is encrypted, then you will be prompted for a[m[59;66H[K[59;66H102,1[9C26%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m# pass phrase.  Note that a kill -HUP will prompt again.  A new[m[59;66H[K[59;66H103,1[9C27%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m# certificate can be generated using the genkey(1) command.[m[59;66H[K[59;66H104,1[9C28%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[36mSSLCertificateFile[m /etc/pki/tls/certs/localhost.crt[59;66H[K[59;66H105,1[9C28%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[59;66H[K[59;66H106,0-1[7C29%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#   Server Private Key:[m[59;66H[K[59;66H107,1[9C29%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#   If the key is not combined with the certificate, use this[m[59;66H[K[59;66H108,1[9C30%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#   directive to point at the key file.  Keep in mind that if[m[59;66H[K[59;66H109,1[9C31%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#   you've both a RSA and a DSA private key you can configure[m[59;66H[K[59;66H110,1[9C31%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#   both in parallel (to also allow the use of DSA ciphers, etc.)[m[59;66H[K[59;66H111,1[9C32%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[36mSSLCertificateKeyFile[m /etc/pki/tls/private/localhost.key[59;66H[K[59;66H112,1[9C32%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[59;66H[K[59;66H113,0-1[7C33%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#   Server Certificate Chain:[m[59;66H[K[59;66H114,1[9C34%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#   Point SSLCertificateChainFile at a file containing the[m[59;66H[K[59;66H115,1[9C34%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#   concatenation of PEM encoded CA certificates which form the[m[59;66H[K[59;66H116,1[9C35%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#   certificate chain for the server certificate. Alternatively[m[59;66H[K[59;66H117,1[9C35%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#   the referenced file can be the same as SSLCertificateFile[m[59;66H[K[59;66H118,1[9C36%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#   when the CA certificates are directly appended to the server[m[59;66H[K[59;66H119,1[9C37%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#   certificate for convinience.[m[59;66H[K[59;66H120,1[9C37%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#SSLCertificateChainFile /etc/pki/tls/certs/server-chain.crt[m[59;66H[K[59;66H121,1[9C38%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[59;66H[K[59;66H122,0-1[7C39%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#   Certificate Authority (CA):[m[59;66H[K[59;66H123,1[9C39%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#   Set the CA certificate verification path where to find CA[m[59;66H[K[59;66H124,1[9C40%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#   certificates for client authentication or alternatively one[m[59;66H[K[59;66H125,1[9C40%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#   huge file containing all of them (file must be PEM encoded)[m[59;66H[K[59;66H126,1[9C41%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#SSLCACertificateFile /etc/pki/tls/certs/ca-bundle.crt[m[59;66H[K[59;66H127,1[9C42%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[59;66H[K[59;66H128,0-1[7C42%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#   Client Authentication (Type):[m[59;66H[K[59;66H129,1[9C43%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#   Client certificate verification type and depth.  Types are[m[59;66H[K[59;66H130,1[9C43%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#   none, optional, require and optional_no_ca.  Depth is a[m[59;66H[K[59;66H131,1[9C44%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#   number which specifies how deeply to verify the certificate[m[59;66H[K[59;66H132,1[9C45%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#   issuer chain before deciding the certificate is not valid.[m[59;66H[K[59;66H133,1[9C45%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#SSLVerifyClient require[m[59;66H[K[59;66H134,1[9C46%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#SSLVerifyDepth  10[m[59;66H[K[59;66H135,1[9C46%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[59;66H[K[59;66H136,0-1[7C47%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#   Access Control:[m[59;66H[K[59;66H137,1[9C48%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#   With SSLRequire you can do per-directory access control based[m[59;66H[K[59;66H138,1[9C48%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#   on arbitrary complex boolean expressions containing server[m[59;66H[K[59;66H139,1[9C49%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#   variable checks and other lookup directives.  The syntax is a[m[59;66H[K[59;66H140,1[9C50%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#   mixture between C and Perl.  See the mod_ssl documentation[m[59;66H[K[59;66H141,1[9C50%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#   for more details.[m[59;66H[K[59;66H142,1[9C51%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#<Location />[m[59;66H[K[59;66H143,1[9C51%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#SSLRequire (    %{SSL_CIPHER} !~ m/^(EXP|NULL)/ \[m[59;66H[K[59;66H144,1[9C52%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#            and %{SSL_CLIENT_S_DN_O} eq "Snake Oil, Ltd." \[m[59;66H[K[59;66H145,1[9C53%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#            and %{SSL_CLIENT_S_DN_OU} in {"Staff", "CA", "Dev"} \[m[59;66H[K[59;66H146,1[9C53%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#            and %{TIME_WDAY} >= 1 and %{TIME_WDAY} <= 5 \[m[59;66H[K[59;66H147,1[9C54%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#            and %{TIME_HOUR} >= 8 and %{TIME_HOUR} <= 20       ) \[m[59;66H[K[59;66H148,1[9C54%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#           or %{REMOTE_ADDR} =~ m/^192\.76\.162\.[0-9]+$/[m[59;66H[K[59;66H149,1[9C55%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#</Location>[m[59;66H[K[59;66H150,1[9C56%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[59;66H[K[59;66H151,0-1[7C56%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#   SSL Engine Options:[m[59;66H[K[59;66H152,1[9C57%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#   Set various options for the SSL engine.[m[59;66H[K[59;66H153,1[9C57%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#   o FakeBasicAuth:[m[59;66H[K[59;66H154,1[9C58%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#     Translate the client X.509 into a Basic Authorisation.  This means that[m[59;66H[K[59;66H155,1[9C59%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#     the standard Auth/DBMAuth methods can be used for access control.  The[m[59;66H[K[59;66H156,1[9C59%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#     user name is the `one line' version of the client's X.509 certificate.[m[59;66H[K[59;66H157,1[9C60%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#     Note that no password is obtained from the user. Every entry in the user[m[59;66H[K[59;66H158,1[9C60%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#     file needs this password: `xxj31ZMTZzkVA'.[m[59;66H[K[59;66H159,1[9C61%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#   o ExportCertData:[m[59;66H[K[59;66H160,1[9C62%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#     This exports two additional environment variables: SSL_CLIENT_CERT and[m[59;66H[K[59;66H161,1[9C62%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#     SSL_SERVER_CERT. These contain the PEM-encoded certificates of the[m[59;66H[K[59;66H162,1[9C63%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#     server (always existing) and the client (only existing when client[m[59;66H[K[59;66H163,1[9C64%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#     authentication is used). This can be used to import the certificates[m[59;66H[K[59;66H164,1[9C64%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#     into CGI scripts.[m[59;66H[K[59;66H165,1[9C65%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#   o StdEnvVars:[m[59;66H[K[59;66H166,1[9C65%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#     This exports the standard SSL/TLS related `SSL_*' environment variables.[m[59;66H[K[59;66H167,1[9C66%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#     Per default this exportation is switched off for performance reasons,[m[59;66H[K[59;66H168,1[9C67%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#     because the extraction step is an expensive operation and is usually[m[59;66H[K[59;66H169,1[9C67%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#     useless for serving static content. So one usually enables the[m[59;66H[K[59;66H170,1[9C68%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#     exportation for CGI and SSI requests only.[m[59;66H[K[59;66H171,1[9C68%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#   o StrictRequire:[m[59;66H[K[59;66H172,1[9C69%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#     This denies access when "SSLRequireSSL" or "SSLRequire" applied even[m[59;66H[K[59;66H173,1[9C70%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#     under a "Satisfy any" situation, i.e. when it applies access is denied[m[59;66H[K[59;66H174,1[9C70%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#     and no other module can change it.[m[59;66H[K[59;66H175,1[9C71%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#   o OptRenegotiate:[m[59;66H[K[59;66H176,1[9C71%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#     This enables optimized SSL connection renegotiation handling when SSL[m[59;66H[K[59;66H177,1[9C72%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#     directives are used in per-directory context. [m[59;66H[K[59;66H178,1[9C73%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#SSLOptions +FakeBasicAuth +ExportCertData +StrictRequire[m[59;66H[K[59;66H179,1[9C73%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[38;5;130m<Files[m[31m ~ "\.(cgi|shtml|phtml|php3?)$"[m[38;5;130m>[m[59;66H[K[59;66H180,1[9C74%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;5H[36mSSLOptions[m [31m+StdEnvVars[m[59;66H[K[59;66H181,1[9C75%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[38;5;130m</Files>[m[59;66H[K[59;66H182,1[9C75%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[38;5;130m<Directory[m[31m "/var/www/cgi-bin"[m[38;5;130m>[m[59;66H[K[59;66H183,1[9C76%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;5H[36mSSLOptions[m [31m+StdEnvVars[m[59;66H[K[59;66H184,1[9C76%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[38;5;130m</Directory>[m[59;66H[K[59;66H185,1[9C77%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[59;66H[K[59;66H186,0-1[7C78%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#   SSL Protocol Adjustments:[m[59;66H[K[59;66H187,1[9C78%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#   The safe and default but still SSL/TLS standard compliant shutdown[m[59;66H[K[59;66H188,1[9C79%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#   approach is that mod_ssl sends the close notify alert but doesn't wait for[m[59;66H[K[59;66H189,1[9C79%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#   the close notify alert from client. When you need a different shutdown[m[59;66H[K[59;66H190,1[9C80%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#   approach you can use one of the following variables:[m[59;66H[K[59;66H191,1[9C81%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#   o ssl-unclean-shutdown:[m[59;66H[K[59;66H192,1[9C81%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#     This forces an unclean shutdown when the connection is closed, i.e. no[m[59;66H[K[59;66H193,1[9C82%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#     SSL close notify alert is send or allowed to received.  This violates[m[59;66H[K[59;66H194,1[9C82%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#     the SSL/TLS standard but is needed for some brain-dead browsers. Use[m[59;66H[K[59;66H195,1[9C83%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#     this when you receive I/O errors because of the standard approach where[m[59;66H[K[59;66H196,1[9C84%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#     mod_ssl sends the close notify alert.[m[59;66H[K[59;66H197,1[9C84%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#   o ssl-accurate-shutdown:[m[59;66H[K[59;66H198,1[9C85%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#     This forces an accurate shutdown when the connection is closed, i.e. a[m[59;66H[K[59;66H199,1[9C85%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#     SSL close notify alert is send and mod_ssl waits for the close notify[m[59;66H[K[59;66H200,1[9C86%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#     alert of the client. This is 100% SSL/TLS standard compliant, but in[m[59;66H[K[59;66H201,1[9C87%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#     practice often causes hanging connections with brain-dead browsers. Use[m[59;66H[K[59;66H202,1[9C87%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#     this only for browsers where you know that their SSL implementation[m[59;66H[K[59;66H203,1[9C88%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#     works correctly. [m[59;66H[K[59;66H204,1[9C89%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#   Notice: Most problems of broken clients are also related to the HTTP[m[59;66H[K[59;66H205,1[9C89%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#   keep-alive facility, so you usually additionally want to disable[m[59;66H[K[59;66H206,1[9C90%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#   keep-alive for those clients, too. Use variable "nokeepalive" for this.[m[59;66H[K[59;66H207,1[9C90%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#   Similarly, one has to force some clients to use HTTP/1.0 to workaround[m[59;66H[K[59;66H208,1[9C91%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#   their broken HTTP/1.1 implementation. Use variables "downgrade-1.0" and[m[59;66H[K[59;66H209,1[9C92%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#   "force-response-1.0" for this.[m[59;66H[K[59;66H210,1[9C92%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[36mSetEnvIf[m [36mUser[m-Agent [31m".*MSIE.*"[m \[59;66H[K[59;66H211,1[9C93%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;10Hnokeepalive ssl-unclean-shutdown \[59;66H[K[59;66H212,1[9C93%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;10Hdowngrade-1.0 force-response-1.0[59;66H[K[59;66H213,1[9C94%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[59;66H[K[59;66H214,0-1[7C95%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#   Per-Server Logging:[m[59;66H[K[59;66H215,1[9C95%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#   The home of a custom SSL log file. Use this when you want a[m[59;66H[K[59;66H216,1[9C96%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#   compact non-error SSL logfile on a virtual host basis.[m[59;66H[K[59;66H217,1[9C96%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[36mCustomLog[m logs/ssl_request_log \[59;66H[K[59;66H218,1[9C97%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;11H[31m"%t %h %{SSL_PROTOCOL}x %{SSL_CIPHER}x \"%r\" %b"[m[59;66H[K[59;66H219,1[9C98%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[59;66H[K[59;66H220,0-1[7C98%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[38;5;130m</VirtualHost>[m[59;66H[K[59;66H221,1[9C99%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[59;66H[K[59;66H222,0-1[7CBot[58;1H[?12l[?25h[?25l[59;68H1,1  [57;1H[?12l[?25h[?25l[59;68H0,0-1[56;1H[?12l[?25h[?25l[59;67H19,1  [55;1H[?12l[?25h[?25l[59;68H8[54;1H[?12l[?25h[?25l[59;68H7[53;1H[?12l[?25h[?25l[59;68H6[52;1H[?12l[?25h[?25l[59;68H5[51;1H[?12l[?25h[?25l[59;68H6[52;1H[?12l[?25h[?25l[59;68H7[53;1H[?12l[?25h[?25l[59;68H8[54;1H[?12l[?25h[?25l[59;68H9[55;1H[?12l[?25h[?25l[59;68H8[54;1H[?12l[?25h[?25l[59;68H7[53;1H[?12l[?25h[?25l[59;68H6[52;1H[?12l[?25h[?25l[59;68H5[51;1H[?12l[?25h[?25l[59;68H4,0-1[50;1H[?12l[?25h[?25l[59;68H3,1  [49;1H[?12l[?25h[?25l[59;68H2[48;1H[?12l[?25h[?25l[59;68H1[47;1H[?12l[?25h[?25l[59;68H0[46;1H[?12l[?25h[?25l[59;67H09[45;1H[?12l[?25h[?25l[59;68H8[44;1H[?12l[?25h[?25l[59;68H7[43;1H[?12l[?25h[?25l[59;68H6[42;1H[?12l[?25h[?25l[59;68H5[41;1H[?12l[?25h[?25l[59;68H4[40;1H[?12l[?25h[?25l[59;68H3[39;1H[?12l[?25h[?25l[59;68H2[38;1H[?12l[?25h[?25l[59;68H1[37;1H[?12l[?25h[?25l[59;68H0[36;1H[?12l[?25h[?25l[59;66H199[35;1H[?12l[?25h[?25l[59;68H8[34;1H[?12l[?25h[?25l[59;68H7[33;1H[?12l[?25h[?25l[59;68H6[32;1H[?12l[?25h[?25l[59;68H5[31;1H[?12l[?25h[?25l[59;68H4[30;1H[?12l[?25h[?25l[59;68H3[29;1H[?12l[?25h[?25l[59;68H2[28;1H[?12l[?25h[?25l[59;68H1[27;1H[?12l[?25h[?25l[59;68H0[26;1H[?12l[?25h[?25l[59;67H89[25;1H[?12l[?25h[?25l[59;68H8[24;1H[?12l[?25h[?25l[59;68H7[23;1H[?12l[?25h[?25l[59;68H6,0-1[22;1H[?12l[?25h[?25l[59;68H5,1  [21;1H[?12l[?25h[?25l[59;68H4[20;1H[?12l[?25h[?25l[59;68H3[19;1H[?12l[?25h[?25l[59;68H2[18;1H[?12l[?25h[?25l[59;68H1[17;1H[?12l[?25h[?25l[59;68H0[16;1H[?12l[?25h[?25l[59;67H79[15;1H[?12l[?25h[?25l[59;68H8[14;1H[?12l[?25h[?25l[59;68H7[13;1H[?12l[?25h[?25l[59;68H6[12;1H[?12l[?25h[?25l[59;68H5[11;1H[?12l[?25h[?25l[59;68H4[10;1H[?12l[?25h[?25l[59;68H3[9;1H[?12l[?25h[?25l[59;68H2[8;1H[?12l[?25h[?25l[59;68H1[7;1H[?12l[?25h[?25l[59;68H0[6;1H[?12l[?25h[?25l[59;67H69[5;1H[?12l[?25h[?25l[59;68H8[4;1H[?12l[?25h[?25l[59;68H7[3;1H[?12l[?25h[?25l[59;68H6[2;1H[?12l[?25h[?25l[59;68H5[1;1H[?12l[?25h[?25l[1;58r[1;1H[L[1;59r[1;1H[34m#     authentication is used). This can be used to import the certificates[m[59;66H[K[59;66H164,1[9C99%[1;1H[?12l[?25h[?25l[1;58r[1;1H[L[1;59r[1;1H[34m#     server (always existing) and the client (only existing when client[m[59;66H[K[59;66H163,1[9C98%[1;1H[?12l[?25h[?25l[1;58r[1;1H[L[1;59r[1;1H[34m#     SSL_SERVER_CERT. These contain the PEM-encoded certificates of the[m[59;66H[K[59;66H162,1[9C98%[1;1H[?12l[?25h[?25l[1;58r[1;1H[L[1;59r[1;1H[34m#     This exports two additional environment variables: SSL_CLIENT_CERT and[m[59;66H[K[59;66H161,1[9C97%[1;1H[?12l[?25h[?25l[1;58r[1;1H[L[1;59r[1;1H[34m#   o ExportCertData:[m[59;66H[K[59;66H160,1[9C96%[1;1H[?12l[?25h[?25l[1;58r[1;1H[L[1;59r[1;1H[34m#     file needs this password: `xxj31ZMTZzkVA'.[m[59;66H[K[59;66H159,1[9C96%[1;1H[?12l[?25h[?25l[1;58r[1;1H[L[1;59r[1;1H[34m#     Note that no password is obtained from the user. Every entry in the user[m[59;66H[K[59;66H158,1[9C95%[1;1H[?12l[?25h[?25l[1;58r[1;1H[L[1;59r[1;1H[34m#     user name is the `one line' version of the client's X.509 certificate.[m[59;66H[K[59;66H157,1[9C95%[1;1H[?12l[?25h[?25l[1;58r[1;1H[L[1;59r[1;1H[34m#     the standard Auth/DBMAuth methods can be used for access control.  The[m[59;66H[K[59;66H156,1[9C94%[1;1H[?12l[?25h[?25l[1;58r[1;1H[L[1;59r[1;1H[34m#     Translate the client X.509 into a Basic Authorisation.  This means that[m[59;66H[K[59;66H155,1[9C93%[1;1H[?12l[?25h[?25l[1;58r[1;1H[L[1;59r[1;1H[34m#   o FakeBasicAuth:[m[59;66H[K[59;66H154,1[9C93%[1;1H[?12l[?25h[?25l[1;58r[1;1H[L[1;59r[1;1H[34m#   Set various options for the SSL engine.[m[59;66H[K[59;66H153,1[9C92%[1;1H[?12l[?25h[?25l[1;58r[1;1H[L[1;59r[1;1H[34m#   SSL Engine Options:[m[59;66H[K[59;66H152,1[9C92%[1;1H[?12l[?25h[?25l[1;58r[1;1H[L[1;59r[59;66H[K[59;66H151,0-1[7C91%[1;1H[?12l[?25h[?25l[1;58r[1;1H[L[1;59r[1;1H[34m#</Location>[m[59;66H[K[59;66H150,1[9C90%[1;1H[?12l[?25h[?25l[1;58r[1;1H[L[1;59r[1;1H[34m#           or %{REMOTE_ADDR} =~ m/^192\.76\.162\.[0-9]+$/[m[59;66H[K[59;66H149,1[9C90%[1;1H[?12l[?25h[?25l[1;58r[1;1H[L[1;59r[1;1H[34m#            and %{TIME_HOUR} >= 8 and %{TIME_HOUR} <= 20       ) \[m[59;66H[K[59;66H148,1[9C89%[1;1H[?12l[?25h[?25l[1;58r[1;1H[L[1;59r[1;1H[34m#            and %{TIME_WDAY} >= 1 and %{TIME_WDAY} <= 5 \[m[59;66H[K[59;66H147,1[9C89%[1;1H[?12l[?25h[?25l[1;58r[1;1H[L[1;59r[1;1H[34m#            and %{SSL_CLIENT_S_DN_OU} in {"Staff", "CA", "Dev"} \[m[59;66H[K[59;66H146,1[9C88%[1;1H[?12l[?25h[?25l[1;58r[1;1H[L[1;59r[1;1H[34m#            and %{SSL_CLIENT_S_DN_O} eq "Snake Oil, Ltd." \[m[59;66H[K[59;66H145,1[9C87%[1;1H[?12l[?25h[?25l[1;58r[1;1H[L[1;59r[1;1H[34m#SSLRequire (    %{SSL_CIPHER} !~ m/^(EXP|NULL)/ \[m[59;66H[K[59;66H144,1[9C87%[1;1H[?12l[?25h[?25l[1;58r[1;1H[L[1;59r[1;1H[34m#<Location />[m[59;66H[K[59;66H143,1[9C86%[1;1H[?12l[?25h[?25l[1;58r[1;1H[L[1;59r[1;1H[34m#   for more details.[m[59;66H[K[59;66H142,1[9C85%[1;1H[?12l[?25h[?25l[1;58r[1;1H[L[1;59r[1;1H[34m#   mixture between C and Perl.  See the mod_ssl documentation[m[59;66H[K[59;66H141,1[9C85%[1;1H[?12l[?25h[?25l[1;58r[1;1H[L[1;59r[1;1H[34m#   variable checks and other lookup directives.  The syntax is a[m[59;66H[K[59;66H140,1[9C84%[1;1H[?12l[?25h[?25l[1;58r[1;1H[L[1;59r[1;1H[34m#   on arbitrary complex boolean expressions containing server[m[59;66H[K[59;66H139,1[9C84%[1;1H[?12l[?25h[?25l[1;58r[1;1H[L[1;59r[1;1H[34m#   With SSLRequire you can do per-directory access control based[m[59;66H[K[59;66H138,1[9C83%[1;1H[?12l[?25h[?25l[1;58r[1;1H[L[1;59r[1;1H[34m#   Access Control:[m[59;66H[K[59;66H137,1[9C82%[1;1H[?12l[?25h[?25l[1;58r[1;1H[L[1;59r[59;66H[K[59;66H136,0-1[7C82%[1;1H[?12l[?25h[?25l[1;58r[1;1H[L[1;59r[1;1H[34m#SSLVerifyDepth  10[m[59;66H[K[59;66H135,1[9C81%[1;1H[?12l[?25h[?25l[1;58r[1;1H[L[1;59r[1;1H[34m#SSLVerifyClient require[m[59;66H[K[59;66H134,1[9C81%[1;1H[?12l[?25h[?25l[1;58r[1;1H[L[1;59r[1;1H[34m#   issuer chain before deciding the certificate is not valid.[m[59;66H[K[59;66H133,1[9C80%[1;1H[?12l[?25h[?25l[1;58r[1;1H[L[1;59r[1;1H[34m#   number which specifies how deeply to verify the certificate[m[59;66H[K[59;66H132,1[9C79%[1;1H[?12l[?25h[?25l[1;58r[1;1H[L[1;59r[1;1H[34m#   none, optional, require and optional_no_ca.  Depth is a[m[59;66H[K[59;66H131,1[9C79%[1;1H[?12l[?25h[?25l[1;58r[1;1H[L[1;59r[1;1H[34m#   Client certificate verification type and depth.  Types are[m[59;66H[K[59;66H130,1[9C78%[1;1H[?12l[?25h[?25l[1;58r[1;1H[L[1;59r[1;1H[34m#   Client Authentication (Type):[m[59;66H[K[59;66H129,1[9C78%[1;1H[?12l[?25h[?25l[1;58r[1;1H[L[1;59r[59;66H[K[59;66H128,0-1[7C77%[1;1H[?12l[?25h[?25l[1;58r[1;1H[L[1;59r[1;1H[34m#SSLCACertificateFile /etc/pki/tls/certs/ca-bundle.crt[m[59;66H[K[59;66H127,1[9C76%[1;1H[?12l[?25h[?25l[1;58r[1;1H[L[1;59r[1;1H[34m#   huge file containing all of them (file must be PEM encoded)[m[59;66H[K[59;66H126,1[9C76%[1;1H[?12l[?25h[?25l[1;58r[1;1H[L[1;59r[1;1H[34m#   certificates for client authentication or alternatively one[m[59;66H[K[59;66H125,1[9C75%[1;1H[?12l[?25h[?25l[1;58r[1;1H[L[1;59r[1;1H[34m#   Set the CA certificate verification path where to find CA[m[59;66H[K[59;66H124,1[9C75%[1;1H[?12l[?25h[?25l[1;58r[1;1H[L[1;59r[1;1H[34m#   Certificate Authority (CA):[m[59;66H[K[59;66H123,1[9C74%[1;1H[?12l[?25h[?25l[1;58r[1;1H[L[1;59r[59;66H[K[59;66H122,0-1[7C73%[1;1H[?12l[?25h[?25l[1;58r[1;1H[L[1;59r[1;1H[34m#SSLCertificateChainFile /etc/pki/tls/certs/server-chain.crt[m[59;66H[K[59;66H121,1[9C73%[1;1H[?12l[?25h[?25l[1;58r[1;1H[L[1;59r[1;1H[34m#   certificate for convinience.[m[59;66H[K[59;66H120,1[9C72%[1;1H[?12l[?25h[?25l[1;58r[1;1H[L[1;59r[1;1H[34m#   when the CA certificates are directly appended to the server[m[59;66H[K[59;66H119,1[9C71%[1;1H[?12l[?25h[?25l[1;58r[1;1H[L[1;59r[1;1H[34m#   the referenced file can be the same as SSLCertificateFile[m[59;66H[K[59;66H118,1[9C71%[1;1H[?12l[?25h[?25l[1;58r[1;1H[L[1;59r[1;1H[34m#   certificate chain for the server certificate. Alternatively[m[59;66H[K[59;66H117,1[9C70%[1;1H[?12l[?25h[?25l[1;58r[1;1H[L[1;59r[1;1H[34m#   concatenation of PEM encoded CA certificates which form the[m[59;66H[K[59;66H116,1[9C70%[1;1H[?12l[?25h[?25l[1;58r[1;1H[L[1;59r[1;1H[34m#   Point SSLCertificateChainFile at a file containing the[m[59;66H[K[59;66H115,1[9C69%[1;1H[?12l[?25h[?25l[1;58r[1;1H[L[1;59r[1;1H[34m#   Server Certificate Chain:[m[59;66H[K[59;66H114,1[9C68%[1;1H[?12l[?25h[?25l[1;58r[1;1H[L[1;59r[59;66H[K[59;66H113,0-1[7C68%[1;1H[?12l[?25h[?25l[1;58r[1;1H[L[1;59r[1;1H[36mSSLCertificateKeyFile[m /etc/pki/tls/private/localhost.key[59;66H[K[59;66H112,1[9C67%[1;1H[?12l[?25h[?25l[1;58r[1;1H[L[1;59r[1;1H[34m#   both in parallel (to also allow the use of DSA ciphers, etc.)[m[59;66H[K[59;66H111,1[9C67%[1;1H[?12l[?25h[?25l[1;58r[1;1H[L[1;59r[1;1H[34m#   you've both a RSA and a DSA private key you can configure[m[59;66H[K[59;66H110,1[9C66%[1;1H[?12l[?25h[?25l[1;58r[1;1H[L[1;59r[1;1H[34m#   directive to point at the key file.  Keep in mind that if[m[59;66H[K[59;66H109,1[9C65%[1;1H[?12l[?25h[?25l[1;58r[1;1H[L[1;59r[1;1H[34m#   If the key is not combined with the certificate, use this[m[59;66H[K[59;66H108,1[9C65%[1;1H[?12l[?25h[?25l[1;58r[1;1H[L[1;59r[1;1H[34m#   Server Private Key:[m[59;66H[K[59;66H107,1[9C64%[1;1H[?12l[?25h[?25l[1;58r[1;1H[L[1;59r[59;66H[K[59;66H106,0-1[7C64%[1;1H[?12l[?25h[?25l[1;58r[1;1H[L[1;59r[1;1H[36mSSLCertificateFile[m /etc/pki/tls/certs/localhost.crt[59;66H[K[59;66H105,1[9C63%[1;1H[?12l[?25h[?25l[1;58r[1;1H[L[1;59r[1;1H[34m# certificate can be generated using the genkey(1) command.[m[59;66H[K[59;66H104,1[9C62%[1;1H[?12l[?25h[?25l[1;58r[1;1H[L[1;59r[1;1H[34m# pass phrase.  Note that a kill -HUP will prompt again.  A new[m[59;66H[K[59;66H103,1[9C62%[1;1H[?12l[?25h[?25l[1;58r[1;1H[L[1;59r[1;1H[34m# the certificate is encrypted, then you will be prompted for a[m[59;66H[K[59;66H102,1[9C61%[1;1H[?12l[?25h[?25l[1;58r[1;1H[L[1;59r[1;1H[34m# Point SSLCertificateFile at a PEM encoded certificate.  If[m[59;66H[K[59;66H101,1[9C60%[1;1H[?12l[?25h[?25l[1;58r[1;1H[L[1;59r[1;1H[34m#   Server Certificate:[m[59;66H[K[59;66H100,1[9C60%[1;1H[?12l[?25h[?25l[1;58r[1;1H[L[1;59r[59;66H[K[59;66H99,0-1[8C59%[1;1H[?12l[?25h[?25l[1;58r[1;1H[L[1;59r[1;1H[36mSSLCipherSuite[m [31mDEFAULT[m:![31mEXP[m:![31mSSLv2[m:![31mDES[m:![31mIDEA[m:!SEED:[31m+3DES[m[59;66H[K[59;66H98,1[10C59%[1;1H[?12l[?25h[?25l[1;58r[1;1H[L[1;59r[1;1H[34m# See the mod_ssl documentation for a complete list.[m[59;66H[K[59;66H97,1[10C58%[1;1H[?12l[?25h[?25l[1;58r[1;1H[L[1;59r[1;1H[34m# List the ciphers that the client is permitted to negotiate.[m[59;66H[K[59;66H96,1[10C57%[1;1H[?12l[?25h[?25l[1;58r[1;1H[L[1;59r[1;1H[34m#   SSL Cipher Suite:[m[59;66H[K[59;66H95,1[10C57%[1;1H[?12l[?25h[?25l[1;58r[1;1H[L[1;59r[59;66H[K[59;66H94,0-1[8C56%[1;1H[?12l[?25h[?25l[1;58r[1;1H[L[1;59r[1;1H[36mSSLProtocol[m [31mall[m [31m-SSLv2[m[59;66H[K[59;66H93,1[10C56%[1;1H[?12l[?25h[?25l[1;58r[1;1H[L[1;59r[1;1H[34m# connect.  Disable SSLv2 access by default:[m[59;66H[K[59;66H92,1[10C55%[1;1H[?12l[?25h[?25l[1;58r[1;1H[L[1;59r[1;1H[34m# List the enable protocol levels with which clients will be able to[m[59;66H[K[59;66H91,1[10C54%[1;1H[?12l[?25h[?25l[1;58r[1;1H[L[1;59r[1;1H[34m#   SSL Protocol support:[m[59;66H[K[59;66H90,1[10C54%[1;1H[?12l[?25h[?25l[1;58r[1;1H[L[1;59r[59;66H[K[59;66H89,0-1[8C53%[1;1H[?12l[?25h[?25l[1;58r[1;1H[L[1;59r[1;1H[36mSSLEngine[m [31mon[m[59;66H[K[59;66H88,1[10C53%[1;1H[?12l[?25h[?25l[1;58r[1;1H[L[1;59r[1;1H[34m#   Enable/Disable SSL for this virtual host.[m[59;66H[K[59;66H87,1[10C52%[1;1H[?12l[?25h[?25l[1;58r[1;1H[L[1;59r[1;1H[34m#   SSL Engine Switch:[m[59;66H[K[59;66H86,1[10C51%[1;1H[?12l[?25h[?25l[1;58r[1;1H[L[1;59r[59;66H[K[59;66H85,0-1[8C51%[1;1H[?12l[?25h[?25l[1;58r[1;1H[L[1;59r[1;1H[36mLogLevel[m [31mwarn[m[59;66H[K[59;66H84,1[10C50%[1;1H[?12l[?25h[?25l[1;58r[1;1H[L[1;59r[1;1H[36mTransferLog[m logs/ssl_access_log[59;66H[K[59;66H83,1[10C50%[1;1H[?12l[?25h[?25l[1;58r[1;1H[L[1;59r[1;1H[36mErrorLog[m logs/ssl_error_log[59;66H[K[59;66H82,1[10C49%[1;1H[?12l[?25h[?25l[1;58r[1;1H[L[1;59r[1;1H[34m# is not inherited from httpd.conf.[m[59;66H[K[59;66H81,1[10C48%[1;1H[?12l[?25h[?25l[1;58r[1;1H[L[1;59r[1;1H[34m# Use separate log files for the SSL virtual host; note that LogLevel[m[59;66H[K[59;66H80,1[10C48%[1;1H[?12l[?25h[?25l[1;58r[1;1H[L[1;59r[59;66H[K[59;66H79,0-1[8C47%[1;1H[?12l[?25h[?25l[1;58r[1;1H[L[1;59r[1;1H[34m#ServerName www.example.com:443[m[59;66H[K[59;66H78,1[10C46%[1;1H[?12l[?25h[?25l[1;58r[1;1H[L[1;59r[1;1H[34m#DocumentRoot "/var/www/html"[m[59;66H[K[59;66H77,1[10C46%[1;1H[?12l[?25h[?25l[1;58r[1;1H[L[1;59r[1;1H[34m# General setup for the virtual host, inherited from global configuration[m[59;66H[K[59;66H76,1[10C45%[1;1H[?12l[?25h[?25l[1;58r[1;1H[L[1;59r[59;66H[K[59;66H75,0-1[8C45%[1;1H[?12l[?25h[?25l[1;58r[1;1H[L[1;59r[1;1H[38;5;130m<VirtualHost[m[31m _default_:443[m[38;5;130m>[m[59;66H[K[59;66H74,1[10C44%[1;1H[?12l[?25h[?25l[1;58r[1;1H[L[1;59r[59;66H[K[59;66H73,0-1[8C43%[1;1H[?12l[?25h[?25l[1;58r[1;1H[L[1;59r[1;1H[34m##[m[59;66H[K[59;66H72,1[10C43%[1;1H[?12l[?25h[?25l[1;58r[1;1H[L[1;59r[1;1H[34m## SSL Virtual Host Context[m[59;66H[K[59;66H71,1[10C42%[1;1H[?12l[?25h[?25l[1;58r[1;1H[L[1;59r[1;1H[34m##[m[59;66H[K[59;66H70,1[10C42%[1;1H[?12l[?25h[?25l[1;58r[1;1H[L[1;59r[59;66H[K[59;66H69,0-1[8C41%[1;1H[?12l[?25h[?25l[1;58r[1;1H[L[1;59r[1;1H[34m#SSLCryptoDevice ubsec[m[59;66H[K[59;66H68,1[10C40%[1;1H[?12l[?25h[?25l[1;58r[1;1H[L[1;59r[1;1H[36mSSLCryptoDevice[m [31mbuiltin[m[59;66H[K[59;66H67,1[10C40%[1;1H[?12l[?25h[?25l[1;58r[1;1H[L[1;59r[1;1H[34m#[m[59;66H[K[59;66H66,1[10C39%[1;1H[?12l[?25h[?25l[1;58r[1;1H[L[1;59r[1;1H[34m# your accelerator is functioning properly. [m[59;66H[K[59;66H65,1[10C39%[1;1H[?12l[?25h[?25l[1;58r[1;1H[L[1;59r[1;1H[34m# server does not start, consult the error logs and ensure[m[59;66H[K[59;66H64,1[10C38%[1;1H[?12l[?25h[?25l[1;58r[1;1H[L[1;59r[1;1H[34m# engine names.  NOTE: If you enable an accelerator and the[m[59;66H[K[59;66H63,1[10C37%[1;1H[?12l[?25h[?25l[1;58r[1;1H[L[1;59r[1;1H[34m# accelerators. Use "openssl engine -v" to list supported[m[59;66H[K[59;66H62,1[10C37%[1;1H[?12l[?25h[?25l[1;58r[1;1H[L[1;59r[1;1H[34m# Use "SSLCryptoDevice" to enable any supported hardware[m[59;66H[K[59;66H61,1[10C36%[1;1H[?12l[?25h[?25l[59;67H2[2;1H[?12l[?25h[?25l[59;67H3[3;1H[?12l[?25h[?25l[59;67H4[4;1H[?12l[?25h[?25l[59;67H5[5;1H[?12l[?25h[?25l[59;67H6[6;1H[?12l[?25h[?25l[59;67H7[7;1H[?12l[?25h[?25l[59;67H8[8;1H[?12l[?25h[?25l[59;67H9,0-1[9;1H[?12l[?25h[?25l[59;66H70,1  [10;1H[?12l[?25h[?25l[59;67H1[11;1H[?12l[?25h[?25l[59;67H2[12;1H[?12l[?25h[?25l[59;67H3,0-1[13;1H[?12l[?25h[?25l[59;67H4,1  [14;1H[?12l[?25h[?25l[59;67H5,0-1[15;1H[?12l[?25h[?25l[59;67H6,1  [16;1H[?12l[?25h[?25l[59;67H7[17;1H[?12l[?25h[?25l[59;67H8[18;1H[?12l[?25h[?25l[59;67H9,0-1[19;1H[?12l[?25h[?25l[59;66H80,1  [20;1H[?12l[?25h[?25l[59;67H1[21;1H[?12l[?25h[?25l[59;67H2[22;1H[?12l[?25h[?25l[59;67H3[23;1H[?12l[?25h[?25l[59;67H4[24;1H[?12l[?25h[?25l[59;67H5,0-1[25;1H[?12l[?25h[?25l[59;67H6,1  [26;1H[?12l[?25h[?25l[59;67H7[27;1H[?12l[?25h[?25l[59;67H8[28;1H[?12l[?25h[?25l[59;67H9,0-1[29;1H[?12l[?25h[?25l[59;66H90,1  [30;1H[?12l[?25h[?25l[59;67H1[31;1H[?12l[?25h[?25l[59;67H2[32;1H[?12l[?25h[?25l[59;67H3[33;1H[?12l[?25h[?25l[59;67H4,0-1[34;1H[?12l[?25h[?25l[59;67H5,1  [35;1H[?12l[?25h[?25l[59;67H6[36;1H[?12l[?25h[?25l[59;67H7[37;1H[?12l[?25h[?25l[59;67H8[38;1H[?12l[?25h[?25l[59;67H9,0-1[39;1H[?12l[?25h[?25l[59;66H100,1 [40;1H[?12l[?25h[?25l[59;68H1[41;1H[?12l[?25h[?25l[59;68H2[42;1H[?12l[?25h[?25l[59;68H3[43;1H[?12l[?25h[?25l[59;68H4[44;1H[?12l[?25h[?25l[59;68H5[45;1H[?12l[?25h[?25l[59;68H6,0-1[46;1H[?12l[?25h[?25l[59;68H7,1  [47;1H[?12l[?25h[?25l[59;68H8[48;1H[?12l[?25h[?25l[59;68H9[49;1H[?12l[?25h[?25l[59;67H10[50;1H[?12l[?25h[?25l[59;68H1[51;1H[?12l[?25h[?25l[59;68H2[52;1H[?12l[?25h[?25l[59;68H3,0-1[53;1H[?12l[?25h[?25l[59;68H4,1  [54;1H[?12l[?25h[?25l[59;68H5[55;1H[?12l[?25h[?25l[59;68H6[56;1H[?12l[?25h[?25l[59;68H7[57;1H[?12l[?25h[?25l[59;68H8[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#   when the CA certificates are directly appended to the server[m[59;66H[K[59;66H119,1[9C37%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#   certificate for convinience.[m[59;66H[K[59;66H120,1[9C37%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#SSLCertificateChainFile /etc/pki/tls/certs/server-chain.crt[m[59;66H[K[59;66H121,1[9C38%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[59;66H[K[59;66H122,0-1[7C39%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#   Certificate Authority (CA):[m[59;66H[K[59;66H123,1[9C39%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#   Set the CA certificate verification path where to find CA[m[59;66H[K[59;66H124,1[9C40%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#   certificates for client authentication or alternatively one[m[59;66H[K[59;66H125,1[9C40%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#   huge file containing all of them (file must be PEM encoded)[m[59;66H[K[59;66H126,1[9C41%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#SSLCACertificateFile /etc/pki/tls/certs/ca-bundle.crt[m[59;66H[K[59;66H127,1[9C42%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[59;66H[K[59;66H128,0-1[7C42%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#   Client Authentication (Type):[m[59;66H[K[59;66H129,1[9C43%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#   Client certificate verification type and depth.  Types are[m[59;66H[K[59;66H130,1[9C43%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#   none, optional, require and optional_no_ca.  Depth is a[m[59;66H[K[59;66H131,1[9C44%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#   number which specifies how deeply to verify the certificate[m[59;66H[K[59;66H132,1[9C45%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#   issuer chain before deciding the certificate is not valid.[m[59;66H[K[59;66H133,1[9C45%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#SSLVerifyClient require[m[59;66H[K[59;66H134,1[9C46%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#SSLVerifyDepth  10[m[59;66H[K[59;66H135,1[9C46%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[59;66H[K[59;66H136,0-1[7C47%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#   Access Control:[m[59;66H[K[59;66H137,1[9C48%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#   With SSLRequire you can do per-directory access control based[m[59;66H[K[59;66H138,1[9C48%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#   on arbitrary complex boolean expressions containing server[m[59;66H[K[59;66H139,1[9C49%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#   variable checks and other lookup directives.  The syntax is a[m[59;66H[K[59;66H140,1[9C50%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#   mixture between C and Perl.  See the mod_ssl documentation[m[59;66H[K[59;66H141,1[9C50%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#   for more details.[m[59;66H[K[59;66H142,1[9C51%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#<Location />[m[59;66H[K[59;66H143,1[9C51%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#SSLRequire (    %{SSL_CIPHER} !~ m/^(EXP|NULL)/ \[m[59;66H[K[59;66H144,1[9C52%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#            and %{SSL_CLIENT_S_DN_O} eq "Snake Oil, Ltd." \[m[59;66H[K[59;66H145,1[9C53%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#            and %{SSL_CLIENT_S_DN_OU} in {"Staff", "CA", "Dev"} \[m[59;66H[K[59;66H146,1[9C53%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#            and %{TIME_WDAY} >= 1 and %{TIME_WDAY} <= 5 \[m[59;66H[K[59;66H147,1[9C54%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#            and %{TIME_HOUR} >= 8 and %{TIME_HOUR} <= 20       ) \[m[59;66H[K[59;66H148,1[9C54%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#           or %{REMOTE_ADDR} =~ m/^192\.76\.162\.[0-9]+$/[m[59;66H[K[59;66H149,1[9C55%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#</Location>[m[59;66H[K[59;66H150,1[9C56%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[59;66H[K[59;66H151,0-1[7C56%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#   SSL Engine Options:[m[59;66H[K[59;66H152,1[9C57%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#   Set various options for the SSL engine.[m[59;66H[K[59;66H153,1[9C57%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#   o FakeBasicAuth:[m[59;66H[K[59;66H154,1[9C58%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#     Translate the client X.509 into a Basic Authorisation.  This means that[m[59;66H[K[59;66H155,1[9C59%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#     the standard Auth/DBMAuth methods can be used for access control.  The[m[59;66H[K[59;66H156,1[9C59%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#     user name is the `one line' version of the client's X.509 certificate.[m[59;66H[K[59;66H157,1[9C60%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#     Note that no password is obtained from the user. Every entry in the user[m[59;66H[K[59;66H158,1[9C60%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#     file needs this password: `xxj31ZMTZzkVA'.[m[59;66H[K[59;66H159,1[9C61%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#   o ExportCertData:[m[59;66H[K[59;66H160,1[9C62%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#     This exports two additional environment variables: SSL_CLIENT_CERT and[m[59;66H[K[59;66H161,1[9C62%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#     SSL_SERVER_CERT. These contain the PEM-encoded certificates of the[m[59;66H[K[59;66H162,1[9C63%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#     server (always existing) and the client (only existing when client[m[59;66H[K[59;66H163,1[9C64%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#     authentication is used). This can be used to import the certificates[m[59;66H[K[59;66H164,1[9C64%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#     into CGI scripts.[m[59;66H[K[59;66H165,1[9C65%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#   o StdEnvVars:[m[59;66H[K[59;66H166,1[9C65%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#     This exports the standard SSL/TLS related `SSL_*' environment variables.[m[59;66H[K[59;66H167,1[9C66%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#     Per default this exportation is switched off for performance reasons,[m[59;66H[K[59;66H168,1[9C67%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#     because the extraction step is an expensive operation and is usually[m[59;66H[K[59;66H169,1[9C67%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#     useless for serving static content. So one usually enables the[m[59;66H[K[59;66H170,1[9C68%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#     exportation for CGI and SSI requests only.[m[59;66H[K[59;66H171,1[9C68%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#   o StrictRequire:[m[59;66H[K[59;66H172,1[9C69%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#     This denies access when "SSLRequireSSL" or "SSLRequire" applied even[m[59;66H[K[59;66H173,1[9C70%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#     under a "Satisfy any" situation, i.e. when it applies access is denied[m[59;66H[K[59;66H174,1[9C70%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#     and no other module can change it.[m[59;66H[K[59;66H175,1[9C71%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#   o OptRenegotiate:[m[59;66H[K[59;66H176,1[9C71%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#     This enables optimized SSL connection renegotiation handling when SSL[m[59;66H[K[59;66H177,1[9C72%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#     directives are used in per-directory context. [m[59;66H[K[59;66H178,1[9C73%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#SSLOptions +FakeBasicAuth +ExportCertData +StrictRequire[m[59;66H[K[59;66H179,1[9C73%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[38;5;130m<Files[m[31m ~ "\.(cgi|shtml|phtml|php3?)$"[m[38;5;130m>[m[59;66H[K[59;66H180,1[9C74%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;5H[36mSSLOptions[m [31m+StdEnvVars[m[59;66H[K[59;66H181,1[9C75%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[38;5;130m</Files>[m[59;66H[K[59;66H182,1[9C75%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[38;5;130m<Directory[m[31m "/var/www/cgi-bin"[m[38;5;130m>[m[59;66H[K[59;66H183,1[9C76%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;5H[36mSSLOptions[m [31m+StdEnvVars[m[59;66H[K[59;66H184,1[9C76%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[38;5;130m</Directory>[m[59;66H[K[59;66H185,1[9C77%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[59;66H[K[59;66H186,0-1[7C78%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#   SSL Protocol Adjustments:[m[59;66H[K[59;66H187,1[9C78%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#   The safe and default but still SSL/TLS standard compliant shutdown[m[59;66H[K[59;66H188,1[9C79%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#   approach is that mod_ssl sends the close notify alert but doesn't wait for[m[59;66H[K[59;66H189,1[9C79%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#   the close notify alert from client. When you need a different shutdown[m[59;66H[K[59;66H190,1[9C80%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#   approach you can use one of the following variables:[m[59;66H[K[59;66H191,1[9C81%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#   o ssl-unclean-shutdown:[m[59;66H[K[59;66H192,1[9C81%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#     This forces an unclean shutdown when the connection is closed, i.e. no[m[59;66H[K[59;66H193,1[9C82%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#     SSL close notify alert is send or allowed to received.  This violates[m[59;66H[K[59;66H194,1[9C82%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#     the SSL/TLS standard but is needed for some brain-dead browsers. Use[m[59;66H[K[59;66H195,1[9C83%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#     this when you receive I/O errors because of the standard approach where[m[59;66H[K[59;66H196,1[9C84%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#     mod_ssl sends the close notify alert.[m[59;66H[K[59;66H197,1[9C84%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#   o ssl-accurate-shutdown:[m[59;66H[K[59;66H198,1[9C85%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#     This forces an accurate shutdown when the connection is closed, i.e. a[m[59;66H[K[59;66H199,1[9C85%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#     SSL close notify alert is send and mod_ssl waits for the close notify[m[59;66H[K[59;66H200,1[9C86%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#     alert of the client. This is 100% SSL/TLS standard compliant, but in[m[59;66H[K[59;66H201,1[9C87%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#     practice often causes hanging connections with brain-dead browsers. Use[m[59;66H[K[59;66H202,1[9C87%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#     this only for browsers where you know that their SSL implementation[m[59;66H[K[59;66H203,1[9C88%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#     works correctly. [m[59;66H[K[59;66H204,1[9C89%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#   Notice: Most problems of broken clients are also related to the HTTP[m[59;66H[K[59;66H205,1[9C89%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#   keep-alive facility, so you usually additionally want to disable[m[59;66H[K[59;66H206,1[9C90%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#   keep-alive for those clients, too. Use variable "nokeepalive" for this.[m[59;66H[K[59;66H207,1[9C90%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#   Similarly, one has to force some clients to use HTTP/1.0 to workaround[m[59;66H[K[59;66H208,1[9C91%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#   their broken HTTP/1.1 implementation. Use variables "downgrade-1.0" and[m[59;66H[K[59;66H209,1[9C92%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#   "force-response-1.0" for this.[m[59;66H[K[59;66H210,1[9C92%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[36mSetEnvIf[m [36mUser[m-Agent [31m".*MSIE.*"[m \[59;66H[K[59;66H211,1[9C93%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;10Hnokeepalive ssl-unclean-shutdown \[59;66H[K[59;66H212,1[9C93%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;10Hdowngrade-1.0 force-response-1.0[59;66H[K[59;66H213,1[9C94%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[59;66H[K[59;66H214,0-1[7C95%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#   Per-Server Logging:[m[59;66H[K[59;66H215,1[9C95%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#   The home of a custom SSL log file. Use this when you want a[m[59;66H[K[59;66H216,1[9C96%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[34m#   compact non-error SSL logfile on a virtual host basis.[m[59;66H[K[59;66H217,1[9C96%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[36mCustomLog[m logs/ssl_request_log \[59;66H[K[59;66H218,1[9C97%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;11H[31m"%t %h %{SSL_PROTOCOL}x %{SSL_CIPHER}x \"%r\" %b"[m[59;66H[K[59;66H219,1[9C98%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[59;66H[K[59;66H220,0-1[7C98%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[58;1H[38;5;130m</VirtualHost>[m[59;66H[K[59;66H221,1[9C99%[58;1H[?12l[?25h[?25l[1;58r[58;1H
+[1;59r[59;66H[K[59;66H222,0-1[7CBot[58;1H[?12l[?25hpacket_write_wait: Connection to 161.130.114.121 port 22: Broken pipe
+                                                                                   ]0;~/.dotfiles/script
+[34m~/.dotfiles/script[39m ([33mmaster[39m[31m*[39m)
+[0m[27m[24m[J[31m❯[39m [K[?1h=[?2004h[32ml[39m[?1l>[?2004l
+]0;script: ls -G -lahtotal 40
+drwxr-xr-x   5 ajenkins  staff   170B Jun  5 15:57 [34m.[39;49m[0m
+drwxr-xr-x  26 ajenkins  staff   884B Nov 15 16:11 [34m..[39;49m[0m
+-rw-r--r--@  1 ajenkins  staff   9.6K Jun  4 20:46 Chalk.terminal
+-rwxr-xr-x   1 ajenkins  staff   3.0K Jun  4 20:37 [31mbootstrap[39;49m[0m
+-rwxr-xr-x   1 ajenkins  staff   284B Jun  5 16:06 [31minstall[39;49m[0m
+                                                                                   ]0;~/.dotfiles/script
+[34m~/.dotfiles/script[39m ([33mmaster[39m[31m*[39m)
+[0m[27m[24m[J[35m❯[39m [K[?1h=[?2004h[4m~[24m[4m~[4m/[24m[4m~[24m[24m [24m [4m~[24m[4m~[4m/[24m[4m~[4m/[4mD[24m[4mD[4me[24m[4me[4ms[24m[4ms[4mk[24m[4mk[4mt[24m[4mt[4mo[24m[4mo[4mp[24m[4mp[4m/[24m[4mp[24m[24m [4mo[24m[24m [4mt[24m[24m [4mk[24m[24m [4ms[24m[24m [4me[24m[24m [4mD[24m[24m [4mD[4mo[24m[4mo[4mw[24m[4mw[4mn[24m[24m~[24m/[24mD[24mo[24mw[24mnloads[1m/[0m[12D[4m~[4m/[4mD[4mo[4mw[4mn[4ml[4mo[4ma[4md[4ms[24m[0m [?1l>[?2004l
+]0;script: ~/Downloads                                                                                   ]0;~/Downloads
+[34m~/Downloads[39m
+[0m[27m[24m[J[35m❯[39m [K[?1h=[?2004h[32ml[39m[?1l>[?2004l
+]0;Downloads: ls -G -lahtotal 561464
+drwx------+ 37 ajenkins  staff   1.2K Nov 15 19:13 [34m.[39;49m[0m
+drwxr-xr-x+ 85 ajenkins  staff   2.8K Nov 15 19:45 [34m..[39;49m[0m
+-rw-r--r--@  1 ajenkins  staff    18K Nov 15 17:17 .DS_Store
+-rw-------   1 ajenkins  staff     0B May 16  2016 .localized
+-rw-r--r--@  1 ajenkins  staff    46K Aug 23 08:56 33222.pdf
+drwxr-xr-x@  6 ajenkins  staff   204B Nov 15 17:17 [34mCoda-2-Apache-Syntax-Highlighting-master[39;49m[0m
+-rw-r--r--@  1 ajenkins  staff   2.7M Aug 22 08:36 GatherContent-content-strategy-for-UX-designers.pdf
+-rw-r--r--@  1 ajenkins  staff   973K Aug 22 08:36 GatherContent-governance-guide.pdf
+-rw-r--r--@  1 ajenkins  staff   131K Nov  3 12:00 Invoice_84045927.pdf
+-rw-r--r--@  1 ajenkins  staff    17K Nov  3 08:26 Meeting Minutes 11-2.docx
+-rw-r--r--@  1 ajenkins  staff   239M Oct 20 08:34 School of Medicine.sketch
+-rw-r--r--@  1 ajenkins  staff   1.9M Aug 22 08:36 content-strategy-a-project-guide-GatherContent-260416.pdf
+drwxr-xr-x   7 ajenkins  staff   238B Apr 14  2016 [34mcornerstone_package[39;49m[0m
+-rw-r--r--@  1 ajenkins  staff   647K Aug 22 08:36 cpp-jan-2016.pdf
+-rw-r--r--@  1 ajenkins  staff   116B Nov  1 14:41 credentials-jenkinsac.csv
+drwxr-xr-x@  4 ajenkins  staff   136B Jun  2 11:48 [34mePub[39;49m[0m
+drwxr-xr-x@  7 ajenkins  staff   238B Aug 19 20:34 [34mexample-theme[39;49m[0m
+drwxr-xr-x   9 ajenkins  staff   306B Jun 29 15:36 [34miStock for Adam[39;49m[0m
+drwx------   4 ajenkins  staff   136B Jun 30 12:32 [34miStock_000089583015_Illustration[39;49m[0m
+drwxr-xr-x@ 23 ajenkins  staff   782B Nov  4 10:46 [34mlumberjack-master[39;49m[0m
+drwxr-xr-x@ 14 ajenkins  staff   476B May 28 15:15 [34moasis-workflow-pro[39;49m[0m
+-rw-r--r--@  1 ajenkins  staff   5.2M Oct 20 12:37 shutterstock_118742530.eps
+-rw-r--r--@  1 ajenkins  staff   888K Oct 16 18:04 shutterstock_168292319.eps
+-rw-r--r--@  1 ajenkins  staff    85K Oct 16 17:53 shutterstock_242195884.eps
+-rw-r--r--@  1 ajenkins  staff   5.9M Oct 20 12:42 shutterstock_257901878.eps
+-rw-r--r--@  1 ajenkins  staff   870K Oct 16 17:53 shutterstock_305195774.eps
+-rw-r--r--@  1 ajenkins  staff   5.8M Oct 20 12:37 shutterstock_359837660.eps
+drwxr-xr-x@  8 ajenkins  staff   272B Aug 31 11:46 [34msketch-foundation-kit-master[39;49m[0m
+-rw-r--r--@  1 ajenkins  staff   6.5M Aug 31 11:42 sketch-foundation-kit-master.zip
+-rw-r--r--   1 ajenkins  staff   454K Jun 29 14:46 stock-illustration-42823382-chicago-skyline-sketch.jpg
+-rw-r--r--   1 ajenkins  staff   273K Jun 29 14:41 stock-illustration-66564827-vector-abstract-black-and-white-bursting-fireworks.jpg
+-rw-r--r--   1 ajenkins  staff   1.3M Jun 28 14:34 stock-illustration-76567229-fireworks-over-the-city.jpg
+-rw-r--r--@  1 ajenkins  staff   801K Jun 29 15:12 stock-illustration-90805229-barbecue-cartoon-illustration.jpg
+-rw-r--r--   1 ajenkins  staff   1.2M Jul 11 09:18 ultimateguide_drupal_8.1.pdf
+-rw-r--r--@  1 ajenkins  staff   5.5K Nov 15 19:13 umh-medweb-dev_umh_edu_interm.cer
+drwxr-xr-x@  5 ajenkins  staff   170B Aug 18 22:36 [34mwordpress-multi-env-config-master[39;49m[0m
+-rwxr-xr-x   1 ajenkins  staff    72K May  3  2016 [31mwplr260lrplugin.zip[39;49m[0m
+                                                                                   ]0;~/Downloads
+[34m~/Downloads[39m
+[0m[27m[24m[J[35m❯[39m [K[?1h=[?2004h[4mi[24m[24m [32ms[39m[32ms[32mc[39m[32ms[32mc[32mp[39m[1m[31ms[1m[31mc[1m[31mp[1m[31mu[0m[39m[1m[31mu[1m[31mp[0m[39m[1m[31mp[1m[31m`[0m[39m[1m[31mp[0m[39m[0m[39m [1m[31mu[0m[39m[0m[39m [0m[32ms[0m[32mc[0m[32mp[39m[0m[39m [32ms[32mc[39m[39m [32ms[39m[39m [39m [32ms[39m[32ms[32mc[39m[32ms[32mc[32mp[39m[1m[31ms[1m[31mc[1m[31mp[1m[31mu[0m[39m[1m[31mu[1m[31mp[0m[39m[1m[31mp[1m[31m`[0m[39m
+zsh: do you wish to see all 3798 possibilities (3798 lines)? n[J[A[0m[27m[24m[39m[2C[1m[31mscpup`[0m[39m[K[39m[1m[31mp[0m[39m[0m[39m [1m[31mu[0m[39m[0m[39m [0m[32ms[0m[32mc[0m[32mp[39m[0m[39m [32ms[32mc[39m[39m [32ms[39m[39m [39m [32ms[39m[32ms[32mc[39m[32ms[32mc[32mp[39m[1m[31ms[1m[31mc[1m[31mp[1m[31mu[0m[39m[1m[31mu[1m[31mp[0m[39m[1m[31mp[1m[31m`[0m[39m[1m[31mp[0m[39m[0m[39m [1m[31mp[1m[31m~[0m[39m[1m[31mp[0m[39m[0m[39m [1m[31mu[0m[39m[0m[39m [0m[32ms[0m[32mc[0m[32mp[39m[0m[39m [32ms[32mc[39m[39m [32ms[39m[39m [39m [?1l>[?2004l
+[J                                                                                   ]0;~/Downloads
+[34m~/Downloads[39m
+[0m[27m[24m[J[35m❯[39m [K[?1h=[?2004h[32ms[39m[32ms[32mc[39m[32ms[32mc[32mp[39m[1m[31ms[1m[31mc[1m[31mp[1m[31mu[0m[39m[1m[31mu[1m[31mp[0m[39m[1m[31mp[1m[31m`[0m[39m[1m[31mp[0m[39m[0m[39m [1m[31mu[0m[39m[0m[39m [0m[32ms[0m[32mc[0m[32mp[39m[0m[39m [32ms[32mc[39m[39m [32ms[39m[39m [39m [32ms[39m[32ms[32mc[39m[32ms[32mc[32mp[39m -Cpvr [4mu[24m[4mu[4mm[24m[24mu[24mmh
+[Jumh-medweb-dev.umh.edu             umhc-medweb01.umh.edu
+umh-medweb-dev_umh_edu_interm.cer  umhc-stgdevw.umh.edu
+umh-medweb-prd.umh.edu             umhc-stgsql.umh.edu
+umhc-medweb.umh.edu                [4A[0m[27m[24m[39m[2C[32mscp[39m -Cpvr umh[K[39m[4mu[4mm[4mh[4m-[24m
+[J[A[16C[24mu[24mm[24mh[24m-medweb-[11D[4mu[4mm[4mh[4m-[4mm[4me[4md[4mw[4me[4mb[4m-[4md[24m[4md[4me[24m[4me[4mv[24m[4mv[4m_[24m[15D[24mu[24mm[24mh[24m-[24mm[24me[24md[24mw[24me[24mb[24m-[24md[24me[24mv[24m_umh_edu_interm.cer[1m [0m[34D[4mu[4mm[4mh[4m-[4mm[4me[4md[4mw[4me[4mb[4m-[4md[4me[4mv[4m_[4mu[4mm[4mh[4m_[4me[4md[4mu[4m_[4mi[4mn[4mt[4me[4mr[4mm[4m.[4mc[4me[4mr[24m[0m jenkinsac@          medweb-pr  staging:/home/jenkinsac[?1l>[?2004l
+[J]0;Downloads: scp -Cpvr umh-medweb-dev_umh_edu_interm.cer medweb-staging:/home/jenkinsacExecuting: program /usr/bin/ssh host medweb-staging, user (unspecified), command scp -v -r -p -t /home/jenkinsac
+OpenSSH_7.2p2, LibreSSL 2.4.1
+debug1: Reading configuration data /Users/ajenkins/.ssh/config
+debug1: /Users/ajenkins/.ssh/config line 1: Applying options for *
+debug1: /Users/ajenkins/.ssh/config line 16: Applying options for medweb-staging
+debug1: Reading configuration data /etc/ssh/ssh_config
+debug1: /etc/ssh/ssh_config line 20: Applying options for *
+debug1: Connecting to umh-medweb-dev.umh.edu [161.130.114.122] port 22.
+debug1: Connection established.
+debug1: identity file /Users/ajenkins/.ssh/id_rsa type 1
+debug1: key_load_public: No such file or directory
+debug1: identity file /Users/ajenkins/.ssh/id_rsa-cert type -1
+debug1: Enabling compatibility mode for protocol 2.0
+debug1: Local version string SSH-2.0-OpenSSH_7.2
+debug1: Remote protocol version 2.0, remote software version OpenSSH_5.3
+debug1: match: OpenSSH_5.3 pat OpenSSH_5* compat 0x0c000000
+debug1: Authenticating to umh-medweb-dev.umh.edu:22 as 'jenkinsac'
+debug1: SSH2_MSG_KEXINIT sent
+debug1: SSH2_MSG_KEXINIT received
+debug1: kex: algorithm: diffie-hellman-group-exchange-sha256
+debug1: kex: host key algorithm: ssh-rsa
+debug1: kex: server->client cipher: aes128-ctr MAC: umac-64@openssh.com compression: zlib@openssh.com
+debug1: kex: client->server cipher: aes128-ctr MAC: umac-64@openssh.com compression: zlib@openssh.com
+debug1: SSH2_MSG_KEX_DH_GEX_REQUEST(2048<3072<8192) sent
+debug1: got SSH2_MSG_KEX_DH_GEX_GROUP
+debug1: SSH2_MSG_KEX_DH_GEX_INIT sent
+debug1: got SSH2_MSG_KEX_DH_GEX_REPLY
+debug1: Server host key: ssh-rsa SHA256:Dyuhk70fbhMwHMq7Ky3IXgtMu7dyrRk7iiX+SRhRTAU
+debug1: Host 'umh-medweb-dev.umh.edu' is known and matches the RSA host key.
+debug1: Found key in /Users/ajenkins/.ssh/known_hosts:32
+debug1: rekey after 4294967296 blocks
+debug1: SSH2_MSG_NEWKEYS sent
+debug1: expecting SSH2_MSG_NEWKEYS
+debug1: rekey after 4294967296 blocks
+debug1: SSH2_MSG_NEWKEYS received
+debug1: SSH2_MSG_SERVICE_ACCEPT received
+debug1: Authentications that can continue: publickey,gssapi-keyex,gssapi-with-mic,password
+debug1: Next authentication method: publickey
+debug1: Offering RSA public key: /Users/ajenkins/.ssh/id_rsa
+debug1: Server accepts key: pkalg ssh-rsa blen 535
+debug1: Enabling compression at level 6.
+debug1: Authentication succeeded (publickey).
+Authenticated to umh-medweb-dev.umh.edu ([161.130.114.122]:22).
+debug1: channel 0: new [client-session]
+debug1: Requesting no-more-sessions@openssh.com
+debug1: Entering interactive session.
+debug1: pledge: network
+debug1: Sending environment.
+debug1: Sending env LANG = en_US.UTF-8
+debug1: Sending env LC_ALL = en_US.UTF-8
+debug1: Sending command: scp -v -r -p -t /home/jenkinsac
+File mtime 1479258790 atime 1479258790
+Sending file timestamps: T1479258790 0 1479258790 0
+Sink: T1479258790 0 1479258790 0
+Sending file modes: C0644 5606 umh-medweb-dev_umh_edu_interm.cer
+Sink: C0644 5606 umh-medweb-dev_umh_edu_interm.cer
+umh-medweb-dev_umh_edu_interm.cer                  0%    0     0.0KB/s   --:-- ETAumh-medweb-dev_umh_edu_interm.cer                100% 5606     5.5KB/s   00:00    
+debug1: client_input_channel_req: channel 0 rtype exit-status reply 0
+debug1: channel 0: free: client-session, nchannels 1
+debug1: fd 0 clearing O_NONBLOCK
+debug1: fd 1 clearing O_NONBLOCK
+Transferred: sent 7648, received 3216 bytes, in 0.0 seconds
+Bytes per second: sent 354073.9, received 148888.8
+debug1: Exit status 0
+debug1: compress outgoing: raw data 5930, compressed 3849, factor 0.65
+debug1: compress incoming: raw data 3849, compressed 5930, factor 1.54
+                                                                                   ]0;~/Downloads
+[34m~/Downloads[39m
+[0m[27m[24m[J[35m❯[39m [K[?1h=[?2004h[?1l>[?2004l
+                                                                                   ]0;~/Downloads
+[34m~/Downloads[39m
+[0m[27m[24m[J[35m❯[39m [K[?1h=[?2004h[1m[31mp[0m[39m[1m[31mp[1m[31mi[0m[39m[1m[31mp[1m[31mi[1m[31mn[0m[39m[0m[32mp[0m[32mi[0m[32mn[32mg[39m gitlab.com[?1l>[?2004l
+]0;Downloads: /usr/local/bin/grc -es --colour=auto ping gitlab.com[0mPING gitlab.com [0m[33m([0m[35m104.210.2.228[0m[33m)[0m: 56 data bytes[0m
+[0mRequest timeout for icmp_seq 0[0m
+[0mRequest timeout for icmp_seq 1[0m
+^C[0m
+[0m--- gitlab.com ping statistics ---[0m
+[0m3 packets transmitted, 0 packets received, 100.0% packet loss[0m
+                                                                                   ]0;~/Downloads
+[34m~/Downloads[39m
+[0m[27m[24m[J[35m❯[39m [K[?1h=[?2004h[1m[31mp[0m[39m[1m[31mp[1m[31mg[0m[39m[1m[31mp[1m[31mg[1m[31mi[0m[39m[1m[31mi[1m[31mn[0m[39m[1m[31mi[0m[39m[0m[39m [1m[31mp[1m[31mg[0m[39m[0m[39m [1m[31mp[0m[39m[0m[39m [1m[31mp[1m[31mi[0m[39m[1m[31mp[1m[31mi[1m[31mn[0m[39m[0m[32mp[0m[32mi[0m[32mn[32mg[39m gitlab.com/ci[?1l>[?2004l
+]0;Downloads: /usr/local/bin/grc -es --colour=auto ping gitlab.com/ci[0mping: cannot resolve gitlab.com/ci: Unknown host[0m
+                                                                                   ]0;~/Downloads
+[34m~/Downloads[39m
+[0m[27m[24m[J[31m❯[39m [K[?1h=[?2004h[32ms[39m[1m[31ms[1m[31ms[0m[39m[0m[32ms[0m[32ms[32mh[39m medweb-or  production[?1l>[?2004l
+]0;Downloads: ssh medweb-productionLast login: Thu Nov 17 14:03:41 2016 from sadie.umh.edu
+[1m[7m%[27m[1m[0m                                                                                   ]2;jenkinsac@umh-medweb-prd: ~]1;~[0m[27m[24m[J
+[1m[34m#[00m [36mjenkinsac [37mat [32mumh-medweb-prd.umh.edu [37min [1m[33m~[00m [37m[11:19:13]
+[1m[31m→ [00m[K[?1h=ssudo iptables -A INPUT -p tcp -s 104.208.154.249 --dport 22 -j ACCEPT[?1l>
+]2;sudo iptables -A INPUT -p tcp -s 104.208.154.249 --dport 22 -j ACCEPT]1;iptables[sudo] password for jenkinsac: 
+[1m[7m%[27m[1m[0m                                                                                   ]2;jenkinsac@umh-medweb-prd: ~]1;~[0m[27m[24m[J
+[1m[34m#[00m [36mjenkinsac [37mat [32mumh-medweb-prd.umh.edu [37min [1m[33m~[00m [37m[11:19:29]
+[1m[31m→ [00m[K[?1h=  sudo iptables -A INPUT -p tcp -s 104.210.2.228 --dport 22 -j ACCEPT[?1l>
+]2;sudo iptables -A INPUT -p tcp -s 104.210.2.228 --dport 22 -j ACCEPT]1;iptables[1m[7m%[27m[1m[0m                                                                                   ]2;jenkinsac@umh-medweb-prd: ~]1;~[0m[27m[24m[J
+[1m[34m#[00m [36mjenkinsac [37mat [32mumh-medweb-prd.umh.edu [37min [1m[33m~[00m [37m[11:19:38]
+[1m[31m→ [00m[K[?1h=ssudo du   su gitlab-deployer[?1l>
+]2;sudo su gitlab-deployer]1;su[sudo] password for jenkinsac: 
+]0;gitlab-deployer@umh-medweb-prd:/home/jenkinsac[?1034h[gitlab-deployer@umh-medweb-prd jenkinsac]$ cd ~
+]0;gitlab-deployer@umh-medweb-prd:~[gitlab-deployer@umh-medweb-prd ~]$ ls -la
+total 32
+drwx------   3 gitlab-deployer gitlab-deployer 4096 Nov 17 14:05 [0m[38;5;27m.[0m
+drwxr-xr-x. 25 root            root            4096 Nov 16 14:18 [38;5;27m..[0m
+-rw-------   1 gitlab-deployer gitlab-deployer   67 Nov 17 14:05 .bash_history
+-rw-r--r--   1 gitlab-deployer gitlab-deployer   18 Dec 22  2015 .bash_logout
+-rw-r--r--   1 gitlab-deployer gitlab-deployer  176 Dec 22  2015 .bash_profile
+-rw-r--r--   1 gitlab-deployer gitlab-deployer  124 Dec 22  2015 .bashrc
+drwx------   2 gitlab-deployer gitlab-deployer 4096 Nov 17 14:04 [38;5;27m.ssh[0m
+-rw-r--r--   1 gitlab-deployer gitlab-deployer  658 Mar 11  2016 .zshrc
+[m]0;gitlab-deployer@umh-medweb-prd:~[gitlab-deployer@umh-medweb-prd ~]$ cd .ssh
+]0;gitlab-deployer@umh-medweb-prd:~/.ssh[gitlab-deployer@umh-medweb-prd .ssh]$  ls [K[K[K[Kls -la
+total 16
+drwx------ 2 gitlab-deployer gitlab-deployer 4096 Nov 17 14:04 [0m[38;5;27m.[0m
+drwx------ 3 gitlab-deployer gitlab-deployer 4096 Nov 17 14:05 [38;5;27m..[0m
+-rw------- 1 gitlab-deployer gitlab-deployer 3239 Nov 17 14:04 id_rsa
+-rw-r--r-- 1 gitlab-deployer gitlab-deployer  760 Nov 17 14:04 id_rsa.pub
+[m]0;gitlab-deployer@umh-medweb-prd:~/.ssh[gitlab-deployer@umh-medweb-prd .ssh]$ vim authorized_keys
+[?1049h[?1h=[2;1H▽[6n[2;1H  [1;1H[1;59r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[59;1H"authorized_keys" [New File][>c[2;1H[94m~                                                                                  [3;1H~                                                                                  [4;1H~                                                                                  [5;1H~                                                                                  [6;1H~                                                                                  [7;1H~                                                                                  [8;1H~                                                                                  [9;1H~                                                                                  [10;1H~                                                                                  [11;1H~                                                                                  [12;1H~                                                                                  [13;1H~                                                                                  [14;1H~                                                                                  [15;1H~                                                                                  [16;1H~                                                                                  [17;1H~                                                                                  [18;1H~                                                                                  [19;1H~                                                                                  [20;1H~                                                                                  [21;1H~                                                                                  [22;1H~                                                                                  [23;1H~                                                                                  [24;1H~                                                                                  [25;1H~                                                                                  [26;1H~                                                                                  [27;1H~                                                                                  [28;1H~                                                                                  [29;1H~                                                                                  [30;1H~                                                                                  [31;1H~                                                                                  [32;1H~                                                                                  [33;1H~                                                                                  [34;1H~                                                                                  [35;1H~                                                                                  [36;1H~                                                                                  [37;1H~                                                                                  [38;1H~                                                                                  [39;1H~                                                                                  [40;1H~                                                                                  [41;1H~                                                                                  [42;1H~                                                                                  [43;1H~                                                                                  [44;1H~                                                                                  [45;1H~                                                                                  [46;1H~                                                                                  [47;1H~                                                                                  [48;1H~                                                                                  [49;1H~                                                                                  [50;1H~                                                                                  [51;1H~                                                                                  [52;1H~                                                                                  [53;1H~                                                                                  [54;1H~                                                                                  [55;1H~                                                                                  [56;1H~                                                                                  [57;1H~                                                                                  [58;1H~                                                                                  [m[59;66H0,0-1[9CAll[1;1H[?12l[?25h[?25l[59;1H[1m-- INSERT --[m[59;13H[K[59;66H0,1[11CAll[1;1H[?12l[?25h[?25lssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDu3iCfD6z/SaH8QkXbT7B3LrtdEH9oNeqrxoRUEiiPYHdd[2;1HBkXBfqe5vQwgXkUdKI1VC37IBc7lihE/7TMYZ2DIB9QYSQQNFdn9wLlGQJ8M/d8TyR0lLcr+G041U5GPfq88[3;1HX2FY79Lq2tVrYID+PzGA6tGwgiSRaayNSb1XyM30H7fT2KwxXZvlhXU8hL92sqoJPQXNJPAK6W4a5L7Hgjkk[4;1Hk150iYje+LkOin2dhCX4agpyhMh5kyOhfmL5CuCLgnPLDfU6wsdBvIhpQYIMQqz3jlDmEInr417pm5W9ZsSS[5;1HUH0Qrvfn09537txWNiWAFB8vUr+wGKRvfX9Boe+NAZfSOpGD production-env@beanstalkapp.com[5;81H[K[59;66H1,413[5;81H[?12l[?25h[59;1H[K[5;80H[?25l[59;66H1,412[9CAll[5;80H[?12l[?25h[?25l[59;66H[K[59;1H:[?12l[?25hw[?25l[?12l[?25hq[?25l[?12l[?25h[?25l"authorized_keys" [New] 1L, 413C written
+[?1l>[?12l[?25h[?1049l]0;gitlab-deployer@umh-medweb-prd:~/.ssh[gitlab-deployer@umh-medweb-prd .ssh]$ l[Kls -;la[K[K[K[K-la
+total 20
+drwx------ 2 gitlab-deployer gitlab-deployer 4096 Nov 18 11:36 [0m[38;5;27m.[0m
+drwx------ 3 gitlab-deployer gitlab-deployer 4096 Nov 18 11:36 [38;5;27m..[0m
+-rw-rw-r-- 1 gitlab-deployer gitlab-deployer  413 Nov 18 11:36 authorized_keys
+-rw------- 1 gitlab-deployer gitlab-deployer 3239 Nov 17 14:04 id_rsa
+-rw-r--r-- 1 gitlab-deployer gitlab-deployer  760 Nov 17 14:04 id_rsa.pub
+[m]0;gitlab-deployer@umh-medweb-prd:~/.ssh[gitlab-deployer@umh-medweb-prd .ssh]$ chmod 74[K[K600 authorized_keys 
+]0;gitlab-deployer@umh-medweb-prd:~/.ssh[gitlab-deployer@umh-medweb-prd .ssh]$ s [K[Kls -la
+total 20
+drwx------ 2 gitlab-deployer gitlab-deployer 4096 Nov 18 11:36 [0m[38;5;27m.[0m
+drwx------ 3 gitlab-deployer gitlab-deployer 4096 Nov 18 11:36 [38;5;27m..[0m
+-rw------- 1 gitlab-deployer gitlab-deployer  413 Nov 18 11:36 authorized_keys
+-rw------- 1 gitlab-deployer gitlab-deployer 3239 Nov 17 14:04 id_rsa
+-rw-r--r-- 1 gitlab-deployer gitlab-deployer  760 Nov 17 14:04 id_rsa.pub
+[m]0;gitlab-deployer@umh-medweb-prd:~/.ssh[gitlab-deployer@umh-medweb-prd .ssh]$ packet_write_wait: Connection to 161.130.114.121 port 22: Broken pipe
+                                                                                   ]0;~/Downloads
+[34m~/Downloads[39m
+[0m[27m[24m[J[31m❯[39m [K[?1h=[?2004h[32ms[39m[1m[31ms[1m[31ms[0m[39m[0m[32ms[0m[32ms[32mh[39m medweb-rpdi    production[?1l>[?2004l
+]0;Downloads: ssh medweb-productionLast login: Fri Nov 18 11:19:13 2016 from sadie.umh.edu
+[1m[7m%[27m[1m[0m                                                                                   ]2;jenkinsac@umh-medweb-prd: ~]1;~[0m[27m[24m[J
+[1m[34m#[00m [36mjenkinsac [37mat [32mumh-medweb-prd.umh.edu [37min [1m[33m~[00m [37m[15:16:15]
+[1m[31m→ [00m[K[?1h=ssudo 9    s  pphp -v[?1l>
+]2;php -v]1;phpPHP 5.6.26 (cli) (built: Sep 17 2016 13:45:08) 
+Copyright (c) 1997-2016 The PHP Group
+Zend Engine v2.6.0, Copyright (c) 1998-2016 Zend Technologies
+    with Zend OPcache v7.0.6-dev, Copyright (c) 1999-2016, by Zend Technologies
+[1m[7m%[27m[1m[0m                                                                                   ]2;jenkinsac@umh-medweb-prd: ~]1;~[0m[27m[24m[J
+[1m[34m#[00m [36mjenkinsac [37mat [32mumh-medweb-prd.umh.edu [37min [1m[33m~[00m [37m[15:16:22]
+[1m[31m→ [00m[K[?1h=ssudo yum ui pdate[?1l>
+]2;sudo yum update]1;yum[sudo] password for jenkinsac: 
+Loaded plugins: product-id, search-disabled-repos, security, subscription-manager,
+              : versionlock
+Setting up Update Process
+Default_Organization_epel_5Server_i386                      | 1.8 kB     00:00     
+Default_Organization_epel_5Server_x86_64                    | 1.8 kB     00:00     
+Default_Organization_epel_6Server_i386                      | 2.1 kB     00:00     
+Default_Organization_epel_6Server_x86_64                    | 2.1 kB     00:00     
+Default_Organization_epel_7Server_x86_64                    | 2.1 kB     00:00     
+rhel-6-server-rpms                                          | 2.0 kB     00:00     
+runner_gitlab-ci-multi-runner/signature                     |  836 B     00:00     
+runner_gitlab-ci-multi-runner/signature                     | 1.0 kB     00:00 ... 
+runner_gitlab-ci-multi-runner-source/signature              |  836 B     00:00     
+runner_gitlab-ci-multi-runner-source/signature              |  951 B     00:00 ... 
+Resolving Dependencies
+--> Running transaction check
+---> Package GeoIP.x86_64 0:1.6.5-1.el6 will be updated
+---> Package GeoIP.x86_64 0:1.6.5-2.el5 will be an update
+---> Package atop.x86_64 0:1.27-2.el6 will be updated
+---> Package atop.x86_64 0:2.1-1.el7 will be an update
+--> Processing Dependency: systemd for package: atop-2.1-1.el7.x86_64
+--> Processing Dependency: systemd for package: atop-2.1-1.el7.x86_64
+---> Package augeas-libs.x86_64 0:1.0.0-10.el6 will be updated
+---> Package augeas-libs.x86_64 0:1.2.0-1.el5 will be an update
+---> Package bind.x86_64 32:9.8.2-0.47.rc1.el6_8.2 will be updated
+---> Package bind.x86_64 32:9.8.2-0.47.rc1.el6_8.3 will be an update
+---> Package bind-chroot.x86_64 32:9.8.2-0.47.rc1.el6_8.2 will be updated
+---> Package bind-chroot.x86_64 32:9.8.2-0.47.rc1.el6_8.3 will be an update
+---> Package bind-libs.x86_64 32:9.8.2-0.47.rc1.el6_8.2 will be updated
+---> Package bind-libs.x86_64 32:9.8.2-0.47.rc1.el6_8.3 will be an update
+---> Package bind-utils.x86_64 32:9.8.2-0.47.rc1.el6_8.2 will be updated
+---> Package bind-utils.x86_64 32:9.8.2-0.47.rc1.el6_8.3 will be an update
+---> Package db4.x86_64 0:4.7.25-20.el6_7 will be obsoleted
+--> Processing Dependency: libdb-4.7.so()(64bit) for package: python-libs-2.6.6-66.el6_8.x86_64
+--> Processing Dependency: libdb-4.7.so()(64bit) for package: httpd-2.2.15-54.el6_8.x86_64
+--> Processing Dependency: libdb-4.7.so()(64bit) for package: apr-util-1.3.9-3.el6_0.1.x86_64
+--> Processing Dependency: libdb-4.7.so()(64bit) for package: ruby-libs-1.8.7.374-4.el6_6.x86_64
+--> Processing Dependency: libdb-4.7.so()(64bit) for package: cyrus-sasl-lib-2.1.23-15.el6_6.2.x86_64
+--> Processing Dependency: libdb-4.7.so()(64bit) for package: 4:perl-5.10.1-141.el6_7.1.x86_64
+--> Processing Dependency: libdb-4.7.so()(64bit) for package: iproute-2.6.32-54.el6.x86_64
+--> Processing Dependency: libdb-4.7.so()(64bit) for package: cyrus-sasl-2.1.23-15.el6_6.2.x86_64
+--> Processing Dependency: libdb-4.7.so()(64bit) for package: rpm-libs-4.8.0-55.el6.x86_64
+--> Processing Dependency: libdb-4.7.so()(64bit) for package: pam-1.1.1-22.el6.x86_64
+--> Processing Dependency: libdb-4.7.so()(64bit) for package: httpd-tools-2.2.15-54.el6_8.x86_64
+--> Processing Dependency: libdb-4.7.so()(64bit) for package: rpm-4.8.0-55.el6.x86_64
+--> Processing Dependency: libdb-4.7.so()(64bit) for package: rpm-python-4.8.0-55.el6.x86_64
+--> Processing Dependency: libdb-4.7.so()(64bit) for package: 2:postfix-2.6.6-6.el6_7.1.x86_64
+---> Package db4-cxx.x86_64 0:4.7.25-20.el6_7 will be obsoleted
+---> Package db4-devel.x86_64 0:4.7.25-20.el6_7 will be obsoleted
+---> Package db4-utils.x86_64 0:4.7.25-20.el6_7 will be obsoleted
+---> Package epel-release.noarch 0:6-8 will be updated
+---> Package epel-release.noarch 0:7-8 will be an update
+---> Package git.x86_64 0:1.7.1-4.el6_7.1 will be updated
+---> Package git.x86_64 0:1.8.2.3-1.el5 will be an update
+--> Processing Dependency: perl(Term::ReadKey) for package: git-1.8.2.3-1.el5.x86_64
+--> Processing Dependency: libssl.so.6()(64bit) for package: git-1.8.2.3-1.el5.x86_64
+--> Processing Dependency: libexpat.so.0()(64bit) for package: git-1.8.2.3-1.el5.x86_64
+--> Processing Dependency: libcurl.so.3()(64bit) for package: git-1.8.2.3-1.el5.x86_64
+--> Processing Dependency: libcrypto.so.6()(64bit) for package: git-1.8.2.3-1.el5.x86_64
+---> Package hiera.noarch 0:1.3.4-1.el6 will be updated
+---> Package hiera.noarch 1:1.3.4-5.el7 will be an update
+--> Processing Dependency: ruby(release) for package: 1:hiera-1.3.4-5.el7.noarch
+---> Package htop.x86_64 0:1.0.3-1.el6 will be updated
+---> Package htop.x86_64 0:2.0.2-1.el7 will be an update
+--> Processing Dependency: libc.so.6(GLIBC_2.15)(64bit) for package: htop-2.0.2-1.el7.x86_64
+---> Package kernel.x86_64 0:2.6.32-642.6.2.el6 will be installed
+---> Package kernel-devel.x86_64 0:2.6.32-642.6.2.el6 will be installed
+---> Package kernel-firmware.noarch 0:2.6.32-642.6.1.el6 will be updated
+---> Package kernel-firmware.noarch 0:2.6.32-642.6.2.el6 will be an update
+---> Package kernel-headers.x86_64 0:2.6.32-642.6.1.el6 will be updated
+---> Package kernel-headers.x86_64 0:2.6.32-642.6.2.el6 will be an update
+---> Package libdb4.x86_64 0:4.8.30-13.el7 will be obsoleting
+---> Package libdb4-cxx.x86_64 0:4.8.30-13.el7 will be obsoleting
+---> Package libdb4-devel.x86_64 0:4.8.30-13.el7 will be obsoleting
+---> Package libdb4-utils.x86_64 0:4.8.30-13.el7 will be obsoleting
+---> Package libgcrypt.x86_64 0:1.4.5-11.el6_4 will be updated
+---> Package libgcrypt.x86_64 0:1.4.5-12.el6_8 will be an update
+---> Package libnfnetlink.x86_64 0:1.0.0-1.el6 will be updated
+---> Package libnfnetlink.x86_64 0:1.0.0-3.el5 will be an update
+---> Package nginx.x86_64 0:1.10.1-1.el6 will be updated
+---> Package nginx.x86_64 1:1.10.1-1.el7 will be an update
+--> Processing Dependency: systemd for package: 1:nginx-1.10.1-1.el7.x86_64
+--> Processing Dependency: systemd for package: 1:nginx-1.10.1-1.el7.x86_64
+--> Processing Dependency: libc.so.6(GLIBC_2.14)(64bit) for package: 1:nginx-1.10.1-1.el7.x86_64
+--> Processing Dependency: libprofiler.so.0()(64bit) for package: 1:nginx-1.10.1-1.el7.x86_64
+--> Processing Dependency: libpcre.so.1()(64bit) for package: 1:nginx-1.10.1-1.el7.x86_64
+---> Package nginx-all-modules.noarch 0:1.10.1-1.el6 will be updated
+---> Package nginx-all-modules.noarch 1:1.10.1-1.el7 will be an update
+---> Package nginx-filesystem.noarch 0:1.10.1-1.el6 will be updated
+---> Package nginx-filesystem.noarch 1:1.10.1-1.el7 will be an update
+---> Package nginx-mod-http-geoip.x86_64 0:1.10.1-1.el6 will be updated
+---> Package nginx-mod-http-geoip.x86_64 1:1.10.1-1.el7 will be an update
+--> Processing Dependency: libc.so.6(GLIBC_2.14)(64bit) for package: 1:nginx-mod-http-geoip-1.10.1-1.el7.x86_64
+---> Package nginx-mod-http-image-filter.x86_64 0:1.10.1-1.el6 will be updated
+---> Package nginx-mod-http-image-filter.x86_64 1:1.10.1-1.el7 will be an update
+--> Processing Dependency: libc.so.6(GLIBC_2.14)(64bit) for package: 1:nginx-mod-http-image-filter-1.10.1-1.el7.x86_64
+---> Package nginx-mod-http-perl.x86_64 0:1.10.1-1.el6 will be updated
+---> Package nginx-mod-http-perl.x86_64 1:1.10.1-1.el7 will be an update
+--> Processing Dependency: perl(:MODULE_COMPAT_5.16.3) for package: 1:nginx-mod-http-perl-1.10.1-1.el7.x86_64
+--> Processing Dependency: libc.so.6(GLIBC_2.14)(64bit) for package: 1:nginx-mod-http-perl-1.10.1-1.el7.x86_64
+---> Package nginx-mod-http-xslt-filter.x86_64 0:1.10.1-1.el6 will be updated
+---> Package nginx-mod-http-xslt-filter.x86_64 1:1.10.1-1.el7 will be an update
+---> Package nginx-mod-mail.x86_64 0:1.10.1-1.el6 will be updated
+---> Package nginx-mod-mail.x86_64 1:1.10.1-1.el7 will be an update
+--> Processing Dependency: libc.so.6(GLIBC_2.14)(64bit) for package: 1:nginx-mod-mail-1.10.1-1.el7.x86_64
+---> Package nginx-mod-stream.x86_64 0:1.10.1-1.el6 will be updated
+---> Package nginx-mod-stream.x86_64 1:1.10.1-1.el7 will be an update
+--> Processing Dependency: libc.so.6(GLIBC_2.14)(64bit) for package: 1:nginx-mod-stream-1.10.1-1.el7.x86_64
+---> Package perl-Git.noarch 0:1.7.1-4.el6_7.1 will be updated
+---> Package perl-Git.x86_64 0:1.8.2.3-1.el5 will be an update
+--> Processing Dependency: perl(:MODULE_COMPAT_5.8.8) for package: perl-Git-1.8.2.3-1.el5.x86_64
+---> Package php56w.x86_64 0:5.6.26-1.w6 will be updated
+---> Package php56w.x86_64 0:5.6.27-1.w6 will be an update
+---> Package php56w-cli.x86_64 0:5.6.26-1.w6 will be updated
+---> Package php56w-cli.x86_64 0:5.6.27-1.w6 will be an update
+---> Package php56w-common.x86_64 0:5.6.26-1.w6 will be updated
+---> Package php56w-common.x86_64 0:5.6.27-1.w6 will be an update
+---> Package php56w-opcache.x86_64 0:5.6.26-1.w6 will be updated
+---> Package php56w-opcache.x86_64 0:5.6.27-1.w6 will be an update
+---> Package ruby-augeas.x86_64 0:0.4.1-3.el6 will be updated
+---> Package ruby-augeas.x86_64 0:0.5.0-1.el7 will be an update
+--> Processing Dependency: ruby(release) for package: ruby-augeas-0.5.0-1.el7.x86_64
+--> Processing Dependency: libruby.so.2.0()(64bit) for package: ruby-augeas-0.5.0-1.el7.x86_64
+---> Package tzdata.noarch 0:2016h-1.el6 will be updated
+---> Package tzdata.noarch 0:2016i-1.el6 will be an update
+---> Package vconfig.x86_64 0:1.9-8.1.el6 will be updated
+---> Package vconfig.x86_64 0:1.9-16.el7 will be an update
+---> Package webtatic-release.noarch 0:6-6 will be updated
+---> Package webtatic-release.noarch 0:6-9 will be an update
+---> Package wireless-tools.x86_64 1:29-6.el6 will be updated
+---> Package wireless-tools.x86_64 1:29-13.el7 will be an update
+--> Running transaction check
+---> Package atop.x86_64 0:2.1-1.el7 will be an update
+--> Processing Dependency: systemd for package: atop-2.1-1.el7.x86_64
+--> Processing Dependency: systemd for package: atop-2.1-1.el7.x86_64
+---> Package compat-expat1.x86_64 0:1.95.8-8.el6 will be installed
+---> Package db4.x86_64 0:4.7.25-20.el6_7 will be obsoleted
+--> Processing Dependency: libdb-4.7.so()(64bit) for package: python-libs-2.6.6-66.el6_8.x86_64
+--> Processing Dependency: libdb-4.7.so()(64bit) for package: httpd-2.2.15-54.el6_8.x86_64
+--> Processing Dependency: libdb-4.7.so()(64bit) for package: apr-util-1.3.9-3.el6_0.1.x86_64
+--> Processing Dependency: libdb-4.7.so()(64bit) for package: ruby-libs-1.8.7.374-4.el6_6.x86_64
+--> Processing Dependency: libdb-4.7.so()(64bit) for package: cyrus-sasl-lib-2.1.23-15.el6_6.2.x86_64
+--> Processing Dependency: libdb-4.7.so()(64bit) for package: 4:perl-5.10.1-141.el6_7.1.x86_64
+--> Processing Dependency: libdb-4.7.so()(64bit) for package: iproute-2.6.32-54.el6.x86_64
+--> Processing Dependency: libdb-4.7.so()(64bit) for package: cyrus-sasl-2.1.23-15.el6_6.2.x86_64
+--> Processing Dependency: libdb-4.7.so()(64bit) for package: rpm-libs-4.8.0-55.el6.x86_64
+--> Processing Dependency: libdb-4.7.so()(64bit) for package: pam-1.1.1-22.el6.x86_64
+--> Processing Dependency: libdb-4.7.so()(64bit) for package: httpd-tools-2.2.15-54.el6_8.x86_64
+--> Processing Dependency: libdb-4.7.so()(64bit) for package: rpm-4.8.0-55.el6.x86_64
+--> Processing Dependency: libdb-4.7.so()(64bit) for package: rpm-python-4.8.0-55.el6.x86_64
+--> Processing Dependency: libdb-4.7.so()(64bit) for package: 2:postfix-2.6.6-6.el6_7.1.x86_64
+---> Package git.x86_64 0:1.8.2.3-1.el5 will be an update
+--> Processing Dependency: libcurl.so.3()(64bit) for package: git-1.8.2.3-1.el5.x86_64
+---> Package gperftools-libs.x86_64 0:2.4-5.el7 will be installed
+--> Processing Dependency: libstdc++.so.6(GLIBCXX_3.4.15)(64bit) for package: gperftools-libs-2.4-5.el7.x86_64
+--> Processing Dependency: libc.so.6(GLIBC_2.14)(64bit) for package: gperftools-libs-2.4-5.el7.x86_64
+--> Processing Dependency: libunwind.so.8()(64bit) for package: gperftools-libs-2.4-5.el7.x86_64
+---> Package hiera.noarch 1:1.3.4-5.el7 will be an update
+--> Processing Dependency: ruby(release) for package: 1:hiera-1.3.4-5.el7.noarch
+---> Package htop.x86_64 0:2.0.2-1.el7 will be an update
+--> Processing Dependency: libc.so.6(GLIBC_2.15)(64bit) for package: htop-2.0.2-1.el7.x86_64
+---> Package nginx.x86_64 1:1.10.1-1.el7 will be an update
+--> Processing Dependency: systemd for package: 1:nginx-1.10.1-1.el7.x86_64
+--> Processing Dependency: systemd for package: 1:nginx-1.10.1-1.el7.x86_64
+--> Processing Dependency: libc.so.6(GLIBC_2.14)(64bit) for package: 1:nginx-1.10.1-1.el7.x86_64
+--> Processing Dependency: libpcre.so.1()(64bit) for package: 1:nginx-1.10.1-1.el7.x86_64
+---> Package nginx-mod-http-geoip.x86_64 1:1.10.1-1.el7 will be an update
+--> Processing Dependency: libc.so.6(GLIBC_2.14)(64bit) for package: 1:nginx-mod-http-geoip-1.10.1-1.el7.x86_64
+---> Package nginx-mod-http-image-filter.x86_64 1:1.10.1-1.el7 will be an update
+--> Processing Dependency: libc.so.6(GLIBC_2.14)(64bit) for package: 1:nginx-mod-http-image-filter-1.10.1-1.el7.x86_64
+---> Package nginx-mod-http-perl.x86_64 1:1.10.1-1.el7 will be an update
+--> Processing Dependency: perl(:MODULE_COMPAT_5.16.3) for package: 1:nginx-mod-http-perl-1.10.1-1.el7.x86_64
+--> Processing Dependency: libc.so.6(GLIBC_2.14)(64bit) for package: 1:nginx-mod-http-perl-1.10.1-1.el7.x86_64
+---> Package nginx-mod-mail.x86_64 1:1.10.1-1.el7 will be an update
+--> Processing Dependency: libc.so.6(GLIBC_2.14)(64bit) for package: 1:nginx-mod-mail-1.10.1-1.el7.x86_64
+---> Package nginx-mod-stream.x86_64 1:1.10.1-1.el7 will be an update
+--> Processing Dependency: libc.so.6(GLIBC_2.14)(64bit) for package: 1:nginx-mod-stream-1.10.1-1.el7.x86_64
+---> Package openssl098e.x86_64 0:0.9.8e-20.el6_7.1 will be installed
+---> Package perl-Git.x86_64 0:1.8.2.3-1.el5 will be an update
+--> Processing Dependency: perl(:MODULE_COMPAT_5.8.8) for package: perl-Git-1.8.2.3-1.el5.x86_64
+---> Package perl-TermReadKey.x86_64 0:2.30-13.el6 will be installed
+---> Package ruby-augeas.x86_64 0:0.5.0-1.el7 will be an update
+--> Processing Dependency: ruby(release) for package: ruby-augeas-0.5.0-1.el7.x86_64
+--> Processing Dependency: libruby.so.2.0()(64bit) for package: ruby-augeas-0.5.0-1.el7.x86_64
+--> Running transaction check
+---> Package atop.x86_64 0:2.1-1.el7 will be an update
+--> Processing Dependency: systemd for package: atop-2.1-1.el7.x86_64
+--> Processing Dependency: systemd for package: atop-2.1-1.el7.x86_64
+---> Package db4.x86_64 0:4.7.25-20.el6_7 will be obsoleted
+--> Processing Dependency: libdb-4.7.so()(64bit) for package: python-libs-2.6.6-66.el6_8.x86_64
+--> Processing Dependency: libdb-4.7.so()(64bit) for package: httpd-2.2.15-54.el6_8.x86_64
+--> Processing Dependency: libdb-4.7.so()(64bit) for package: apr-util-1.3.9-3.el6_0.1.x86_64
+--> Processing Dependency: libdb-4.7.so()(64bit) for package: ruby-libs-1.8.7.374-4.el6_6.x86_64
+--> Processing Dependency: libdb-4.7.so()(64bit) for package: cyrus-sasl-lib-2.1.23-15.el6_6.2.x86_64
+--> Processing Dependency: libdb-4.7.so()(64bit) for package: 4:perl-5.10.1-141.el6_7.1.x86_64
+--> Processing Dependency: libdb-4.7.so()(64bit) for package: iproute-2.6.32-54.el6.x86_64
+--> Processing Dependency: libdb-4.7.so()(64bit) for package: cyrus-sasl-2.1.23-15.el6_6.2.x86_64
+--> Processing Dependency: libdb-4.7.so()(64bit) for package: rpm-libs-4.8.0-55.el6.x86_64
+--> Processing Dependency: libdb-4.7.so()(64bit) for package: pam-1.1.1-22.el6.x86_64
+--> Processing Dependency: libdb-4.7.so()(64bit) for package: httpd-tools-2.2.15-54.el6_8.x86_64
+--> Processing Dependency: libdb-4.7.so()(64bit) for package: rpm-4.8.0-55.el6.x86_64
+--> Processing Dependency: libdb-4.7.so()(64bit) for package: rpm-python-4.8.0-55.el6.x86_64
+--> Processing Dependency: libdb-4.7.so()(64bit) for package: 2:postfix-2.6.6-6.el6_7.1.x86_64
+---> Package git.x86_64 0:1.8.2.3-1.el5 will be an update
+--> Processing Dependency: libcurl.so.3()(64bit) for package: git-1.8.2.3-1.el5.x86_64
+---> Package gperftools-libs.x86_64 0:2.4-5.el7 will be installed
+--> Processing Dependency: libstdc++.so.6(GLIBCXX_3.4.15)(64bit) for package: gperftools-libs-2.4-5.el7.x86_64
+--> Processing Dependency: libc.so.6(GLIBC_2.14)(64bit) for package: gperftools-libs-2.4-5.el7.x86_64
+---> Package hiera.noarch 1:1.3.4-5.el7 will be an update
+--> Processing Dependency: ruby(release) for package: 1:hiera-1.3.4-5.el7.noarch
+---> Package htop.x86_64 0:2.0.2-1.el7 will be an update
+--> Processing Dependency: libc.so.6(GLIBC_2.15)(64bit) for package: htop-2.0.2-1.el7.x86_64
+---> Package libunwind.x86_64 0:1.1-3.el6 will be installed
+---> Package nginx.x86_64 1:1.10.1-1.el7 will be an update
+--> Processing Dependency: systemd for package: 1:nginx-1.10.1-1.el7.x86_64
+--> Processing Dependency: systemd for package: 1:nginx-1.10.1-1.el7.x86_64
+--> Processing Dependency: libc.so.6(GLIBC_2.14)(64bit) for package: 1:nginx-1.10.1-1.el7.x86_64
+--> Processing Dependency: libpcre.so.1()(64bit) for package: 1:nginx-1.10.1-1.el7.x86_64
+---> Package nginx-mod-http-geoip.x86_64 1:1.10.1-1.el7 will be an update
+--> Processing Dependency: libc.so.6(GLIBC_2.14)(64bit) for package: 1:nginx-mod-http-geoip-1.10.1-1.el7.x86_64
+---> Package nginx-mod-http-image-filter.x86_64 1:1.10.1-1.el7 will be an update
+--> Processing Dependency: libc.so.6(GLIBC_2.14)(64bit) for package: 1:nginx-mod-http-image-filter-1.10.1-1.el7.x86_64
+---> Package nginx-mod-http-perl.x86_64 1:1.10.1-1.el7 will be an update
+--> Processing Dependency: perl(:MODULE_COMPAT_5.16.3) for package: 1:nginx-mod-http-perl-1.10.1-1.el7.x86_64
+--> Processing Dependency: libc.so.6(GLIBC_2.14)(64bit) for package: 1:nginx-mod-http-perl-1.10.1-1.el7.x86_64
+---> Package nginx-mod-mail.x86_64 1:1.10.1-1.el7 will be an update
+--> Processing Dependency: libc.so.6(GLIBC_2.14)(64bit) for package: 1:nginx-mod-mail-1.10.1-1.el7.x86_64
+---> Package nginx-mod-stream.x86_64 1:1.10.1-1.el7 will be an update
+--> Processing Dependency: libc.so.6(GLIBC_2.14)(64bit) for package: 1:nginx-mod-stream-1.10.1-1.el7.x86_64
+---> Package perl-Git.x86_64 0:1.8.2.3-1.el5 will be an update
+--> Processing Dependency: perl(:MODULE_COMPAT_5.8.8) for package: perl-Git-1.8.2.3-1.el5.x86_64
+---> Package ruby-augeas.x86_64 0:0.5.0-1.el7 will be an update
+--> Processing Dependency: ruby(release) for package: ruby-augeas-0.5.0-1.el7.x86_64
+--> Processing Dependency: libruby.so.2.0()(64bit) for package: ruby-augeas-0.5.0-1.el7.x86_64
+--> Processing Conflict: libdb4-4.8.30-13.el7.x86_64 conflicts filesystem < 3
+--> Finished Dependency Resolution
+--> Running transaction check
+---> Package atop.x86_64 0:2.1-1.el7 will be an update
+--> Processing Dependency: systemd for package: atop-2.1-1.el7.x86_64
+--> Processing Dependency: systemd for package: atop-2.1-1.el7.x86_64
+---> Package db4.x86_64 0:4.7.25-20.el6_7 will be obsoleted
+--> Processing Dependency: libdb-4.7.so()(64bit) for package: python-libs-2.6.6-66.el6_8.x86_64
+--> Processing Dependency: libdb-4.7.so()(64bit) for package: httpd-2.2.15-54.el6_8.x86_64
+--> Processing Dependency: libdb-4.7.so()(64bit) for package: apr-util-1.3.9-3.el6_0.1.x86_64
+--> Processing Dependency: libdb-4.7.so()(64bit) for package: ruby-libs-1.8.7.374-4.el6_6.x86_64
+--> Processing Dependency: libdb-4.7.so()(64bit) for package: cyrus-sasl-lib-2.1.23-15.el6_6.2.x86_64
+--> Processing Dependency: libdb-4.7.so()(64bit) for package: 4:perl-5.10.1-141.el6_7.1.x86_64
+--> Processing Dependency: libdb-4.7.so()(64bit) for package: iproute-2.6.32-54.el6.x86_64
+--> Processing Dependency: libdb-4.7.so()(64bit) for package: cyrus-sasl-2.1.23-15.el6_6.2.x86_64
+--> Processing Dependency: libdb-4.7.so()(64bit) for package: rpm-libs-4.8.0-55.el6.x86_64
+--> Processing Dependency: libdb-4.7.so()(64bit) for package: pam-1.1.1-22.el6.x86_64
+--> Processing Dependency: libdb-4.7.so()(64bit) for package: httpd-tools-2.2.15-54.el6_8.x86_64
+--> Processing Dependency: libdb-4.7.so()(64bit) for package: rpm-4.8.0-55.el6.x86_64
+--> Processing Dependency: libdb-4.7.so()(64bit) for package: rpm-python-4.8.0-55.el6.x86_64
+--> Processing Dependency: libdb-4.7.so()(64bit) for package: 2:postfix-2.6.6-6.el6_7.1.x86_64
+---> Package git.x86_64 0:1.8.2.3-1.el5 will be an update
+--> Processing Dependency: libcurl.so.3()(64bit) for package: git-1.8.2.3-1.el5.x86_64
+---> Package gperftools-libs.x86_64 0:2.4-5.el7 will be installed
+--> Processing Dependency: libstdc++.so.6(GLIBCXX_3.4.15)(64bit) for package: gperftools-libs-2.4-5.el7.x86_64
+--> Processing Dependency: libc.so.6(GLIBC_2.14)(64bit) for package: gperftools-libs-2.4-5.el7.x86_64
+---> Package hiera.noarch 1:1.3.4-5.el7 will be an update
+--> Processing Dependency: ruby(release) for package: 1:hiera-1.3.4-5.el7.noarch
+---> Package htop.x86_64 0:2.0.2-1.el7 will be an update
+--> Processing Dependency: libc.so.6(GLIBC_2.15)(64bit) for package: htop-2.0.2-1.el7.x86_64
+---> Package kernel.x86_64 0:2.6.32-642.1.1.el6 will be erased
+---> Package kernel-devel.x86_64 0:2.6.32-642.1.1.el6 will be erased
+---> Package nginx.x86_64 1:1.10.1-1.el7 will be an update
+--> Processing Dependency: systemd for package: 1:nginx-1.10.1-1.el7.x86_64
+--> Processing Dependency: systemd for package: 1:nginx-1.10.1-1.el7.x86_64
+--> Processing Dependency: libc.so.6(GLIBC_2.14)(64bit) for package: 1:nginx-1.10.1-1.el7.x86_64
+--> Processing Dependency: libpcre.so.1()(64bit) for package: 1:nginx-1.10.1-1.el7.x86_64
+---> Package nginx-mod-http-geoip.x86_64 1:1.10.1-1.el7 will be an update
+--> Processing Dependency: libc.so.6(GLIBC_2.14)(64bit) for package: 1:nginx-mod-http-geoip-1.10.1-1.el7.x86_64
+---> Package nginx-mod-http-image-filter.x86_64 1:1.10.1-1.el7 will be an update
+--> Processing Dependency: libc.so.6(GLIBC_2.14)(64bit) for package: 1:nginx-mod-http-image-filter-1.10.1-1.el7.x86_64
+---> Package nginx-mod-http-perl.x86_64 1:1.10.1-1.el7 will be an update
+--> Processing Dependency: perl(:MODULE_COMPAT_5.16.3) for package: 1:nginx-mod-http-perl-1.10.1-1.el7.x86_64
+--> Processing Dependency: libc.so.6(GLIBC_2.14)(64bit) for package: 1:nginx-mod-http-perl-1.10.1-1.el7.x86_64
+---> Package nginx-mod-mail.x86_64 1:1.10.1-1.el7 will be an update
+--> Processing Dependency: libc.so.6(GLIBC_2.14)(64bit) for package: 1:nginx-mod-mail-1.10.1-1.el7.x86_64
+---> Package nginx-mod-stream.x86_64 1:1.10.1-1.el7 will be an update
+--> Processing Dependency: libc.so.6(GLIBC_2.14)(64bit) for package: 1:nginx-mod-stream-1.10.1-1.el7.x86_64
+---> Package perl-Git.x86_64 0:1.8.2.3-1.el5 will be an update
+--> Processing Dependency: perl(:MODULE_COMPAT_5.8.8) for package: perl-Git-1.8.2.3-1.el5.x86_64
+---> Package ruby-augeas.x86_64 0:0.5.0-1.el7 will be an update
+--> Processing Dependency: ruby(release) for package: ruby-augeas-0.5.0-1.el7.x86_64
+--> Processing Dependency: libruby.so.2.0()(64bit) for package: ruby-augeas-0.5.0-1.el7.x86_64
+--> Processing Conflict: libdb4-4.8.30-13.el7.x86_64 conflicts filesystem < 3
+--> Finished Dependency Resolution
+Error: Package: iproute-2.6.32-54.el6.x86_64 (@rhel-6-server-rpms)
+           Requires: libdb-4.7.so()(64bit)
+           Removing: db4-4.7.25-20.el6_7.x86_64 (@rhel-6-server-rpms)
+               libdb-4.7.so()(64bit)
+           Obsoleted By: libdb4-4.8.30-13.el7.x86_64 (Default_Organization_epel_7Server_x86_64)
+               Not found
+           Available: db4-4.7.25-16.el6.x86_64 (rhel-6-server-rpms)
+               libdb-4.7.so()(64bit)
+           Available: db4-4.7.25-17.el6.x86_64 (rhel-6-server-rpms)
+               libdb-4.7.so()(64bit)
+           Available: db4-4.7.25-18.el6_4.x86_64 (rhel-6-server-rpms)
+               libdb-4.7.so()(64bit)
+           Available: db4-4.7.25-19.el6_6.x86_64 (rhel-6-server-rpms)
+               libdb-4.7.so()(64bit)
+Error: Package: 1:nginx-mod-http-geoip-1.10.1-1.el7.x86_64 (Default_Organization_epel_7Server_x86_64)
+           Requires: libc.so.6(GLIBC_2.14)(64bit)
+Error: Package: 1:hiera-1.3.4-5.el7.noarch (Default_Organization_epel_7Server_x86_64)
+           Requires: ruby(release)
+Error: Package: apr-util-1.3.9-3.el6_0.1.x86_64 (@rhel-6-server-rpms)
+           Requires: libdb-4.7.so()(64bit)
+           Removing: db4-4.7.25-20.el6_7.x86_64 (@rhel-6-server-rpms)
+               libdb-4.7.so()(64bit)
+           Obsoleted By: libdb4-4.8.30-13.el7.x86_64 (Default_Organization_epel_7Server_x86_64)
+               Not found
+           Available: db4-4.7.25-16.el6.x86_64 (rhel-6-server-rpms)
+               libdb-4.7.so()(64bit)
+           Available: db4-4.7.25-17.el6.x86_64 (rhel-6-server-rpms)
+               libdb-4.7.so()(64bit)
+           Available: db4-4.7.25-18.el6_4.x86_64 (rhel-6-server-rpms)
+               libdb-4.7.so()(64bit)
+           Available: db4-4.7.25-19.el6_6.x86_64 (rhel-6-server-rpms)
+               libdb-4.7.so()(64bit)
+Error: Package: atop-2.1-1.el7.x86_64 (Default_Organization_epel_7Server_x86_64)
+           Requires: systemd
+Error: Package: 1:nginx-1.10.1-1.el7.x86_64 (Default_Organization_epel_7Server_x86_64)
+           Requires: libpcre.so.1()(64bit)
+Error: libdb4 conflicts with filesystem-2.4.30-3.el6.x86_64
+Error: Package: gperftools-libs-2.4-5.el7.x86_64 (Default_Organization_epel_7Server_x86_64)
+           Requires: libstdc++.so.6(GLIBCXX_3.4.15)(64bit)
+Error: Package: rpm-4.8.0-55.el6.x86_64 (@rhel-6-server-rpms)
+           Requires: libdb-4.7.so()(64bit)
+           Removing: db4-4.7.25-20.el6_7.x86_64 (@rhel-6-server-rpms)
+               libdb-4.7.so()(64bit)
+           Obsoleted By: libdb4-4.8.30-13.el7.x86_64 (Default_Organization_epel_7Server_x86_64)
+               Not found
+           Available: db4-4.7.25-16.el6.x86_64 (rhel-6-server-rpms)
+               libdb-4.7.so()(64bit)
+           Available: db4-4.7.25-17.el6.x86_64 (rhel-6-server-rpms)
+               libdb-4.7.so()(64bit)
+           Available: db4-4.7.25-18.el6_4.x86_64 (rhel-6-server-rpms)
+               libdb-4.7.so()(64bit)
+           Available: db4-4.7.25-19.el6_6.x86_64 (rhel-6-server-rpms)
+               libdb-4.7.so()(64bit)
+Error: Package: cyrus-sasl-lib-2.1.23-15.el6_6.2.x86_64 (@anaconda-RedHatEnterpriseLinux-201507020259.x86_64/6.7)
+           Requires: libdb-4.7.so()(64bit)
+           Removing: db4-4.7.25-20.el6_7.x86_64 (@rhel-6-server-rpms)
+               libdb-4.7.so()(64bit)
+           Obsoleted By: libdb4-4.8.30-13.el7.x86_64 (Default_Organization_epel_7Server_x86_64)
+               Not found
+           Available: db4-4.7.25-16.el6.x86_64 (rhel-6-server-rpms)
+               libdb-4.7.so()(64bit)
+           Available: db4-4.7.25-17.el6.x86_64 (rhel-6-server-rpms)
+               libdb-4.7.so()(64bit)
+           Available: db4-4.7.25-18.el6_4.x86_64 (rhel-6-server-rpms)
+               libdb-4.7.so()(64bit)
+           Available: db4-4.7.25-19.el6_6.x86_64 (rhel-6-server-rpms)
+               libdb-4.7.so()(64bit)
+Error: Package: htop-2.0.2-1.el7.x86_64 (Default_Organization_epel_7Server_x86_64)
+           Requires: libc.so.6(GLIBC_2.15)(64bit)
+Error: Package: python-libs-2.6.6-66.el6_8.x86_64 (@rhel-6-server-rpms)
+           Requires: libdb-4.7.so()(64bit)
+           Removing: db4-4.7.25-20.el6_7.x86_64 (@rhel-6-server-rpms)
+               libdb-4.7.so()(64bit)
+           Obsoleted By: libdb4-4.8.30-13.el7.x86_64 (Default_Organization_epel_7Server_x86_64)
+               Not found
+           Available: db4-4.7.25-16.el6.x86_64 (rhel-6-server-rpms)
+               libdb-4.7.so()(64bit)
+           Available: db4-4.7.25-17.el6.x86_64 (rhel-6-server-rpms)
+               libdb-4.7.so()(64bit)
+           Available: db4-4.7.25-18.el6_4.x86_64 (rhel-6-server-rpms)
+               libdb-4.7.so()(64bit)
+           Available: db4-4.7.25-19.el6_6.x86_64 (rhel-6-server-rpms)
+               libdb-4.7.so()(64bit)
+Error: Package: 1:nginx-mod-mail-1.10.1-1.el7.x86_64 (Default_Organization_epel_7Server_x86_64)
+           Requires: libc.so.6(GLIBC_2.14)(64bit)
+Error: Package: ruby-libs-1.8.7.374-4.el6_6.x86_64 (@anaconda-RedHatEnterpriseLinux-201507020259.x86_64/6.7)
+           Requires: libdb-4.7.so()(64bit)
+           Removing: db4-4.7.25-20.el6_7.x86_64 (@rhel-6-server-rpms)
+               libdb-4.7.so()(64bit)
+           Obsoleted By: libdb4-4.8.30-13.el7.x86_64 (Default_Organization_epel_7Server_x86_64)
+               Not found
+           Available: db4-4.7.25-16.el6.x86_64 (rhel-6-server-rpms)
+               libdb-4.7.so()(64bit)
+           Available: db4-4.7.25-17.el6.x86_64 (rhel-6-server-rpms)
+               libdb-4.7.so()(64bit)
+           Available: db4-4.7.25-18.el6_4.x86_64 (rhel-6-server-rpms)
+               libdb-4.7.so()(64bit)
+           Available: db4-4.7.25-19.el6_6.x86_64 (rhel-6-server-rpms)
+               libdb-4.7.so()(64bit)
+Error: Package: 2:postfix-2.6.6-6.el6_7.1.x86_64 (@rhel-6-server-rpms)
+           Requires: libdb-4.7.so()(64bit)
+           Removing: db4-4.7.25-20.el6_7.x86_64 (@rhel-6-server-rpms)
+               libdb-4.7.so()(64bit)
+           Obsoleted By: libdb4-4.8.30-13.el7.x86_64 (Default_Organization_epel_7Server_x86_64)
+               Not found
+           Available: db4-4.7.25-16.el6.x86_64 (rhel-6-server-rpms)
+               libdb-4.7.so()(64bit)
+           Available: db4-4.7.25-17.el6.x86_64 (rhel-6-server-rpms)
+               libdb-4.7.so()(64bit)
+           Available: db4-4.7.25-18.el6_4.x86_64 (rhel-6-server-rpms)
+               libdb-4.7.so()(64bit)
+           Available: db4-4.7.25-19.el6_6.x86_64 (rhel-6-server-rpms)
+               libdb-4.7.so()(64bit)
+Error: Package: httpd-tools-2.2.15-54.el6_8.x86_64 (@rhel-6-server-rpms)
+           Requires: libdb-4.7.so()(64bit)
+           Removing: db4-4.7.25-20.el6_7.x86_64 (@rhel-6-server-rpms)
+               libdb-4.7.so()(64bit)
+           Obsoleted By: libdb4-4.8.30-13.el7.x86_64 (Default_Organization_epel_7Server_x86_64)
+               Not found
+           Available: db4-4.7.25-16.el6.x86_64 (rhel-6-server-rpms)
+               libdb-4.7.so()(64bit)
+           Available: db4-4.7.25-17.el6.x86_64 (rhel-6-server-rpms)
+               libdb-4.7.so()(64bit)
+           Available: db4-4.7.25-18.el6_4.x86_64 (rhel-6-server-rpms)
+               libdb-4.7.so()(64bit)
+           Available: db4-4.7.25-19.el6_6.x86_64 (rhel-6-server-rpms)
+               libdb-4.7.so()(64bit)
+Error: Package: gperftools-libs-2.4-5.el7.x86_64 (Default_Organization_epel_7Server_x86_64)
+           Requires: libc.so.6(GLIBC_2.14)(64bit)
+Error: Package: 1:nginx-mod-http-image-filter-1.10.1-1.el7.x86_64 (Default_Organization_epel_7Server_x86_64)
+           Requires: libc.so.6(GLIBC_2.14)(64bit)
+Error: Package: pam-1.1.1-22.el6.x86_64 (@rhel-6-server-rpms)
+           Requires: libdb-4.7.so()(64bit)
+           Removing: db4-4.7.25-20.el6_7.x86_64 (@rhel-6-server-rpms)
+               libdb-4.7.so()(64bit)
+           Obsoleted By: libdb4-4.8.30-13.el7.x86_64 (Default_Organization_epel_7Server_x86_64)
+               Not found
+           Available: db4-4.7.25-16.el6.x86_64 (rhel-6-server-rpms)
+               libdb-4.7.so()(64bit)
+           Available: db4-4.7.25-17.el6.x86_64 (rhel-6-server-rpms)
+               libdb-4.7.so()(64bit)
+           Available: db4-4.7.25-18.el6_4.x86_64 (rhel-6-server-rpms)
+               libdb-4.7.so()(64bit)
+           Available: db4-4.7.25-19.el6_6.x86_64 (rhel-6-server-rpms)
+               libdb-4.7.so()(64bit)
+Error: Package: rpm-python-4.8.0-55.el6.x86_64 (@rhel-6-server-rpms)
+           Requires: libdb-4.7.so()(64bit)
+           Removing: db4-4.7.25-20.el6_7.x86_64 (@rhel-6-server-rpms)
+               libdb-4.7.so()(64bit)
+           Obsoleted By: libdb4-4.8.30-13.el7.x86_64 (Default_Organization_epel_7Server_x86_64)
+               Not found
+           Available: db4-4.7.25-16.el6.x86_64 (rhel-6-server-rpms)
+               libdb-4.7.so()(64bit)
+           Available: db4-4.7.25-17.el6.x86_64 (rhel-6-server-rpms)
+               libdb-4.7.so()(64bit)
+           Available: db4-4.7.25-18.el6_4.x86_64 (rhel-6-server-rpms)
+               libdb-4.7.so()(64bit)
+           Available: db4-4.7.25-19.el6_6.x86_64 (rhel-6-server-rpms)
+               libdb-4.7.so()(64bit)
+Error: Package: 1:nginx-mod-stream-1.10.1-1.el7.x86_64 (Default_Organization_epel_7Server_x86_64)
+           Requires: libc.so.6(GLIBC_2.14)(64bit)
+Error: Package: httpd-2.2.15-54.el6_8.x86_64 (@rhel-6-server-rpms)
+           Requires: libdb-4.7.so()(64bit)
+           Removing: db4-4.7.25-20.el6_7.x86_64 (@rhel-6-server-rpms)
+               libdb-4.7.so()(64bit)
+           Obsoleted By: libdb4-4.8.30-13.el7.x86_64 (Default_Organization_epel_7Server_x86_64)
+               Not found
+           Available: db4-4.7.25-16.el6.x86_64 (rhel-6-server-rpms)
+               libdb-4.7.so()(64bit)
+           Available: db4-4.7.25-17.el6.x86_64 (rhel-6-server-rpms)
+               libdb-4.7.so()(64bit)
+           Available: db4-4.7.25-18.el6_4.x86_64 (rhel-6-server-rpms)
+               libdb-4.7.so()(64bit)
+           Available: db4-4.7.25-19.el6_6.x86_64 (rhel-6-server-rpms)
+               libdb-4.7.so()(64bit)
+Error: Package: 1:nginx-mod-http-perl-1.10.1-1.el7.x86_64 (Default_Organization_epel_7Server_x86_64)
+           Requires: libc.so.6(GLIBC_2.14)(64bit)
+Error: Package: cyrus-sasl-2.1.23-15.el6_6.2.x86_64 (@anaconda-RedHatEnterpriseLinux-201507020259.x86_64/6.7)
+           Requires: libdb-4.7.so()(64bit)
+           Removing: db4-4.7.25-20.el6_7.x86_64 (@rhel-6-server-rpms)
+               libdb-4.7.so()(64bit)
+           Obsoleted By: libdb4-4.8.30-13.el7.x86_64 (Default_Organization_epel_7Server_x86_64)
+               Not found
+           Available: db4-4.7.25-16.el6.x86_64 (rhel-6-server-rpms)
+               libdb-4.7.so()(64bit)
+           Available: db4-4.7.25-17.el6.x86_64 (rhel-6-server-rpms)
+               libdb-4.7.so()(64bit)
+           Available: db4-4.7.25-18.el6_4.x86_64 (rhel-6-server-rpms)
+               libdb-4.7.so()(64bit)
+           Available: db4-4.7.25-19.el6_6.x86_64 (rhel-6-server-rpms)
+               libdb-4.7.so()(64bit)
+Error: Package: perl-Git-1.8.2.3-1.el5.x86_64 (Default_Organization_epel_5Server_x86_64)
+           Requires: perl(:MODULE_COMPAT_5.8.8)
+Error: Package: ruby-augeas-0.5.0-1.el7.x86_64 (Default_Organization_epel_7Server_x86_64)
+           Requires: libruby.so.2.0()(64bit)
+Error: Package: 1:nginx-1.10.1-1.el7.x86_64 (Default_Organization_epel_7Server_x86_64)
+           Requires: systemd
+Error: Package: 1:nginx-mod-http-perl-1.10.1-1.el7.x86_64 (Default_Organization_epel_7Server_x86_64)
+           Requires: perl(:MODULE_COMPAT_5.16.3)
+Error: Package: rpm-libs-4.8.0-55.el6.x86_64 (@rhel-6-server-rpms)
+           Requires: libdb-4.7.so()(64bit)
+           Removing: db4-4.7.25-20.el6_7.x86_64 (@rhel-6-server-rpms)
+               libdb-4.7.so()(64bit)
+           Obsoleted By: libdb4-4.8.30-13.el7.x86_64 (Default_Organization_epel_7Server_x86_64)
+               Not found
+           Available: db4-4.7.25-16.el6.x86_64 (rhel-6-server-rpms)
+               libdb-4.7.so()(64bit)
+           Available: db4-4.7.25-17.el6.x86_64 (rhel-6-server-rpms)
+               libdb-4.7.so()(64bit)
+           Available: db4-4.7.25-18.el6_4.x86_64 (rhel-6-server-rpms)
+               libdb-4.7.so()(64bit)
+           Available: db4-4.7.25-19.el6_6.x86_64 (rhel-6-server-rpms)
+               libdb-4.7.so()(64bit)
+Error: Package: git-1.8.2.3-1.el5.x86_64 (Default_Organization_epel_5Server_x86_64)
+           Requires: libcurl.so.3()(64bit)
+Error: Package: ruby-augeas-0.5.0-1.el7.x86_64 (Default_Organization_epel_7Server_x86_64)
+           Requires: ruby(release)
+Error: Package: 4:perl-5.10.1-141.el6_7.1.x86_64 (@rhel-6-server-rpms)
+           Requires: libdb-4.7.so()(64bit)
+           Removing: db4-4.7.25-20.el6_7.x86_64 (@rhel-6-server-rpms)
+               libdb-4.7.so()(64bit)
+           Obsoleted By: libdb4-4.8.30-13.el7.x86_64 (Default_Organization_epel_7Server_x86_64)
+               Not found
+           Available: db4-4.7.25-16.el6.x86_64 (rhel-6-server-rpms)
+               libdb-4.7.so()(64bit)
+           Available: db4-4.7.25-17.el6.x86_64 (rhel-6-server-rpms)
+               libdb-4.7.so()(64bit)
+           Available: db4-4.7.25-18.el6_4.x86_64 (rhel-6-server-rpms)
+               libdb-4.7.so()(64bit)
+           Available: db4-4.7.25-19.el6_6.x86_64 (rhel-6-server-rpms)
+               libdb-4.7.so()(64bit)
+Error: Package: 1:nginx-1.10.1-1.el7.x86_64 (Default_Organization_epel_7Server_x86_64)
+           Requires: libc.so.6(GLIBC_2.14)(64bit)
+ You could try using --skip-broken to work around the problem
+ You could try running: rpm -Va --nofiles --nodigest
+[1m[7m%[27m[1m[0m                                                                                   ]2;jenkinsac@umh-medweb-prd: ~]1;~[0m[27m[24m[J
+[1m[34m#[00m [36mjenkinsac [37mat [32mumh-medweb-prd.umh.edu [37min [1m[33m~[00m [37m[15:16:50]
+[1m[31m→ [00m[K[?1h=sudo yum update ==  --sli[-bo      ki[ p-r broken[?1l>
+]2;sudo yum update --skip-broken]1;yumLoaded plugins: product-id, search-disabled-repos, security, subscription-manager,
+              : versionlock
+Setting up Update Process
+Default_Organization_epel_5Server_i386                      | 1.8 kB     00:00     
+Default_Organization_epel_5Server_x86_64                    | 1.8 kB     00:00     
+Default_Organization_epel_6Server_i386                      | 2.1 kB     00:00     
+Default_Organization_epel_6Server_x86_64                    | 2.1 kB     00:00     
+Default_Organization_epel_7Server_x86_64                    | 2.1 kB     00:00     
+rhel-6-server-rpms                                          | 2.0 kB     00:00     
+Resolving Dependencies
+--> Running transaction check
+---> Package GeoIP.x86_64 0:1.6.5-1.el6 will be updated
+---> Package GeoIP.x86_64 0:1.6.5-2.el5 will be an update
+---> Package atop.x86_64 0:1.27-2.el6 will be updated
+---> Package atop.x86_64 0:2.1-1.el7 will be an update
+--> Processing Dependency: systemd for package: atop-2.1-1.el7.x86_64
+--> Processing Dependency: systemd for package: atop-2.1-1.el7.x86_64
+---> Package augeas-libs.x86_64 0:1.0.0-10.el6 will be updated
+---> Package augeas-libs.x86_64 0:1.2.0-1.el5 will be an update
+---> Package bind.x86_64 32:9.8.2-0.47.rc1.el6_8.2 will be updated
+---> Package bind.x86_64 32:9.8.2-0.47.rc1.el6_8.3 will be an update
+---> Package bind-chroot.x86_64 32:9.8.2-0.47.rc1.el6_8.2 will be updated
+---> Package bind-chroot.x86_64 32:9.8.2-0.47.rc1.el6_8.3 will be an update
+---> Package bind-libs.x86_64 32:9.8.2-0.47.rc1.el6_8.2 will be updated
+---> Package bind-libs.x86_64 32:9.8.2-0.47.rc1.el6_8.3 will be an update
+---> Package bind-utils.x86_64 32:9.8.2-0.47.rc1.el6_8.2 will be updated
+---> Package bind-utils.x86_64 32:9.8.2-0.47.rc1.el6_8.3 will be an update
+---> Package db4.x86_64 0:4.7.25-20.el6_7 will be obsoleted
+--> Processing Dependency: libdb-4.7.so()(64bit) for package: python-libs-2.6.6-66.el6_8.x86_64
+--> Processing Dependency: libdb-4.7.so()(64bit) for package: httpd-2.2.15-54.el6_8.x86_64
+--> Processing Dependency: libdb-4.7.so()(64bit) for package: apr-util-1.3.9-3.el6_0.1.x86_64
+--> Processing Dependency: libdb-4.7.so()(64bit) for package: ruby-libs-1.8.7.374-4.el6_6.x86_64
+--> Processing Dependency: libdb-4.7.so()(64bit) for package: cyrus-sasl-lib-2.1.23-15.el6_6.2.x86_64
+--> Processing Dependency: libdb-4.7.so()(64bit) for package: 4:perl-5.10.1-141.el6_7.1.x86_64
+--> Processing Dependency: libdb-4.7.so()(64bit) for package: iproute-2.6.32-54.el6.x86_64
+--> Processing Dependency: libdb-4.7.so()(64bit) for package: cyrus-sasl-2.1.23-15.el6_6.2.x86_64
+--> Processing Dependency: libdb-4.7.so()(64bit) for package: rpm-libs-4.8.0-55.el6.x86_64
+--> Processing Dependency: libdb-4.7.so()(64bit) for package: pam-1.1.1-22.el6.x86_64
+--> Processing Dependency: libdb-4.7.so()(64bit) for package: httpd-tools-2.2.15-54.el6_8.x86_64
+--> Processing Dependency: libdb-4.7.so()(64bit) for package: rpm-4.8.0-55.el6.x86_64
+--> Processing Dependency: libdb-4.7.so()(64bit) for package: rpm-python-4.8.0-55.el6.x86_64
+--> Processing Dependency: libdb-4.7.so()(64bit) for package: 2:postfix-2.6.6-6.el6_7.1.x86_64
+---> Package db4-cxx.x86_64 0:4.7.25-20.el6_7 will be obsoleted
+---> Package db4-devel.x86_64 0:4.7.25-20.el6_7 will be obsoleted
+---> Package db4-utils.x86_64 0:4.7.25-20.el6_7 will be obsoleted
+---> Package epel-release.noarch 0:6-8 will be updated
+---> Package epel-release.noarch 0:7-8 will be an update
+---> Package git.x86_64 0:1.7.1-4.el6_7.1 will be updated
+---> Package git.x86_64 0:1.8.2.3-1.el5 will be an update
+--> Processing Dependency: perl(Term::ReadKey) for package: git-1.8.2.3-1.el5.x86_64
+--> Processing Dependency: libssl.so.6()(64bit) for package: git-1.8.2.3-1.el5.x86_64
+--> Processing Dependency: libexpat.so.0()(64bit) for package: git-1.8.2.3-1.el5.x86_64
+--> Processing Dependency: libcurl.so.3()(64bit) for package: git-1.8.2.3-1.el5.x86_64
+--> Processing Dependency: libcrypto.so.6()(64bit) for package: git-1.8.2.3-1.el5.x86_64
+---> Package hiera.noarch 0:1.3.4-1.el6 will be updated
+---> Package hiera.noarch 1:1.3.4-5.el7 will be an update
+--> Processing Dependency: ruby(release) for package: 1:hiera-1.3.4-5.el7.noarch
+---> Package htop.x86_64 0:1.0.3-1.el6 will be updated
+---> Package htop.x86_64 0:2.0.2-1.el7 will be an update
+--> Processing Dependency: libc.so.6(GLIBC_2.15)(64bit) for package: htop-2.0.2-1.el7.x86_64
+---> Package kernel.x86_64 0:2.6.32-642.6.2.el6 will be installed
+---> Package kernel-devel.x86_64 0:2.6.32-642.6.2.el6 will be installed
+---> Package kernel-firmware.noarch 0:2.6.32-642.6.1.el6 will be updated
+---> Package kernel-firmware.noarch 0:2.6.32-642.6.2.el6 will be an update
+---> Package kernel-headers.x86_64 0:2.6.32-642.6.1.el6 will be updated
+---> Package kernel-headers.x86_64 0:2.6.32-642.6.2.el6 will be an update
+---> Package libdb4.x86_64 0:4.8.30-13.el7 will be obsoleting
+---> Package libdb4-cxx.x86_64 0:4.8.30-13.el7 will be obsoleting
+---> Package libdb4-devel.x86_64 0:4.8.30-13.el7 will be obsoleting
+---> Package libdb4-utils.x86_64 0:4.8.30-13.el7 will be obsoleting
+---> Package libgcrypt.x86_64 0:1.4.5-11.el6_4 will be updated
+---> Package libgcrypt.x86_64 0:1.4.5-12.el6_8 will be an update
+---> Package libnfnetlink.x86_64 0:1.0.0-1.el6 will be updated
+---> Package libnfnetlink.x86_64 0:1.0.0-3.el5 will be an update
+---> Package nginx.x86_64 0:1.10.1-1.el6 will be updated
+---> Package nginx.x86_64 1:1.10.1-1.el7 will be an update
+--> Processing Dependency: systemd for package: 1:nginx-1.10.1-1.el7.x86_64
+--> Processing Dependency: systemd for package: 1:nginx-1.10.1-1.el7.x86_64
+--> Processing Dependency: libc.so.6(GLIBC_2.14)(64bit) for package: 1:nginx-1.10.1-1.el7.x86_64
+--> Processing Dependency: libprofiler.so.0()(64bit) for package: 1:nginx-1.10.1-1.el7.x86_64
+--> Processing Dependency: libpcre.so.1()(64bit) for package: 1:nginx-1.10.1-1.el7.x86_64
+---> Package nginx-all-modules.noarch 0:1.10.1-1.el6 will be updated
+---> Package nginx-all-modules.noarch 1:1.10.1-1.el7 will be an update
+---> Package nginx-filesystem.noarch 0:1.10.1-1.el6 will be updated
+---> Package nginx-filesystem.noarch 1:1.10.1-1.el7 will be an update
+---> Package nginx-mod-http-geoip.x86_64 0:1.10.1-1.el6 will be updated
+---> Package nginx-mod-http-geoip.x86_64 1:1.10.1-1.el7 will be an update
+--> Processing Dependency: libc.so.6(GLIBC_2.14)(64bit) for package: 1:nginx-mod-http-geoip-1.10.1-1.el7.x86_64
+---> Package nginx-mod-http-image-filter.x86_64 0:1.10.1-1.el6 will be updated
+---> Package nginx-mod-http-image-filter.x86_64 1:1.10.1-1.el7 will be an update
+--> Processing Dependency: libc.so.6(GLIBC_2.14)(64bit) for package: 1:nginx-mod-http-image-filter-1.10.1-1.el7.x86_64
+---> Package nginx-mod-http-perl.x86_64 0:1.10.1-1.el6 will be updated
+---> Package nginx-mod-http-perl.x86_64 1:1.10.1-1.el7 will be an update
+--> Processing Dependency: perl(:MODULE_COMPAT_5.16.3) for package: 1:nginx-mod-http-perl-1.10.1-1.el7.x86_64
+--> Processing Dependency: libc.so.6(GLIBC_2.14)(64bit) for package: 1:nginx-mod-http-perl-1.10.1-1.el7.x86_64
+---> Package nginx-mod-http-xslt-filter.x86_64 0:1.10.1-1.el6 will be updated
+---> Package nginx-mod-http-xslt-filter.x86_64 1:1.10.1-1.el7 will be an update
+---> Package nginx-mod-mail.x86_64 0:1.10.1-1.el6 will be updated
+---> Package nginx-mod-mail.x86_64 1:1.10.1-1.el7 will be an update
+--> Processing Dependency: libc.so.6(GLIBC_2.14)(64bit) for package: 1:nginx-mod-mail-1.10.1-1.el7.x86_64
+---> Package nginx-mod-stream.x86_64 0:1.10.1-1.el6 will be updated
+---> Package nginx-mod-stream.x86_64 1:1.10.1-1.el7 will be an update
+--> Processing Dependency: libc.so.6(GLIBC_2.14)(64bit) for package: 1:nginx-mod-stream-1.10.1-1.el7.x86_64
+---> Package perl-Git.noarch 0:1.7.1-4.el6_7.1 will be updated
+---> Package perl-Git.x86_64 0:1.8.2.3-1.el5 will be an update
+--> Processing Dependency: perl(:MODULE_COMPAT_5.8.8) for package: perl-Git-1.8.2.3-1.el5.x86_64
+---> Package php56w.x86_64 0:5.6.26-1.w6 will be updated
+---> Package php56w.x86_64 0:5.6.27-1.w6 will be an update
+---> Package php56w-cli.x86_64 0:5.6.26-1.w6 will be updated
+---> Package php56w-cli.x86_64 0:5.6.27-1.w6 will be an update
+---> Package php56w-common.x86_64 0:5.6.26-1.w6 will be updated
+---> Package php56w-common.x86_64 0:5.6.27-1.w6 will be an update
+---> Package php56w-opcache.x86_64 0:5.6.26-1.w6 will be updated
+---> Package php56w-opcache.x86_64 0:5.6.27-1.w6 will be an update
+---> Package ruby-augeas.x86_64 0:0.4.1-3.el6 will be updated
+---> Package ruby-augeas.x86_64 0:0.5.0-1.el7 will be an update
+--> Processing Dependency: ruby(release) for package: ruby-augeas-0.5.0-1.el7.x86_64
+--> Processing Dependency: libruby.so.2.0()(64bit) for package: ruby-augeas-0.5.0-1.el7.x86_64
+---> Package tzdata.noarch 0:2016h-1.el6 will be updated
+---> Package tzdata.noarch 0:2016i-1.el6 will be an update
+---> Package vconfig.x86_64 0:1.9-8.1.el6 will be updated
+---> Package vconfig.x86_64 0:1.9-16.el7 will be an update
+---> Package webtatic-release.noarch 0:6-6 will be updated
+---> Package webtatic-release.noarch 0:6-9 will be an update
+---> Package wireless-tools.x86_64 1:29-6.el6 will be updated
+---> Package wireless-tools.x86_64 1:29-13.el7 will be an update
+--> Running transaction check
+---> Package atop.x86_64 0:2.1-1.el7 will be an update
+--> Processing Dependency: systemd for package: atop-2.1-1.el7.x86_64
+--> Processing Dependency: systemd for package: atop-2.1-1.el7.x86_64
+---> Package compat-expat1.x86_64 0:1.95.8-8.el6 will be installed
+---> Package db4.x86_64 0:4.7.25-20.el6_7 will be obsoleted
+--> Processing Dependency: libdb-4.7.so()(64bit) for package: python-libs-2.6.6-66.el6_8.x86_64
+--> Processing Dependency: libdb-4.7.so()(64bit) for package: httpd-2.2.15-54.el6_8.x86_64
+--> Processing Dependency: libdb-4.7.so()(64bit) for package: apr-util-1.3.9-3.el6_0.1.x86_64
+--> Processing Dependency: libdb-4.7.so()(64bit) for package: ruby-libs-1.8.7.374-4.el6_6.x86_64
+--> Processing Dependency: libdb-4.7.so()(64bit) for package: cyrus-sasl-lib-2.1.23-15.el6_6.2.x86_64
+--> Processing Dependency: libdb-4.7.so()(64bit) for package: 4:perl-5.10.1-141.el6_7.1.x86_64
+--> Processing Dependency: libdb-4.7.so()(64bit) for package: iproute-2.6.32-54.el6.x86_64
+--> Processing Dependency: libdb-4.7.so()(64bit) for package: cyrus-sasl-2.1.23-15.el6_6.2.x86_64
+--> Processing Dependency: libdb-4.7.so()(64bit) for package: rpm-libs-4.8.0-55.el6.x86_64
+--> Processing Dependency: libdb-4.7.so()(64bit) for package: pam-1.1.1-22.el6.x86_64
+--> Processing Dependency: libdb-4.7.so()(64bit) for package: httpd-tools-2.2.15-54.el6_8.x86_64
+--> Processing Dependency: libdb-4.7.so()(64bit) for package: rpm-4.8.0-55.el6.x86_64
+--> Processing Dependency: libdb-4.7.so()(64bit) for package: rpm-python-4.8.0-55.el6.x86_64
+--> Processing Dependency: libdb-4.7.so()(64bit) for package: 2:postfix-2.6.6-6.el6_7.1.x86_64
+---> Package git.x86_64 0:1.8.2.3-1.el5 will be an update
+--> Processing Dependency: libcurl.so.3()(64bit) for package: git-1.8.2.3-1.el5.x86_64
+---> Package gperftools-libs.x86_64 0:2.4-5.el7 will be installed
+--> Processing Dependency: libstdc++.so.6(GLIBCXX_3.4.15)(64bit) for package: gperftools-libs-2.4-5.el7.x86_64
+--> Processing Dependency: libc.so.6(GLIBC_2.14)(64bit) for package: gperftools-libs-2.4-5.el7.x86_64
+--> Processing Dependency: libunwind.so.8()(64bit) for package: gperftools-libs-2.4-5.el7.x86_64
+---> Package hiera.noarch 1:1.3.4-5.el7 will be an update
+--> Processing Dependency: ruby(release) for package: 1:hiera-1.3.4-5.el7.noarch
+---> Package htop.x86_64 0:2.0.2-1.el7 will be an update
+--> Processing Dependency: libc.so.6(GLIBC_2.15)(64bit) for package: htop-2.0.2-1.el7.x86_64
+---> Package nginx.x86_64 1:1.10.1-1.el7 will be an update
+--> Processing Dependency: systemd for package: 1:nginx-1.10.1-1.el7.x86_64
+--> Processing Dependency: systemd for package: 1:nginx-1.10.1-1.el7.x86_64
+--> Processing Dependency: libc.so.6(GLIBC_2.14)(64bit) for package: 1:nginx-1.10.1-1.el7.x86_64
+--> Processing Dependency: libpcre.so.1()(64bit) for package: 1:nginx-1.10.1-1.el7.x86_64
+---> Package nginx-mod-http-geoip.x86_64 1:1.10.1-1.el7 will be an update
+--> Processing Dependency: libc.so.6(GLIBC_2.14)(64bit) for package: 1:nginx-mod-http-geoip-1.10.1-1.el7.x86_64
+---> Package nginx-mod-http-image-filter.x86_64 1:1.10.1-1.el7 will be an update
+--> Processing Dependency: libc.so.6(GLIBC_2.14)(64bit) for package: 1:nginx-mod-http-image-filter-1.10.1-1.el7.x86_64
+---> Package nginx-mod-http-perl.x86_64 1:1.10.1-1.el7 will be an update
+--> Processing Dependency: perl(:MODULE_COMPAT_5.16.3) for package: 1:nginx-mod-http-perl-1.10.1-1.el7.x86_64
+--> Processing Dependency: libc.so.6(GLIBC_2.14)(64bit) for package: 1:nginx-mod-http-perl-1.10.1-1.el7.x86_64
+---> Package nginx-mod-mail.x86_64 1:1.10.1-1.el7 will be an update
+--> Processing Dependency: libc.so.6(GLIBC_2.14)(64bit) for package: 1:nginx-mod-mail-1.10.1-1.el7.x86_64
+---> Package nginx-mod-stream.x86_64 1:1.10.1-1.el7 will be an update
+--> Processing Dependency: libc.so.6(GLIBC_2.14)(64bit) for package: 1:nginx-mod-stream-1.10.1-1.el7.x86_64
+---> Package openssl098e.x86_64 0:0.9.8e-20.el6_7.1 will be installed
+---> Package perl-Git.x86_64 0:1.8.2.3-1.el5 will be an update
+--> Processing Dependency: perl(:MODULE_COMPAT_5.8.8) for package: perl-Git-1.8.2.3-1.el5.x86_64
+---> Package perl-TermReadKey.x86_64 0:2.30-13.el6 will be installed
+---> Package ruby-augeas.x86_64 0:0.5.0-1.el7 will be an update
+--> Processing Dependency: ruby(release) for package: ruby-augeas-0.5.0-1.el7.x86_64
+--> Processing Dependency: libruby.so.2.0()(64bit) for package: ruby-augeas-0.5.0-1.el7.x86_64
+--> Running transaction check
+---> Package atop.x86_64 0:2.1-1.el7 will be an update
+--> Processing Dependency: systemd for package: atop-2.1-1.el7.x86_64
+--> Processing Dependency: systemd for package: atop-2.1-1.el7.x86_64
+---> Package db4.x86_64 0:4.7.25-20.el6_7 will be obsoleted
+--> Processing Dependency: libdb-4.7.so()(64bit) for package: python-libs-2.6.6-66.el6_8.x86_64
+--> Processing Dependency: libdb-4.7.so()(64bit) for package: httpd-2.2.15-54.el6_8.x86_64
+--> Processing Dependency: libdb-4.7.so()(64bit) for package: apr-util-1.3.9-3.el6_0.1.x86_64
+--> Processing Dependency: libdb-4.7.so()(64bit) for package: ruby-libs-1.8.7.374-4.el6_6.x86_64
+--> Processing Dependency: libdb-4.7.so()(64bit) for package: cyrus-sasl-lib-2.1.23-15.el6_6.2.x86_64
+--> Processing Dependency: libdb-4.7.so()(64bit) for package: 4:perl-5.10.1-141.el6_7.1.x86_64
+--> Processing Dependency: libdb-4.7.so()(64bit) for package: iproute-2.6.32-54.el6.x86_64
+--> Processing Dependency: libdb-4.7.so()(64bit) for package: cyrus-sasl-2.1.23-15.el6_6.2.x86_64
+--> Processing Dependency: libdb-4.7.so()(64bit) for package: rpm-libs-4.8.0-55.el6.x86_64
+--> Processing Dependency: libdb-4.7.so()(64bit) for package: pam-1.1.1-22.el6.x86_64
+--> Processing Dependency: libdb-4.7.so()(64bit) for package: httpd-tools-2.2.15-54.el6_8.x86_64
+--> Processing Dependency: libdb-4.7.so()(64bit) for package: rpm-4.8.0-55.el6.x86_64
+--> Processing Dependency: libdb-4.7.so()(64bit) for package: rpm-python-4.8.0-55.el6.x86_64
+--> Processing Dependency: libdb-4.7.so()(64bit) for package: 2:postfix-2.6.6-6.el6_7.1.x86_64
+---> Package git.x86_64 0:1.8.2.3-1.el5 will be an update
+--> Processing Dependency: libcurl.so.3()(64bit) for package: git-1.8.2.3-1.el5.x86_64
+---> Package gperftools-libs.x86_64 0:2.4-5.el7 will be installed
+--> Processing Dependency: libstdc++.so.6(GLIBCXX_3.4.15)(64bit) for package: gperftools-libs-2.4-5.el7.x86_64
+--> Processing Dependency: libc.so.6(GLIBC_2.14)(64bit) for package: gperftools-libs-2.4-5.el7.x86_64
+---> Package hiera.noarch 1:1.3.4-5.el7 will be an update
+--> Processing Dependency: ruby(release) for package: 1:hiera-1.3.4-5.el7.noarch
+---> Package htop.x86_64 0:2.0.2-1.el7 will be an update
+--> Processing Dependency: libc.so.6(GLIBC_2.15)(64bit) for package: htop-2.0.2-1.el7.x86_64
+---> Package libunwind.x86_64 0:1.1-3.el6 will be installed
+---> Package nginx.x86_64 1:1.10.1-1.el7 will be an update
+--> Processing Dependency: systemd for package: 1:nginx-1.10.1-1.el7.x86_64
+--> Processing Dependency: systemd for package: 1:nginx-1.10.1-1.el7.x86_64
+--> Processing Dependency: libc.so.6(GLIBC_2.14)(64bit) for package: 1:nginx-1.10.1-1.el7.x86_64
+--> Processing Dependency: libpcre.so.1()(64bit) for package: 1:nginx-1.10.1-1.el7.x86_64
+---> Package nginx-mod-http-geoip.x86_64 1:1.10.1-1.el7 will be an update
+--> Processing Dependency: libc.so.6(GLIBC_2.14)(64bit) for package: 1:nginx-mod-http-geoip-1.10.1-1.el7.x86_64
+---> Package nginx-mod-http-image-filter.x86_64 1:1.10.1-1.el7 will be an update
+--> Processing Dependency: libc.so.6(GLIBC_2.14)(64bit) for package: 1:nginx-mod-http-image-filter-1.10.1-1.el7.x86_64
+---> Package nginx-mod-http-perl.x86_64 1:1.10.1-1.el7 will be an update
+--> Processing Dependency: perl(:MODULE_COMPAT_5.16.3) for package: 1:nginx-mod-http-perl-1.10.1-1.el7.x86_64
+--> Processing Dependency: libc.so.6(GLIBC_2.14)(64bit) for package: 1:nginx-mod-http-perl-1.10.1-1.el7.x86_64
+---> Package nginx-mod-mail.x86_64 1:1.10.1-1.el7 will be an update
+--> Processing Dependency: libc.so.6(GLIBC_2.14)(64bit) for package: 1:nginx-mod-mail-1.10.1-1.el7.x86_64
+---> Package nginx-mod-stream.x86_64 1:1.10.1-1.el7 will be an update
+--> Processing Dependency: libc.so.6(GLIBC_2.14)(64bit) for package: 1:nginx-mod-stream-1.10.1-1.el7.x86_64
+---> Package perl-Git.x86_64 0:1.8.2.3-1.el5 will be an update
+--> Processing Dependency: perl(:MODULE_COMPAT_5.8.8) for package: perl-Git-1.8.2.3-1.el5.x86_64
+---> Package ruby-augeas.x86_64 0:0.5.0-1.el7 will be an update
+--> Processing Dependency: ruby(release) for package: ruby-augeas-0.5.0-1.el7.x86_64
+--> Processing Dependency: libruby.so.2.0()(64bit) for package: ruby-augeas-0.5.0-1.el7.x86_64
+--> Processing Conflict: libdb4-4.8.30-13.el7.x86_64 conflicts filesystem < 3
+--> Running transaction check
+---> Package atop.x86_64 0:1.27-2.el6 will be updated
+---> Package atop.x86_64 0:2.1-1.el7 will be an update
+---> Package compat-expat1.x86_64 0:1.95.8-8.el6 will be installed
+---> Package db4.x86_64 0:4.7.25-20.el6_7 will be obsoleted
+---> Package git.x86_64 0:1.7.1-4.el6_7.1 will be updated
+---> Package git.x86_64 0:1.8.2.3-1.el5 will be an update
+---> Package gperftools-libs.x86_64 0:2.4-5.el7 will be installed
+---> Package hiera.noarch 0:1.3.4-1.el6 will be updated
+---> Package hiera.noarch 1:1.3.4-5.el7 will be an update
+---> Package htop.x86_64 0:1.0.3-1.el6 will be updated
+---> Package htop.x86_64 0:2.0.2-1.el7 will be an update
+---> Package kernel.x86_64 0:2.6.32-642.1.1.el6 will be erased
+---> Package kernel-devel.x86_64 0:2.6.32-642.1.1.el6 will be erased
+---> Package libdb4.x86_64 0:4.8.30-13.el7 will be obsoleting
+---> Package libdb4-cxx.x86_64 0:4.8.30-13.el7 will be obsoleting
+---> Package libdb4-devel.x86_64 0:4.8.30-13.el7 will be obsoleting
+--> Processing Dependency: db4-devel for package: 4:perl-devel-5.10.1-141.el6_7.1.x86_64
+---> Package libdb4-utils.x86_64 0:4.8.30-13.el7 will be obsoleting
+--> Processing Dependency: db4-utils for package: rpm-4.8.0-55.el6.x86_64
+---> Package libunwind.x86_64 0:1.1-3.el6 will be installed
+---> Package nginx.x86_64 0:1.10.1-1.el6 will be updated
+--> Processing Dependency: nginx-all-modules = 1.10.1-1.el6 for package: nginx-1.10.1-1.el6.x86_64
+--> Processing Dependency: nginx-filesystem = 1.10.1-1.el6 for package: nginx-1.10.1-1.el6.x86_64
+---> Package nginx.x86_64 1:1.10.1-1.el7 will be an update
+---> Package nginx-all-modules.noarch 1:1.10.1-1.el7 will be an update
+---> Package nginx-mod-http-geoip.x86_64 0:1.10.1-1.el6 will be updated
+---> Package nginx-mod-http-geoip.x86_64 1:1.10.1-1.el7 will be an update
+---> Package nginx-mod-http-image-filter.x86_64 0:1.10.1-1.el6 will be updated
+---> Package nginx-mod-http-image-filter.x86_64 1:1.10.1-1.el7 will be an update
+---> Package nginx-mod-http-perl.x86_64 0:1.10.1-1.el6 will be updated
+---> Package nginx-mod-http-perl.x86_64 1:1.10.1-1.el7 will be an update
+---> Package nginx-mod-http-xslt-filter.x86_64 1:1.10.1-1.el7 will be an update
+---> Package nginx-mod-mail.x86_64 0:1.10.1-1.el6 will be updated
+---> Package nginx-mod-mail.x86_64 1:1.10.1-1.el7 will be an update
+---> Package nginx-mod-stream.x86_64 0:1.10.1-1.el6 will be updated
+---> Package nginx-mod-stream.x86_64 1:1.10.1-1.el7 will be an update
+---> Package openssl098e.x86_64 0:0.9.8e-20.el6_7.1 will be installed
+---> Package perl-Git.noarch 0:1.7.1-4.el6_7.1 will be updated
+---> Package perl-Git.x86_64 0:1.8.2.3-1.el5 will be an update
+---> Package perl-TermReadKey.x86_64 0:2.30-13.el6 will be installed
+---> Package ruby-augeas.x86_64 0:0.4.1-3.el6 will be updated
+---> Package ruby-augeas.x86_64 0:0.5.0-1.el7 will be an update
+--> Running transaction check
+---> Package db4-devel.i686 0:4.7.25-20.el6_7 will be installed
+--> Processing Dependency: db4-cxx = 4.7.25-20.el6_7 for package: db4-devel-4.7.25-20.el6_7.i686
+--> Processing Dependency: libdb_cxx-4.7.so for package: db4-devel-4.7.25-20.el6_7.i686
+--> Processing Dependency: libdb-4.7.so for package: db4-devel-4.7.25-20.el6_7.i686
+---> Package libdb4-utils.x86_64 0:4.8.30-13.el7 will be obsoleting
+--> Processing Dependency: db4-utils for package: rpm-4.8.0-55.el6.x86_64
+---> Package nginx.x86_64 0:1.10.1-1.el6 will be updated
+--> Processing Dependency: nginx-all-modules = 1.10.1-1.el6 for package: nginx-1.10.1-1.el6.x86_64
+--> Processing Dependency: nginx-filesystem = 1.10.1-1.el6 for package: nginx-1.10.1-1.el6.x86_64
+--> Running transaction check
+---> Package db4.i686 0:4.7.25-20.el6_7 will be installed
+---> Package db4-cxx.i686 0:4.7.25-20.el6_7 will be installed
+--> Processing Dependency: libstdc++.so.6(GLIBCXX_3.4.9) for package: db4-cxx-4.7.25-20.el6_7.i686
+--> Processing Dependency: libstdc++.so.6(GLIBCXX_3.4) for package: db4-cxx-4.7.25-20.el6_7.i686
+--> Processing Dependency: libstdc++.so.6(CXXABI_1.3) for package: db4-cxx-4.7.25-20.el6_7.i686
+--> Processing Dependency: libstdc++.so.6 for package: db4-cxx-4.7.25-20.el6_7.i686
+--> Processing Dependency: libgcc_s.so.1(GCC_3.0) for package: db4-cxx-4.7.25-20.el6_7.i686
+--> Processing Dependency: libgcc_s.so.1 for package: db4-cxx-4.7.25-20.el6_7.i686
+---> Package libdb4-utils.x86_64 0:4.8.30-13.el7 will be obsoleting
+--> Processing Dependency: db4-utils for package: rpm-4.8.0-55.el6.x86_64
+---> Package nginx.x86_64 0:1.10.1-1.el6 will be updated
+--> Processing Dependency: nginx-all-modules = 1.10.1-1.el6 for package: nginx-1.10.1-1.el6.x86_64
+--> Processing Dependency: nginx-filesystem = 1.10.1-1.el6 for package: nginx-1.10.1-1.el6.x86_64
+--> Running transaction check
+---> Package libdb4-utils.x86_64 0:4.8.30-13.el7 will be obsoleting
+--> Processing Dependency: db4-utils for package: rpm-4.8.0-55.el6.x86_64
+---> Package libgcc.i686 0:4.4.7-17.el6 will be installed
+---> Package libstdc++.i686 0:4.4.7-17.el6 will be installed
+---> Package nginx.x86_64 0:1.10.1-1.el6 will be updated
+--> Processing Dependency: nginx-all-modules = 1.10.1-1.el6 for package: nginx-1.10.1-1.el6.x86_64
+--> Processing Dependency: nginx-filesystem = 1.10.1-1.el6 for package: nginx-1.10.1-1.el6.x86_64
+--> Running transaction check
+---> Package db4-utils.x86_64 0:4.7.25-20.el6_7 will be obsoleted
+---> Package libdb4-utils.x86_64 0:4.8.30-13.el7 will be obsoleting
+---> Package nginx.x86_64 0:1.10.1-1.el6 will be updated
+---> Package nginx-all-modules.noarch 0:1.10.1-1.el6 will be updated
+--> Processing Dependency: nginx-mod-http-xslt-filter = 1.10.1-1.el6 for package: nginx-all-modules-1.10.1-1.el6.noarch
+---> Package nginx-filesystem.noarch 0:1.10.1-1.el6 will be updated
+---> Package nginx-filesystem.noarch 1:1.10.1-1.el7 will be an update
+--> Running transaction check
+---> Package nginx-mod-http-xslt-filter.i686 0:1.10.1-1.el6 will be installed
+--> Processing Dependency: libxslt.so.1(LIBXML2_1.0.18) for package: nginx-mod-http-xslt-filter-1.10.1-1.el6.i686
+--> Processing Dependency: libxslt.so.1(LIBXML2_1.0.11) for package: nginx-mod-http-xslt-filter-1.10.1-1.el6.i686
+--> Processing Dependency: libxslt.so.1 for package: nginx-mod-http-xslt-filter-1.10.1-1.el6.i686
+--> Processing Dependency: libxml2.so.2(LIBXML2_2.6.0) for package: nginx-mod-http-xslt-filter-1.10.1-1.el6.i686
+--> Processing Dependency: libxml2.so.2(LIBXML2_2.4.30) for package: nginx-mod-http-xslt-filter-1.10.1-1.el6.i686
+--> Processing Dependency: libxml2.so.2 for package: nginx-mod-http-xslt-filter-1.10.1-1.el6.i686
+--> Processing Dependency: libexslt.so.0 for package: nginx-mod-http-xslt-filter-1.10.1-1.el6.i686
+--> Running transaction check
+---> Package libxml2.i686 0:2.7.6-21.el6_8.1 will be installed
+--> Processing Dependency: libz.so.1(ZLIB_1.2.2.3) for package: libxml2-2.7.6-21.el6_8.1.i686
+--> Processing Dependency: libz.so.1 for package: libxml2-2.7.6-21.el6_8.1.i686
+---> Package libxslt.i686 0:1.1.26-2.el6_3.1 will be installed
+--> Processing Dependency: libgpg-error.so.0 for package: libxslt-1.1.26-2.el6_3.1.i686
+--> Processing Dependency: libgcrypt.so.11(GCRYPT_1.2) for package: libxslt-1.1.26-2.el6_3.1.i686
+--> Processing Dependency: libgcrypt.so.11 for package: libxslt-1.1.26-2.el6_3.1.i686
+--> Running transaction check
+---> Package libgcrypt.i686 0:1.4.5-12.el6_8 will be installed
+---> Package libgpg-error.i686 0:1.7-4.el6 will be installed
+---> Package zlib.i686 0:1.2.3-29.el6 will be installed
+--> Running transaction check
+---> Package GeoIP.x86_64 0:1.6.5-1.el6 will be updated
+---> Package GeoIP.x86_64 0:1.6.5-2.el5 will be an update
+---> Package augeas-libs.x86_64 0:1.0.0-10.el6 will be updated
+---> Package augeas-libs.x86_64 0:1.2.0-1.el5 will be an update
+---> Package bind.x86_64 32:9.8.2-0.47.rc1.el6_8.2 will be updated
+---> Package bind.x86_64 32:9.8.2-0.47.rc1.el6_8.3 will be an update
+---> Package bind-chroot.x86_64 32:9.8.2-0.47.rc1.el6_8.2 will be updated
+---> Package bind-chroot.x86_64 32:9.8.2-0.47.rc1.el6_8.3 will be an update
+---> Package bind-libs.x86_64 32:9.8.2-0.47.rc1.el6_8.2 will be updated
+---> Package bind-libs.x86_64 32:9.8.2-0.47.rc1.el6_8.3 will be an update
+---> Package bind-utils.x86_64 32:9.8.2-0.47.rc1.el6_8.2 will be updated
+---> Package bind-utils.x86_64 32:9.8.2-0.47.rc1.el6_8.3 will be an update
+---> Package db4.i686 0:4.7.25-20.el6_7 will be installed
+---> Package db4-cxx.i686 0:4.7.25-20.el6_7 will be installed
+---> Package db4-devel.i686 0:4.7.25-20.el6_7 will be installed
+---> Package epel-release.noarch 0:6-8 will be updated
+---> Package epel-release.noarch 0:7-8 will be an update
+---> Package kernel.x86_64 0:2.6.32-642.1.1.el6 will be erased
+---> Package kernel.x86_64 0:2.6.32-642.6.2.el6 will be installed
+---> Package kernel-devel.x86_64 0:2.6.32-642.1.1.el6 will be erased
+---> Package kernel-devel.x86_64 0:2.6.32-642.6.2.el6 will be installed
+---> Package kernel-firmware.noarch 0:2.6.32-642.6.1.el6 will be updated
+---> Package kernel-firmware.noarch 0:2.6.32-642.6.2.el6 will be an update
+---> Package kernel-headers.x86_64 0:2.6.32-642.6.1.el6 will be updated
+---> Package kernel-headers.x86_64 0:2.6.32-642.6.2.el6 will be an update
+---> Package libgcc.i686 0:4.4.7-17.el6 will be installed
+---> Package libgcrypt.x86_64 0:1.4.5-11.el6_4 will be updated
+---> Package libgcrypt.i686 0:1.4.5-12.el6_8 will be installed
+---> Package libgcrypt.x86_64 0:1.4.5-12.el6_8 will be an update
+---> Package libgpg-error.i686 0:1.7-4.el6 will be installed
+---> Package libnfnetlink.x86_64 0:1.0.0-1.el6 will be updated
+---> Package libnfnetlink.x86_64 0:1.0.0-3.el5 will be an update
+---> Package libstdc++.i686 0:4.4.7-17.el6 will be installed
+---> Package libxml2.i686 0:2.7.6-21.el6_8.1 will be installed
+---> Package libxslt.i686 0:1.1.26-2.el6_3.1 will be installed
+---> Package nginx-mod-http-xslt-filter.i686 0:1.10.1-1.el6 will be installed
+---> Package php56w.x86_64 0:5.6.26-1.w6 will be updated
+---> Package php56w.x86_64 0:5.6.27-1.w6 will be an update
+---> Package php56w-cli.x86_64 0:5.6.26-1.w6 will be updated
+---> Package php56w-cli.x86_64 0:5.6.27-1.w6 will be an update
+---> Package php56w-common.x86_64 0:5.6.26-1.w6 will be updated
+---> Package php56w-common.x86_64 0:5.6.27-1.w6 will be an update
+---> Package php56w-opcache.x86_64 0:5.6.26-1.w6 will be updated
+---> Package php56w-opcache.x86_64 0:5.6.27-1.w6 will be an update
+---> Package tzdata.noarch 0:2016h-1.el6 will be updated
+---> Package tzdata.noarch 0:2016i-1.el6 will be an update
+---> Package vconfig.x86_64 0:1.9-8.1.el6 will be updated
+---> Package vconfig.x86_64 0:1.9-16.el7 will be an update
+---> Package webtatic-release.noarch 0:6-6 will be updated
+---> Package webtatic-release.noarch 0:6-9 will be an update
+---> Package wireless-tools.x86_64 1:29-6.el6 will be updated
+---> Package wireless-tools.x86_64 1:29-13.el7 will be an update
+---> Package zlib.i686 0:1.2.3-29.el6 will be installed
+--> Finished Dependency Resolution
+
+Packages skipped because of dependency problems:
+    atop-2.1-1.el7.x86_64 from Default_Organization_epel_7Server_x86_64
+    compat-expat1-1.95.8-8.el6.x86_64 from rhel-6-server-rpms
+    git-1.8.2.3-1.el5.x86_64 from Default_Organization_epel_5Server_x86_64
+    gperftools-libs-2.4-5.el7.x86_64 from Default_Organization_epel_7Server_x86_64
+    1:hiera-1.3.4-5.el7.noarch from Default_Organization_epel_7Server_x86_64
+    htop-2.0.2-1.el7.x86_64 from Default_Organization_epel_7Server_x86_64
+    libdb4-4.8.30-13.el7.x86_64 from Default_Organization_epel_7Server_x86_64
+    libdb4-cxx-4.8.30-13.el7.x86_64 from Default_Organization_epel_7Server_x86_64
+    libdb4-devel-4.8.30-13.el7.x86_64 from Default_Organization_epel_7Server_x86_64
+    libdb4-utils-4.8.30-13.el7.x86_64 from Default_Organization_epel_7Server_x86_64
+    libunwind-1.1-3.el6.x86_64 from Default_Organization_epel_6Server_x86_64
+    1:nginx-1.10.1-1.el7.x86_64 from Default_Organization_epel_7Server_x86_64
+    1:nginx-all-modules-1.10.1-1.el7.noarch from Default_Organization_epel_7Server_x86_64
+    1:nginx-filesystem-1.10.1-1.el7.noarch from Default_Organization_epel_7Server_x86_64
+    1:nginx-mod-http-geoip-1.10.1-1.el7.x86_64 from Default_Organization_epel_7Server_x86_64
+    1:nginx-mod-http-image-filter-1.10.1-1.el7.x86_64 from Default_Organization_epel_7Server_x86_64
+    1:nginx-mod-http-perl-1.10.1-1.el7.x86_64 from Default_Organization_epel_7Server_x86_64
+    1:nginx-mod-http-xslt-filter-1.10.1-1.el7.x86_64 from Default_Organization_epel_7Server_x86_64
+    1:nginx-mod-mail-1.10.1-1.el7.x86_64 from Default_Organization_epel_7Server_x86_64
+    1:nginx-mod-stream-1.10.1-1.el7.x86_64 from Default_Organization_epel_7Server_x86_64
+    openssl098e-0.9.8e-20.el6_7.1.x86_64 from rhel-6-server-rpms
+    perl-Git-1.8.2.3-1.el5.x86_64 from Default_Organization_epel_5Server_x86_64
+    perl-TermReadKey-2.30-13.el6.x86_64 from rhel-6-server-rpms
+    ruby-augeas-0.5.0-1.el7.x86_64 from Default_Organization_epel_7Server_x86_64
+
+Dependencies Resolved
+
+===================================================================================
+ Package      Arch   Version        Repository                                Size
+===================================================================================
+Installing:
+ kernel       x86_64 2.6.32-642.6.2.el6
+                                    rhel-6-server-rpms                        32 M
+ kernel-devel x86_64 2.6.32-642.6.2.el6
+                                    rhel-6-server-rpms                        11 M
+Updating:
+ GeoIP        x86_64 1.6.5-2.el5    Default_Organization_epel_5Server_x86_64 124 k
+ augeas-libs  x86_64 1.2.0-1.el5    Default_Organization_epel_5Server_x86_64 362 k
+ bind         x86_64 32:9.8.2-0.47.rc1.el6_8.3
+                                    rhel-6-server-rpms                       4.0 M
+ bind-chroot  x86_64 32:9.8.2-0.47.rc1.el6_8.3
+                                    rhel-6-server-rpms                        75 k
+ bind-libs    x86_64 32:9.8.2-0.47.rc1.el6_8.3
+                                    rhel-6-server-rpms                       890 k
+ bind-utils   x86_64 32:9.8.2-0.47.rc1.el6_8.3
+                                    rhel-6-server-rpms                       187 k
+ epel-release noarch 7-8            Default_Organization_epel_7Server_x86_64  14 k
+ kernel-firmware
+              noarch 2.6.32-642.6.2.el6
+                                    rhel-6-server-rpms                        28 M
+ kernel-headers
+              x86_64 2.6.32-642.6.2.el6
+                                    rhel-6-server-rpms                       4.4 M
+ libgcrypt    x86_64 1.4.5-12.el6_8 rhel-6-server-rpms                       229 k
+ libnfnetlink x86_64 1.0.0-3.el5    Default_Organization_epel_5Server_x86_64  24 k
+ php56w       x86_64 5.6.27-1.w6    webtatic                                 2.7 M
+ php56w-cli   x86_64 5.6.27-1.w6    webtatic                                 2.6 M
+ php56w-common
+              x86_64 5.6.27-1.w6    webtatic                                 1.2 M
+ php56w-opcache
+              x86_64 5.6.27-1.w6    webtatic                                 101 k
+ tzdata       noarch 2016i-1.el6    rhel-6-server-rpms                       452 k
+ vconfig      x86_64 1.9-16.el7     Default_Organization_epel_7Server_x86_64  26 k
+ webtatic-release
+              noarch 6-9            webtatic                                  12 k
+ wireless-tools
+              x86_64 1:29-13.el7    Default_Organization_epel_7Server_x86_64 103 k
+Removing:
+ kernel       x86_64 2.6.32-642.1.1.el6
+                                    @rhel-6-server-rpms                      131 M
+ kernel-devel x86_64 2.6.32-642.1.1.el6
+                                    @rhel-6-server-rpms                       26 M
+Installing for dependencies:
+ db4          i686   4.7.25-20.el6_7
+                                    rhel-6-server-rpms                       580 k
+ db4-cxx      i686   4.7.25-20.el6_7
+                                    rhel-6-server-rpms                       606 k
+ db4-devel    i686   4.7.25-20.el6_7
+                                    rhel-6-server-rpms                       6.6 M
+ libgcc       i686   4.4.7-17.el6   rhel-6-server-rpms                       115 k
+ libgcrypt    i686   1.4.5-12.el6_8 rhel-6-server-rpms                       228 k
+ libgpg-error i686   1.7-4.el6      rhel-6-server-rpms                        59 k
+ libstdc++    i686   4.4.7-17.el6   rhel-6-server-rpms                       303 k
+ libxml2      i686   2.7.6-21.el6_8.1
+                                    rhel-6-server-rpms                       805 k
+ libxslt      i686   1.1.26-2.el6_3.1
+                                    rhel-6-server-rpms                       451 k
+ nginx-mod-http-xslt-filter
+              i686   1.10.1-1.el6   Default_Organization_epel_6Server_i386    15 k
+ zlib         i686   1.2.3-29.el6   rhel-6-server-rpms                        73 k
+Skipped (dependency problems):
+ atop         x86_64 2.1-1.el7      Default_Organization_epel_7Server_x86_64 127 k
+ compat-expat1
+              x86_64 1.95.8-8.el6   rhel-6-server-rpms                        60 k
+ git          x86_64 1.8.2.3-1.el5  Default_Organization_epel_5Server_x86_64  17 M
+ gperftools-libs
+              x86_64 2.4-5.el7      Default_Organization_epel_7Server_x86_64 279 k
+ hiera        noarch 1:1.3.4-5.el7  Default_Organization_epel_7Server_x86_64  25 k
+ htop         x86_64 2.0.2-1.el7    Default_Organization_epel_7Server_x86_64  98 k
+ libdb4       x86_64 4.8.30-13.el7  Default_Organization_epel_7Server_x86_64 607 k
+ libdb4-cxx   x86_64 4.8.30-13.el7  Default_Organization_epel_7Server_x86_64 635 k
+ libdb4-devel x86_64 4.8.30-13.el7  Default_Organization_epel_7Server_x86_64  32 k
+ libdb4-utils x86_64 4.8.30-13.el7  Default_Organization_epel_7Server_x86_64 134 k
+ libunwind    x86_64 1.1-3.el6      Default_Organization_epel_6Server_x86_64  55 k
+ nginx        x86_64 1:1.10.1-1.el7 Default_Organization_epel_7Server_x86_64 504 k
+ nginx-all-modules
+              noarch 1:1.10.1-1.el7 Default_Organization_epel_7Server_x86_64  16 k
+ nginx-filesystem
+              noarch 1:1.10.1-1.el7 Default_Organization_epel_7Server_x86_64  17 k
+ nginx-mod-http-geoip
+              x86_64 1:1.10.1-1.el7 Default_Organization_epel_7Server_x86_64  23 k
+ nginx-mod-http-image-filter
+              x86_64 1:1.10.1-1.el7 Default_Organization_epel_7Server_x86_64  26 k
+ nginx-mod-http-perl
+              x86_64 1:1.10.1-1.el7 Default_Organization_epel_7Server_x86_64  35 k
+ nginx-mod-http-xslt-filter
+              x86_64 1:1.10.1-1.el7 Default_Organization_epel_7Server_x86_64  25 k
+ nginx-mod-mail
+              x86_64 1:1.10.1-1.el7 Default_Organization_epel_7Server_x86_64  53 k
+ nginx-mod-stream
+              x86_64 1:1.10.1-1.el7 Default_Organization_epel_7Server_x86_64  46 k
+ openssl098e  x86_64 0.9.8e-20.el6_7.1
+                                    rhel-6-server-rpms                       762 k
+ perl-Git     x86_64 1.8.2.3-1.el5  Default_Organization_epel_5Server_x86_64  45 k
+ perl-TermReadKey
+              x86_64 2.30-13.el6    rhel-6-server-rpms                        31 k
+ ruby-augeas  x86_64 0.5.0-1.el7    Default_Organization_epel_7Server_x86_64  23 k
+
+Transaction Summary
+===================================================================================
+Install      13 Package(s)
+Upgrade      19 Package(s)
+Remove        2 Package(s)
+
+Total download size: 98 M
+Is this ok [y/N]: y
+Downloading Packages:
+(1/32): GeoIP-1.6.5-2.el5.x86_64.rpm                        | 124 kB     00:00     
+(2/32): augeas-libs-1.2.0-1.el5.x86_64.rpm                  | 362 kB     00:00     
+(3/32): bind-9.8.2-0.47.rc1.el6_8.3.x86_64.rpm              | 4.0 MB     00:00     
+(4/32): bind-chroot-9.8.2-0.47.rc1.el6_8.3.x86_64.rpm       |  75 kB     00:00     
+(5/32): bind-libs-9.8.2-0.47.rc1.el6_8.3.x86_64.rpm         | 890 kB     00:00     
+(6/32): bind-utils-9.8.2-0.47.rc1.el6_8.3.x86_64.rpm        | 187 kB     00:00     
+(7/32): db4-4.7.25-20.el6_7.i686.rpm                        | 580 kB     00:00     
+(8/32): db4-cxx-4.7.25-20.el6_7.i686.rpm                    | 606 kB     00:00     
+(9/32): db4-devel-4.7.25-20.el6_7.i686.rpm                  | 6.6 MB     00:00     
+(10/32): epel-release-7-8.noarch.rpm                        |  14 kB     00:00     
+(11/32): kernel-2.6.32- (25%) 35% [====-         ]  0.0 B/s |  11 MB     --:-- ETA (11/32): kernel-2.6.32-642.6.2.el6.x86_64.rpm               |  32 MB     00:00     
+(12/32): kernel-devel-2.6.32-642.6.2.el6.x86_64.rpm         |  11 MB     00:00     
+(13/32): kernel-firmwar (64%) 24% [===           ]  0.0 B/s | 6.8 MB     --:-- ETA (13/32): kernel-firmwar (75%) 64% [=========     ]  18 MB/s |  18 MB     00:00 ETA (13/32): kernel-firmware-2.6.32-642.6.2.el6.noarch.rpm      |  28 MB     00:00     
+(14/32): kernel-headers-2.6.32-642.6.2.el6.x86_64.rpm       | 4.4 MB     00:00     
+(15/32): libgcc-4.4.7-17.el6.i686.rpm                       | 115 kB     00:00     
+(16/32): libgcrypt-1.4.5-12.el6_8.i686.rpm                  | 228 kB     00:00     
+(17/32): libgcrypt-1.4.5-12.el6_8.x86_64.rpm                | 229 kB     00:00     
+(18/32): libgpg-error-1.7-4.el6.i686.rpm                    |  59 kB     00:00     
+(19/32): libnfnetlink-1.0.0-3.el5.x86_64.rpm                |  24 kB     00:00     
+(20/32): libstdc++-4.4.7-17.el6.i686.rpm                    | 303 kB     00:00     
+(21/32): libxml2-2.7.6-21.el6_8.1.i686.rpm                  | 805 kB     00:00     
+(22/32): libxslt-1.1.26-2.el6_3.1.i686.rpm                  | 451 kB     00:00     
+(23/32): nginx-mod-http-xslt-filter-1.10.1-1.el6.i686.rpm   |  15 kB     00:00     
+(24/32): php56w-5.6.27- (94%) 64% [=========     ]  0.0 B/s | 1.7 MB     --:-- ETA (24/32): php56w-5.6.27-1.w6.x86_64.rpm                      | 2.7 MB     00:00     
+(25/32): php56w-cli-5.6.27-1.w6.x86_64.rpm                  | 2.6 MB     00:00     
+(26/32): php56w-common-5.6.27-1.w6.x86_64.rpm               | 1.2 MB     00:00     
+(27/32): php56w-opcache-5.6.27-1.w6.x86_64.rpm              | 101 kB     00:00     
+(28/32): tzdata-2016i-1.el6.noarch.rpm                      | 452 kB     00:00     
+(29/32): vconfig-1.9-16.el7.x86_64.rpm                      |  26 kB     00:00     
+(30/32): webtatic-release-6-9.noarch.rpm                    |  12 kB     00:00     
+(31/32): wireless-tools-29-13.el7.x86_64.rpm                | 103 kB     00:00     
+(32/32): zlib-1.2.3-29.el6.i686.rpm                         |  73 kB     00:00     
+-----------------------------------------------------------------------------------
+Total                                               11 MB/s |  98 MB     00:09     
+Running rpm_check_debug
+ERROR with rpm_check_debug vs depsolve:
+libc.so.6(GLIBC_2.14)(64bit) is needed by wireless-tools-1:29-13.el7.x86_64
+libc.so.6(GLIBC_2.15)(64bit) is needed by wireless-tools-1:29-13.el7.x86_64
+ You could try running: rpm -Va --nofiles --nodigest
+Your transaction was saved, rerun it with:
+ yum load-transaction /tmp/yum_save_tx-2016-11-18-15-17yn2O87.yumtx
+[1m[7m%[27m[1m[0m                                                                                   ]2;jenkinsac@umh-medweb-prd: ~]1;~[0m[27m[24m[J
+[1m[34m#[00m [36mjenkinsac [37mat [32mumh-medweb-prd.umh.edu [37min [1m[33m~[00m [37m[15:17:47]
+[1m[31m→ [00m[K[?1h=

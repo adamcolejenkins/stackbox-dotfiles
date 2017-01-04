@@ -202,3 +202,5 @@
 	trustExitCode = true
 [user]
 	email = adamcole83@gmail.com
+[gpg]
+	program = /usr/local/bin/gpg
